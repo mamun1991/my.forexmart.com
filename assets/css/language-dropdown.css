@@ -1,0 +1,120 @@
+.ryt>li>.dropdown-menu {
+    margin-top: 0px!important;
+    top: 50px;
+    border-top: 3px solid #ececec;
+    padding: 2px;
+}
+.drp-language{
+    height: 38px;
+    width:100px;
+    background:#fff;
+    border:1px solid #ececec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.drp-language .country-symbol{
+    font-weight:600;
+}
+.drp-options li{
+    border-bottom: 1px solid #ececec;
+}
+.drp-item{
+    display: flex!important;
+    align-items: center;
+    flex-direction: row;
+    justify-content: start;
+}
+.drp-options>li>a{
+    padding:4px 8px!important;
+}
+.icon-image-triangle{
+    height: 10px;
+    width: 20px;
+    background: url(../images/icon-img-triangle.png) no-repeat;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: -12px;
+    right: 58px;
+}
+.i-round-flag {
+    height:26px;
+    width: 26px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    border: 1px solid #ececec;
+    border-radius: 50%;
+}
+.country-name, .country-symbol{
+    text-transform: uppercase;
+}
+.country-name{
+    margin-left: 3px;
+}
+.country-symbol{
+    width:25px;
+    letter-spacing: 1px;
+}
+.fg-bangladesh{
+    background-image: url("../images/flags/round/bangladesh-flag-round-icon-256.png");
+}
+.fg-bulgaria{
+    background-image: url("../images/flags/round/bulgaria-flag-round-icon-256.png");
+}
+.fg-china{
+    background-image: url("../images/flags/round/china-flag-round-icon-256.png");
+}
+.fg-czech-republic{
+    background-image: url("../images/flags/round/czech-republic-flag-round-icon-256.png");
+}
+.fg-france{
+    background-image: url("../images/flags/round/france-flag-round-icon-256.png");
+}
+.fg-germany{
+    background-image: url("../images/flags/round/germany-flag-round-icon-256.png");
+}
+.fg-indonesia{
+    background-image: url("../images/flags/round/indonesia-flag-round-icon-256.png");
+}
+.fg-malaysia{
+    background-image: url("../images/flags/round/malaysia-flag-round-icon-256.png");
+}
+.fg-poland{
+    background-image: url("../images/flags/round/poland-flag-round-icon-256.png");
+}
+.fg-portugal{
+    background-image: url("../images/flags/round/portugal-flag-round-icon-256.png");
+}
+.fg-russia{
+    background-image: url("../images/flags/round/russia-flag-round-icon-256.png");
+}
+.fg-spain{
+    background-image: url("../images/flags/round/spain-flag-round-icon-256.png");
+}
+.fg-united-kingdom{
+    background-image: url("../images/flags/round/united-kingdom-flag-round-icon-256.png");
+}
+.fg-japan{
+    background-image: url("../images/flags/round/japan-flag-round-icon-256.png");
+}
+.fg-pakistan{
+    background-image: url("../images/flags/round/pakistan-flag-round-icon-256.png");
+}
+.fg-uae{
+    background-image: url("../images/flags/round/united-arab-emirates-flag-round-icon-256.png");
+}
+.fg-saudi-arabia{
+    background-image: url("../images/flags/round/saudi-arabia-flag-round-icon-256.png");
+}
+
+.fg-greek{
+    background-image: url("../images/flags/round/greek-flag-round-icon-256.png");
+}
+
+.fg-vietnam{
+    background-image: url("../images/flags/round/vietnam-flag-round-icon-256.png");
+}

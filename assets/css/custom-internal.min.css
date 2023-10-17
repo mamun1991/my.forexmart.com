@@ -1,0 +1,174 @@
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+@media only screen and (min-width: 768px) {
+    .cd-top {
+        right: 20px;
+        bottom: 20px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .cd-top {
+        height: 60px;
+        width: 60px;
+        right: 30px;
+        bottom: 30px;
+    }
+}
+
+
+.cd-top {
+    display: none;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: rgba(86, 171, 232, 0.8) url(../images/cd-top-arrow.svg) no-repeat center 50%;
+    opacity: 1;
+    /*visibility: hidden;*/
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+/*@media only screen and (max-width: 760px),(min-device-width: 768px) and (max-device-width: 1024px)  {*/
+    /*/!* Force table to not be like tables anymore *!/*/
+    /*#tb_dshbrd table, #tb_dshbrd  thead,  #tb_dshbrd  tbody, #tb_dshbrd  th, #tb_dshbrd td, #tb_dshbrd tr {*/
+        /*display: block;*/
+    /*}*/
+
+    /*/!* Hide table headers (but not display: none;, for accessibility) *!/*/
+    /*#tb_dshbrd thead tr {*/
+        /*position: absolute;*/
+        /*top: -9999px;*/
+        /*left: -9999px;*/
+    /*}*/
+
+    /*#tb_dshbrd tr { border: 1px solid #ccc; }*/
+
+    /*#tb_dshbrd td {*/
+        /*/!* Behave  like a "row" *!/*/
+        /*border: none;*/
+        /*border-bottom: 1px solid #eee;*/
+        /*position: relative;*/
+        /*padding-left: 50%;*/
+    /*}*/
+
+    /*#tb_dshbrd td:before {*/
+        /*/!* Now like a table header *!/*/
+        /*position: absolute;*/
+        /*/!* Top/left values mimic padding *!/*/
+        /*top: 6px;*/
+        /*left: 6px;*/
+        /*width: 45%;*/
+        /*padding-right: 10px;*/
+        /*white-space: nowrap;*/
+    /*}*/
+
+    /*/!**/
+    /*Label the data*/
+    /**!/*/
+    /*#tb_dshbrd td:nth-of-type(1):before { content: "Account(s)/Actions"; }*/
+    /*#tb_dshbrd td:nth-of-type(2):before { content: "Leverage"; }*/
+    /*#tb_dshbrd td:nth-of-type(3):before { content: "Currency"; }*/
+    /*#tb_dshbrd td:nth-of-type(4):before { content: "Balance"; }*/
+    /*#tb_dshbrd td:nth-of-type(5):before { content: "Status"; }*/
+    /*#tb_dshbrd td:nth-of-type(6):before { content: "Account Type"; }*/
+/*}*/
+
+
+
+.trademart {
+    margin-bottom: 3px;
+    padding: 0px !important;
+}
+.company {
+    color: #2988CA;
+    font-weight: 600;
+}
+a {
+    color: #337AB7;
+    text-decoration: none;
+}
+
+a.open-trading
+{
+    background: #29a643;
+    color: #fff;
+    border: none;
+    padding: 7px 50px;
+    font-size: 14px;
+    /*font-family: Open Sans;*/
+    transition: all ease 0.3s;
+}
+a.open-trading:hover
+{
+    background: #50DF6E;
+    text-decoration: none;
+}
+
+a.open-demo
+{
+    background: #2988CA;
+    color: #fff;
+    border: none;
+    padding: 7px 50px;
+    font-size: 14px;
+    /*font-family: Open Sans;*/
+    transition: all ease 0.3s;
+}
+a.open-demo:hover
+{
+    background: #53B7FC;
+    text-decoration: none;
+}
+
+.loader-holder {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.loader
+{
+    margin-left: 47%;
+    margin-top: 20%;
+}
+
+.btn-flag{
+    padding: 1px !important;
+    border-radius: 0px!important;
+    margin: 16px 0px !important;
+}
+.navpad{
+    padding-top:5px!important;
+    padding-bottom:5px!important;
+}
+
+div.dataTables_wrapper div.dataTables_filter:lang(sa),
+div.dataTables_wrapper div.dataTables_paginate:lang(sa) {
+    text-align: left;
+}
+
+.int-side-nav h1 {
+    display: none;
+}

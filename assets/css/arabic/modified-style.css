@@ -1,0 +1,211 @@
+.btn-client-reg {
+	{
+	font-family: Open Sans;
+	font-size: 15px;
+	font-weight: 400;
+	color: #2988ca;
+	background: none;
+	border: 1px solid #2988ca;
+	padding: 8px 25px;
+	transition: all ease 0.3s;
+}
+
+.btn-client-reg:hover {
+	font-family: Open Sans;
+	font-size: 15px;
+	font-weight: 400;
+	color: #2988ca;
+	background: none;
+	border: 1px solid #2988ca;
+	padding: 8px 25px;
+	transition: all ease 0.3s;
+}
+
+footer {
+	padding:10px 0!important;
+}
+
+.cyprus {
+	margin: 0 auto!important;
+    width: 157px;
+}
+
+.cyprus img {
+	margin:0 auto!important;
+	display:table;
+}
+
+.cyprus p {
+	text-align:center;
+}
+
+.hover-content p {
+	color:#555!important;
+	font-family:Open Sans!important;
+}
+
+.hover-content {
+	background: rgba(255, 255, 255, 0.5)!important;
+}
+
+.faq-sub {
+	margin-top:0!important;
+}
+
+.withdrawal-tab {
+	margin-top:10px!important;
+}
+
+.tab-img-holder a
+	{
+		margin:0 auto;
+	}
+
+.mt4-img-holder img {
+	margin:20px auto!important;
+}
+
+.finance-ins-tabs ul li {
+		width:25%!important;
+	}
+
+.btn-explore {
+	display:table;
+	margin:110px auto;
+}
+
+.comm-text {
+	width:38px!important;
+}
+
+.docs-lbl {
+	margin-top:15px!important;
+}
+
+.btn-srch-holder {
+	padding-top: 16px!important;
+}
+
+.vps-title-sub {
+	margin-top:0!important;
+}
+
+.bonuses-img-holder img {
+	margin-top:0!important;
+}
+
+.cpa-table-container table {
+	margin-top:10px!important;
+}
+
+.tradomart {
+	margin-bottom: 3px;
+    padding: 0px !important;
+}
+
+.awards-parent-container {
+	text-align:justify;
+}
+
+/*----- ADDED STYLE 3/11/2016 -----*/
+.contest-tab li a.active {
+	text-decoration: none;
+    color: #FFF;
+    background: #2988CA none repeat scroll 0% 0%!important;
+}
+
+.rowspacer {
+	margin-top: 20px!important;
+	}
+
+.rootnumberheadings {
+	font-weight: bold;
+}
+
+.rootnumberheadings , .main li {
+	color: #2988CA;
+}
+
+.main {
+    padding-top: 20px;
+}
+
+.primaryunits {
+    padding-bottom: 20px;
+}
+
+.recent-list-news {
+    padding: 0;
+    margin: 0;
+}
+
+.column-article-header {
+    border: 1px solid #b8dffa!important;
+    background: url(../images/column-header-bg.png) #d3edff!important;
+    background-repeat: no-repeat;
+}
+
+.recent-list-news li:first-child {
+    padding-top: 10px;
+}
+.recent-list-news li {
+    padding: 7px 10px;
+    list-style-type: none;
+    border-bottom: 1px solid #eaeaea;
+}
+
+@media screen and (max-width: 991px) {
+
+	.banner-img-holder {
+		margin-top:65px;
+	}
+
+
+	.btn-explore {
+		margin:10px auto!important;
+		margin-top:30px!important;
+	}
+
+	.docs-lbl {
+		margin-top:25px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	.awards-container-title {
+		padding:0!important;
+	}
+
+
+	.steps:first-child {
+		margin-top:0!important;
+	}
+
+	.banner-img-holder {
+		margin-top:50px!important;
+		margin-bottom:50px;
+	}
+
+}
+
+@media screen and (max-width: 559px) {
+
+	.mtop {
+		margin-top: 5px;
+	}
+
+	.ext-arabic-btn-bottom {
+		float:none!important;
+		display:block;
+		margin-left:0!important;
+	}
+
+	.ext-arabic-btn-bottom button {
+		width:230px;
+		margin:0 auto!important;
+		display:table!important;
+	}
+
+}

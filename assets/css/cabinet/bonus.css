@@ -1,0 +1,55 @@
+.bonus-view{
+    border-bottom: 1px solid #e2e7e8;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.bonus-title{
+    font-size: 36px;
+    padding: 15px;
+    font-weight: 600;
+    letter-spacing: -3px;
+    color: #ff2c31;
+    margin: 15px 0;
+    height: 86px;
+    width: 100%;
+    background: url(../../images/cabinet/img-bonus-holder.svg) no-repeat 0 0;
+    background-size: contain;
+    text-shadow: 1px 1px 0px #5c7080;
+}
+.bonus-desc{
+    padding: 15px;
+}
+.bonus-desc h4{
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #5c7080;
+}
+.bonus-desc p{
+    margin-bottom: 8px;
+}
+.txt-link{
+    font-weight: 600;
+    color: #2a88c9;
+}
+.table-title{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.table-summary{
+    padding: 15px;
+}
+.chart-box{
+    min-height: 400px;
+    border: 1px solid #5c7080;
+    background: #fff;
+    margin-bottom: 15px;
+}
+.chart-box-title{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 12px;
+    background: #5c7080;
+    color: #fff;
+}

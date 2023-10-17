@@ -1,0 +1,138 @@
+.bw{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+a.open-trading
+{
+    background: #29a643;
+    color: #fff;
+    border: none;
+    padding: 7px 50px;
+    font-size: 14px;
+    /*font-family: Open Sans;*/
+    transition: all ease 0.3s;
+}
+a.open-trading:hover
+{
+    background: #50DF6E;
+    text-decoration: none;
+}
+
+a.open-demo
+{
+    background: #2988CA;
+    color: #fff;
+    border: none;
+    padding: 7px 50px;
+    font-size: 14px;
+    /*font-family: Open Sans;*/
+    transition: all ease 0.3s;
+}
+a.open-demo:hover
+{
+    background: #53B7FC;
+    text-decoration: none;
+}
+
+.error{
+    color: #a94442;
+}
+
+div.error_p p{
+    color: red;
+}
+
+.btn-withdraw-option {
+    cursor: pointer;
+}
+
+.form-success {
+    margin-bottom: 25px !important;
+}
+
+.form-success .form-group {
+    margin-bottom: 0px !important;
+}
+
+.form-success .frm-val {
+    margin-bottom: 5px !important;
+}
+
+.btn-create-another {
+    margin-bottom: 25px !important;
+}
+
+.hit:hover{
+
+    text-decoration: none!important;
+}
+.hit:link{
+
+    text-decoration: none!important;
+}
+.hit:visited{
+
+    text-decoration: none!important;
+}
+.hitW:active{
+
+    text-decoration: none!important;
+}
+.hitW:hover{color:white;   }
+.hitW:link{color:white;  }
+.hitW:visited{color:white;}
+.hitW:active{  color:white;}
+
+a.finance-tab{
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+}
+
+/*----- POP UP MESSAGE -----*/
+.info-container-message {
+    border-radius:0;
+    padding:10px 15px;
+    margin:0!important;
+}
+
+.info-container-child {
+    margin:0 auto;
+    text-align:center;
+}
+
+.info-container-child p {
+    position:relative;
+    margin-bottom:0;
+    display:table;
+    margin:0 auto;
+}
+
+.info-container-child a {
+    font-weight:bold;
+}
+
+.info-container-child strong {
+    line-height:24px;
+}
+
+.info-icon {
+    background:url(../images/information.png);
+    width:24px;
+    height:24px;
+    float:left;
+    display:inline-block;
+    margin:0 5px;
+
+}

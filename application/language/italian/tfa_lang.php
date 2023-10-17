@@ -1,0 +1,26 @@
+<?php
+$lang['tfa_0'] = 'Il tuo conto è protetto dalla verifica in due passaggi';
+$lang['tfa_off'] = 'Disattiva la verifica in due passaggi';
+$lang['tfa_on'] = 'Attiva la verifica in due passaggi';
+$lang['tfa_h4'] = 'Installa Authenticator';
+$lang['tfa_1'] = "Installa l'app Google Authenticator sul tuo cellulare o tablet.";
+$lang['tfa_1_1'] = "1. Visita l'App Store (per dispositivi iOS) o Play Market (per dispositivi Android).";
+$lang['tfa_1_2'] = "2. Trova l'app Google Authenticator.";
+$lang['tfa_1_3'] = "3. Scarica l'app gratuitamente e installala sul tuo telefonino/tablet.";
+$lang['tfa_2'] = "Apri e configura Google Authenticator.";
+$lang['tfa_2_1'] = '1. In Google Authenticator tocca "+" e poi "Scansiona codice a barre".';
+$lang['tfa_2_2'] = "2. Usa la fotocamera del tuo dispositivo per scansionare il codice a barre.";
+$lang['tfa_2_3'] = "3. Dopo aver scansionato il codice a barre, inserisci il codice di verifica a 6 cifre generato dall'app Authenticator.";
+$lang['tfa_2_manul_title'] = "NON RIESCI A SCANSIONARE?";
+$lang['tfa_2_manul_title_2'] = "MOSTRA QR-CODE";
+$lang['tfa_2_manual_1'] = "1. Copia il numero dell'account e la chiave segreta di seguito";
+$lang['tfa_2_manual_2'] = "2. Configura manualmente in Google Authenticator sul tuo dispositivo mobile.";
+$lang['tfa_2_manual_3'] = "3. Assicurati che <b>Time based</b> sia attivato."; 
+$lang['tfa_2_manual_4'] ="Numero dell'account";
+$lang['tfa_2_manual_5'] ="Chiave segreta";
+$lang['tfa_2_manual_p'] ="Dopo aver scansionato il codice a barre, inserisci il codice di verifica a 6 cifre generato dall'app Authenticator.";// " I codici vengono ripristinati al termine del conto alla rovescia. Tocca il codice per copiarlo e inserisci il codice di verifica a 6 cifre generato dall'app Authenticator.";
+$lang['tfa_p'] = "Dopo aver scansionato il codice a barre, inserisci il codice di verifica a 6 cifre generato dall'app Authenticator.";
+$lang['tfa_cancel'] = 'Annulla';
+$lang['tfa_vns'] = 'Verifica e salva';
+$lang['tfa_code'] = 'Codice';
+$lang['tfa_error_code']='Codice non VALIDO';

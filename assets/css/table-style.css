@@ -1,0 +1,37 @@
+.nav-pill-items{
+    margin-bottom: 15px;
+}
+.nav-pill-items > li > a{
+    height: 40px;
+    padding: 12px;
+    border-radius:0;
+    background: #ececec;
+    text-transform: uppercase;
+    color:#333;
+}
+.secondary-table{
+    border:1px solid #ececec;
+    overflow:hidden;
+}
+.secondary-table .table{
+    margin-bottom: 0;
+}
+.tab-custom-content{
+    padding-top: 0px;
+}
+.table-trades{
+    border:1px solid #ececec;
+}
+.table-scroll{
+    overflow-x: auto;
+}
+.tab-title{
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding:8px;
+}
+.tab-title span{
+    text-transform: uppercase;
+    font-weight: 600;
+}

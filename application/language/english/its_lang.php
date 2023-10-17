@@ -1,0 +1,91 @@
+<?php
+
+//its
+
+$lang['its_01'] ="Generate Security Code";
+$lang['its_02'] ="Generate Code";
+$lang['its_03'] ="Security Code";
+$lang['its_04'] ="<b>Security Code</b> is used to let Partner(s) with ITS use the Request from Clients page by providing them the code.";
+$lang['its_05'] ="<b>Security Code</b> is unique and can only be used once by one (1) Partner.";
+$lang['its_06'] ="You can only generate new <b>Security Code</b> if the previous one is used for Request from Clients for funds.";
+$lang['its_07'] ="Request for Internal transfer service(ITS)";
+$lang['its_08'] ="close";
+$lang['its_09'] ="Generate Security Code Failed";
+
+$lang['its_10'] ="Internal transfer service request successfully sent.";
+$lang['its_11'] ="Internal transfer service request successfully sent but failed to send the email";
+$lang['its_12'] ="You already have an existing ITS request.";
+
+$lang['its_13'] ="Internal transfer service request already sent.";
+$lang['its_14'] ="You're umbrella account is disabled.";
+$lang['its_15'] =" You're now granted with umbrella status.";
+
+$lang['its_16'] ="Security Code ";
+$lang['its_17'] =" is not yet used for Transit Transfer. Please have your Partner use this code before you can generate a new one.";
+$lang['its_18'] ="Send to Client";
+$lang['its_19'] ="You are now registered to an Umbrella account and can now transfer to your affiliated Clients/Non Affiliate Clients ";
+$lang['its_20'] ="Send to other Partner";
+$lang['its_21'] ="You can now transfer funds to other Partner";
+$lang['its_22'] ="Request from Client";
+$lang['its_23'] ="You can now request credit from client by transferring credit using Transit Transfer";
+$lang['its_24'] ="Continue";
+$lang['its_25'] ="Transit Transfer";
+$lang['its_26'] ="Fill up the receiver's ForexMart Account information below:";
+$lang['its_27'] ="Receiver Account Number ";
+$lang['its_28'] ="Select Account Number";
+$lang['its_29'] ="Other";
+$lang['its_30'] ="Enter Account Number";
+$lang['its_31'] ="Amount";
+$lang['its_32'] ="New Balance ";
+$lang['its_33'] ="Bonus";
+$lang['its_34'] ="None";
+$lang['its_35'] ="Back";
+$lang['its_36'] ="Submit";
+$lang['its_37'] ="You are about to transfer funds to client user using Transit Transfer. Please make sure the information below is correct.";
+$lang['its_38'] ="Your Account Number";
+$lang['its_39'] ="Bonus Type";
+$lang['its_40'] ="Transfer";
+$lang['its_41'] ="Your Transit Transfer is successful. Below are transaction details:";
+$lang['its_42'] ="Amount transferred:";
+$lang['its_43'] ="Receiver";
+$lang['its_44'] ="Affiliate Account Number";
+$lang['its_45'] ="You are about to request funds from your Affiliate. Please make sure the information below are correct.";
+$lang['its_46'] ="Client Account Number";
+$lang['its_47'] ="Your request for funds through Transit Transfer is successful. Below are transaction details:";
+$lang['its_48'] ="Affiliate";
+$lang['its_49'] ="Requested Amount:";
+$lang['its_50'] ="Converted Amount:";
+$lang['its_51'] ="Security Code:";
+$lang['its_52'] ="Reference Number:";
+$lang['its_53'] ="Partner Transit Transfer";
+$lang['its_54'] ="Fill up the partner's ForexMart Account information below:";
+$lang['its_55'] ="You are about to transfer funds to other partner user using Transit Transfer. Please make sure the information below is correct.";
+$lang['its_56'] ="Your Partner Transit Transfer is successful. Below are transaction details:";
+$lang['its_57'] ="Amount transferred:";
+$lang['its_58'] ="Request for ITS is declined. Please check your email or contact";
+$lang['its_59'] ="for more details.";
+$lang['its_60'] ="Request for ITS";
+$lang['its_61'] ="Internal transfer service request already sent.";
+$lang['its_62'] ="Request for Internal transfer service(ITS)";
+$lang['its_63'] ="close";
+$lang['its_64'] ="This field is required.";
+$lang['its_65'] ="Amount should be greater or equal to 2.";
+$lang['its_66'] ="Please enter valid Security Code format (6 digits).";
+$lang['its_67'] ="You are about to request funds from Non-Affiliate Account. Please make sure the information below are correct.";
+$lang['its_68'] ="Security Code is invalid or already used.";
+$lang['its_69'] ="Security Code is already used in Transit Transfer";
+$lang['its_70'] ="Insufficient fund.";
+$lang['its_71'] ="Account Number is either Client account or does not exist";
+$lang['its_72'] ="Account Number is either Partner account or does not exist";
+$lang['its_73'] ="You cannot make transfer to your own account";
+$lang['its_74'] ="Bonuses cannot be mixed in one account.";
+$lang['its_75'] ="Receiver client is not eligible to claim the 50% bonus. Applicable only for ForexMart Standard Account.";
+$lang['its_76'] ="NONE";
+$lang['its_77'] ="30 PERCENT BONUS";
+$lang['its_78'] ="50 PERCENT BONUS";
+$lang['its_79'] ="Transit transfer failed. Please try again or contact us for more information.";
+$lang['its_80'] ="Transit Transfer failed. Client Account Number ";
+$lang['its_81'] =" has insufficient balance:";
+$lang['its_82'] ="Transit Transfer failed. Encountered problem with web services. Please try again later.";
+$lang['its_83'] ="Partner transit transfer failed. Please try again or contact us for more information.";
+

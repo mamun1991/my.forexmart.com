@@ -1,0 +1,172 @@
+.overlay{
+    height: 100vh;
+    background:#0000001f;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 1500;
+    width: auto;
+    &-mobile{
+        @media screen and(max-width:767px){
+            width: 100%;
+        } 
+    }    
+}
+.sidebar{
+    height:100vh;
+    width: 275px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background:#e2e7e8;
+    box-shadow: rgba(117,117,117,.9);
+    overflow-y: auto;
+    .img-logo{
+        padding: 15px;
+        display: inline-block;
+    }
+    .input-group{
+        padding:8px;
+    }
+    .accordion{
+        &-menu{
+            @include itemFlex(center, flex-start, row);
+            position: relative;
+            font-weight: 600;
+            color:$default-color;
+            &:hover, &:focus, &:active{
+                background: #f6f8f9;
+                text-decoration: none;
+                outline: 0;
+                box-shadow: none;
+            }
+        }
+        .collapsed{
+            .fa-angle-down{
+                rotate: 180deg;
+            }
+        }
+        &-item{
+            .btn-link{
+                padding:15px;
+                width:100%;
+                text-align: left;
+                border-radius:0;
+                span{
+                    margin-right:8px;
+                }
+                .indicator{
+                    position: absolute;
+                    top:18px;
+                    right: 15px;
+                }
+                &:hover{
+                    text-decoration: none;
+                    color: $primary-color;
+                }
+            }
+            .secondary-menu{
+                background: #f6f8f9;
+                li{
+                    .btn-link{
+                        padding: 15px 15px 15px 38px;
+                        border:0;
+                        border-left:5px solid transparent;
+                        color: $default-color;
+                        opacity: 0.8;
+                        &:hover, &:focus, &:active{
+                            border-color:$primary-color;
+                            background-color: #eaf3f7;
+                            color: $primary-color;
+                            opacity: 1;
+                            text-decoration: none;
+                            outline: 0;
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+    &::-webkit-scrollbar{
+        display: none;
+    } 
+}
+.important-nav{
+    padding: 15px;
+    button{
+        border-radius: 0;
+        text-align: left;
+        padding: 15px;
+        height: auto;
+        &.btn-custom--default{
+            background:linear-gradient(to right, #2a88c9, #28a64a);
+            &:hover{
+                background:linear-gradient(to right, #01487a, #00420d);
+    
+            }
+        }        
+    }
+}
+.sidebar-mobile{
+    width:60px;
+    .img-logo{
+        padding: 8px;
+        width: 60px;
+        overflow: hidden;
+        img{
+            height: 65px;
+        }
+    }
+    .input-group{
+        .form-search{
+            display: none;
+        }
+        .btn-outline-secondary{
+            border-radius:4px;
+        }
+    }    
+    .accordion{
+        &-label{
+            display: none;
+        }
+        .indicator{
+            top: 16px!important;
+            right: 5px!important;
+            transform: rotate(-90deg);
+        }
+        &-menu{
+            padding: 15px 8px;
+            justify-content: center;
+        }      
+    }
+    .important-nav{
+        padding: 8px 4px;
+        button{
+            content: "";
+        }
+        .icon-b4-text{
+            margin-bottom: 8px;
+            .icon{
+                margin:0 auto;
+            }
+            .text{
+                display: none;
+            }
+        }        
+    }
+    #submitSearch{
+        border-radius: 4px;       
+    }
+}
+.toggle-drawer{
+    display: none;
+    color: #333;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 16px;
+    @media screen and(max-width:767px){
+        display: inline-block;        
+    }
+}

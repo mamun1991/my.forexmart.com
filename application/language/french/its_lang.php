@@ -1,0 +1,93 @@
+<?php
+
+//its
+
+$lang['its_01'] ="Générer un code de sécurité";
+$lang['its_02'] ="Générer un code";
+$lang['its_03'] ="Code de sécurité";
+$lang['its_04'] ="<b>Le code de sécurité</b> permet au(x) Partenaire (s) avec le STI (service des transferts internes) d'accéder à la page de Demandes des clients après leur avoir fourni le code.";
+$lang['its_05'] ="<b>Le code de sécurité</b> est unique et ne peut être utilisé qu'une seule fois par un (1) Partenaire.";
+$lang['its_06'] ="Vous ne pouvez générer un nouveau <b>code de sécurité</b> que si le code précédent a été utilisé lors de la demande de fonds auprès du client.";
+$lang['its_07'] ="Demander une connexion au service des transferts internes (STI)";
+$lang['its_08'] ="fermer";
+$lang['its_09'] ="Échec de la génération du code de sécurité";
+
+$lang['its_10'] ="La demande de connexion au service des transferts internes a été envoyée avec succès.";
+$lang['its_11'] =" La demande de connexion au service des transferts internes a été envoyée avec succès, mais aucun e-mail n'a été envoyé";
+$lang['its_12'] ="Vous avez déjà une demande en cours pour la connexion au service des transferts internes STI.";
+
+$lang['its_13'] ="Une demande de connexion au service des transferts internes a déjà été envoyée.";
+$lang['its_14'] ="Votre compte umbrella est inactif.";
+$lang['its_15'] ="Vous avez le statut umbrella.";
+
+$lang['its_16'] ="Code de sécurité";
+$lang['its_17'] ="n'a pas encore été utilisé pour un transfert en transit. Veuillez demander à votre Partenaire d'utiliser ce code, après quoi vous pourrez générer un nouveau code.";
+$lang['its_18'] ="Envoyer au Client";
+$lang['its_19'] ="Vous avez enregistré un compte umbrella et vous pouvez maintenant transférer des fonds à des clients qui font / ne font pas partie de votre groupe affilié";
+$lang['its_20'] ="Envoyer à un autre Partenaire";
+$lang['its_21'] ="Vous pouvez maintenant transférer des fonds à d'autres partenaires";
+$lang['its_22'] ="Demande du Client";
+$lang['its_23'] ="Vous pouvez demander le retrait du compte d'un client en utilisant la fonction transfert en transit";
+$lang['its_24'] ="Continuer";
+$lang['its_25'] ="Transfert en transit";
+$lang['its_26'] =" Remplir les informations du compte du destinataire dans ForexMart:";
+$lang['its_27'] ="Numéro de compte du destinataire";
+$lang['its_28'] ="Sélectionner le numéro de compte";
+$lang['its_29'] ="Autre";
+$lang['its_30'] ="Entrer le numéro de compte";
+$lang['its_31'] ="Montant";
+$lang['its_32'] ="Nouveau solde";
+$lang['its_33'] ="Bonus";
+$lang['its_34'] ="Non sélectionné";
+$lang['its_35'] ="Retour";
+$lang['its_36'] ="Soumettre";
+$lang['its_37'] ="Vous allez envoyer des fonds à un client en utilisant le transfert en transit. Veuillez vous assurer que les informations ci-dessous sont correctes.";
+$lang['its_38'] ="Votre numéro de compte";
+$lang['its_39'] ="Type de bonus";
+$lang['its_40'] ="Transférer";
+$lang['its_41'] ="Votre transfert en transit a été effectué. Voici les détails de la transaction:";
+$lang['its_42'] ="Montant transféré:";
+$lang['its_43'] ="Destinataire";
+$lang['its_44'] ="Numéro de compte affilié";
+$lang['its_45'] ="Vous allez envoyer une demande de transfert de fonds à partir du compte de votre partenaire. Veuillez vous assurer que les informations ci-dessous sont correctes.";
+$lang['its_46'] ="Numéro de compte du client";
+$lang['its_47'] ="Votre demande de transfert de fonds en transit a été traitée avec succès. Voici les détails de la transaction:";
+$lang['its_48'] ="Partenaire";
+$lang['its_49'] ="Montant demandé:";
+$lang['its_50'] ="Montant converti:";
+$lang['its_51'] ="Code de sécurité:";
+$lang['its_52'] ="Code de transfert:";
+$lang['its_53'] ="Transfert d'affiliation";
+$lang['its_54'] ="Remplissez les informations sur le compte partenaire dans ForexMart ci-dessous:";
+$lang['its_55'] ="Vous allez transférer des fonds à un autre partenaire en utilisant le transfert en transit. Veuillez vous assurer que les informations ci-dessous sont correctes.";
+$lang['its_56'] ="Votre transfert en transit a été effectué. Voici les détails de la transaction:";
+$lang['its_57'] ="Montant transféré:";
+$lang['its_58'] ="Demande de STI rejetée. Veuillez vérifier votre boîte de réception électronique ou d'autres contacts";
+$lang['its_59'] ="pour plus de détails.";
+$lang['its_60'] ="Demande de STI";
+$lang['its_61'] ="Une demande de connexion au service des transferts internes a déjà été envoyée.";
+$lang['its_62'] ="Demande de service des transferts internes (STI)";
+$lang['its_63'] ="fermer";
+$lang['its_64'] ="Vous devez remplir ce champ.";
+$lang['its_65'] ="Le montant doit être supérieur ou égal à 2.";
+$lang['its_66'] ="Veuillez entrer un code de sécurité valide à 6 chiffres.";
+//  $lang['its_67'] ="Vous allez demander un transfert de fonds à partir d'un compte qui ne fait pas partie de votre groupe partenaire. Veuillez vous assurer que les informations ci-dessous sont correctes.";
+$lang['its_67'] ="You are about to request funds from Non-Affiliate Account. Please make sure the information below are correct.";
+$lang['its_68'] ="Le code de sécurité n'est pas valide ou est déjà utilisé.";
+$lang['its_69'] ="Le code de sécurité a déjà été utilisé lors un transfert en transit";
+$lang['its_70'] ="Fonds insuffisants.";
+$lang['its_71'] ="Ce compte est un compte client ou n'existe pas";
+$lang['its_72'] ="Ce compte est un compte partenaire ou n'existe pas.";
+$lang['its_73'] ="Vous ne pouvez pas effectuer de transfert sur votre propre compte";
+$lang['its_74'] ="Les bonus ne peuvent pas être combinés sur un seul compte.";
+//  $lang['its_75'] ="Le client bénéficiaire n'est pas éligible pour réclamer le bonus de 50%. Cette fonction s'applique uniquement aux comptes ForexMart standard.";
+$lang['its_75'] ="Receiver client is not eligible to claim the 50% bonus. Applicable only for ForexMart Standard Account.";
+$lang['its_76'] ="NON SÉLECTIONNÉ";
+$lang['its_77'] ="BONUS DE 30%";
+$lang['its_78'] ="BONUS DE 50%";
+$lang['its_79'] ="Le transfert en transit a échoué. Veuillez réessayer ou nous contacter pour plus de détails.";
+$lang['its_80'] ="Le transfert en transit a échoué. Sur le compte client";
+$lang['its_81'] =" fonds insuffisants:";
+$lang['its_82'] ="Le transfert en transit a échoué. Un problème est survenu avec le service Web. Veuillez réessayer ultérieurement.";
+$lang['its_83'] ="Le transfert en transit a échoué. Veuillez réessayer ou nous contacter pour plus de détails.";
+

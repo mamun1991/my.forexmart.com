@@ -1,0 +1,29 @@
+<?php
+
+$lang['bo_st_00'] = 'La page des statistiques de bonus résume et analyse tous les bonus sur le compte ';
+$lang['bo_st_01'] = ' Le client doit négocier un certain nombre de lots ForexMart pour retirer le bonus.';
+$lang['bo_st_02'] = 'Les fonds disponibles pour le retrait (moins le bonus) indiquent le montant maximum qu’un client peut retirer de son compte de trading. Veuillez noter qu’en cas de retrait du montant maximum, le bonus peut être annulé. D’autre part, les fonds disponibles pour le retrait (avec le bonus) indiquent le montant maximum qu’un client peut retirer de son compte de trading sans affecter le bonus.';
+$lang['bo_st_03'] = "Veuillez garder à l’esprit que nous déterminons le montant total qui peut être déduit en tenant compte de la dernière marge actuelle sur le solde de votre compte de trading.";
+$lang['bo_st_1'] = 'Relevé de compte';
+// $lang['bo_st_2'] = 'Solde';
+$lang['bo_st_2'] = 'Solde (historique des bonus)';
+$lang['bo_st_3'] = 'Fonds';
+$lang['bo_st_4'] = 'Marge libre';
+$lang['bo_st_5'] = 'Fonds disponibles pour le retrait (déduction faite du bonus)';
+$lang['bo_st_6'] = 'Fonds disponibles pour le retrait (tout en conservant le bonus)';
+$lang['bo_st_7'] = 'Calculer les bonus restants';
+$lang['bo_st_8'] = 'Calculer';
+$lang['bo_st_9'] = 'Vos statistiques de bonus';
+$lang['bo_st_10'] = 'Nombre de lots requis pour le retrait des bonus';
+$lang['bo_st_11'] = 'Nombre de lots échangés';
+$lang['bo_st_12'] = 'Un client doit échanger un nombre de lots suivant ';
+$lang['bo_st_13'] = 'Statut actuel du bonus';
+$lang['bo_st_14'] = 'Aucun bonus disponible pour le retrait';
+$lang['bo_st_15'] = 'Bonus restants';
+$lang['bo_st_16'] = 'Erreur de transaction';
+$lang['bo_st_17'] = 'Le montant à retirer dépasse le montant des fonds sur le compte. Veuillez contacter le service bonus bonus@forexmart.com';
+$lang['bo_st_18'] = 'Bonus';
+$lang['bo_st_19'] = 'Montant';
+$lang['bo_st_20'] = 'Montant des bonus';
+$lang ['bo_st_21'] = 'Bonus restants';
+$lang['bo_st_22'] = 'Solde final';

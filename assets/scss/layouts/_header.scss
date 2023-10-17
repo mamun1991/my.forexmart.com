@@ -1,0 +1,98 @@
+.header{
+    height: 65px;
+    background: linear-gradient(45deg, #2988ca, #2274ad);
+    @include itemFlex(center, center, row);
+    margin-bottom: 30px;
+    .nav-top-right{
+        position: absolute;
+        top: -6px;
+        right: 0;
+        height: 75px;
+        @include itemFlex(center, null, row);
+    }
+}
+.drp-profile{
+    .nav-link{
+        &:hover, &:focus, &:active{
+            background:$primary-color;
+        }
+    }
+    .dropdown-menu{
+        background: $primary-color;
+        min-width: 292px;       
+    }
+    .dropdown-item{
+        color: $base-color;
+        &:hover, &:active, &:focus{
+            color: $primary-color;
+        }
+    }
+}
+.navigation-menu{
+    @include itemFlex(center, null, row); 
+    .img-b4-text{
+       padding: 8px 30px;
+       color: $base-color;
+       float: left;
+       @media only screen and (min-width:1300px){
+            @include txtStyle(20px,300);
+            letter-spacing: 1px;
+       }
+       .icon-26{
+           margin-right: 8px;
+       }
+    }
+}
+.invert-style{
+    justify-content: flex-end;
+    background:linear-gradient(45deg, #2988ca, #2274ad);
+    height: 65px;
+    .nav-link{
+        color:$base-color;
+        padding:8px;
+    }
+}
+.hamburger-menu{
+    color: #fff;
+    position: absolute;
+    left: 8px;
+    padding: 8px 15px;
+    background: #1d73b3;
+    border-radius: 4px;
+    display: none;
+    @media screen and (max-width:767px){
+        display: block;
+    }
+}
+.mobile-header{
+    background: $base-color;
+    margin-bottom: 15px;
+    transition: opacity 3s ease-in-out;
+    height: auto;
+    .navigation-menu{
+        .img-b4-text{
+            .text{
+                @include txtStyle(14px,500);
+                color: #333;
+                @media only screen and (min-width:1199px){
+                    @include txtStyle(18px,300); 
+                    color:$base-color;
+                }
+            }
+        }
+    }
+}
+.nav-user{
+    li:last-child{
+        border-left:1px solid #0000003d;
+    }
+}
+.nav-user-title{
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.indicator{
+    @media screen and (max-width:$mobile-width){
+        display: none;
+    }
+}

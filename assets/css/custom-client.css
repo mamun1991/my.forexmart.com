@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+.signin-form-holder{
+   /* background: url('https://my.forexmart.com/assets/images/bg-client-signin.png') no-repeat center fixed;*/
+/*	background: url(../images/bg-client-signin.png) no-repeat center fixed !important;*/
+    /*min-height:840px;*/
+    
+background-image: url('https://my.forexmart.com/assets/images/bg-client-signin.png')!important;
+background-repeat: no-repeat !important;
+background-attachment: fixed !important;
+background-position: center !important;
+    
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-size: cover;
+}
+.i-form{
+    height: 16px;
+    width: 16px;
+    background-size: cover;
+}
+.i-user{
+    background: url('../images/icons/i-user.png');
+}
+.i-lock{
+    background: url('../images/icons/i-lock.png');
+}
+.i-right{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+.form-holder{
+    width:560px;
+    padding: 30px 40px;
+    max-width:100%;
+}
+.form-bordered{
+    border:1px solid hsla(0, 0%, 100%, 0.151);
+}
+.form-right{
+    margin:auto;
+}
+.form-title{
+    font-weight: 600;
+    font-size: 36px;
+    color: #ececec;
+    margin-bottom:30px;
+}
+.form-input{
+    position: relative;
+    margin-bottom: 15px;
+}
+.form-input input{
+    height:40px;
+    margin-bottom:2px;
+    padding-right: 30px;
+}
+.form-error{
+    float: right;
+    color: #ececec;
+    font-size: 13px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.h-divider{
+    border-top: 1px solid #ececec21;
+}
+.other-info{
+    text-align: center;
+    color:#ececec !important;
+    margin-top: 30px;
+}
+.other-info > *{
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.text-blue{
+    color: #64C6FF !important;
+    letter-spacing: 1px;
+}
+.text-green{
+    color: #04D252 !important;
+}
+.text-highlight, .text-highlight span{
+    font-size: 32px;
+    font-weight: 600;
+}
+.btn-form{
+    border-radius: 4px;
+    height: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border:0;
+    outline: none;
+}
+.btn-control{
+    width: 100%;
+}
+.btn-submit{
+    margin-bottom: 5px;
+}
+.btn-bordered{
+    background:#2988ca;
+    color:#ececec;
+    min-width:225px;
+}
+.btn-bordered:hover{
+    background: #094d79;
+}
+.btn-password{
+    color: #ececec;
+}
+.btn-password:hover, .btn-password:focus{
+    color:#04D252;
+}
+
+@media only screen and (max-width:991px){
+    .form-holder{
+        float: none;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:767px){
+    .form-holder{
+        width:100%;
+        padding:20px;
+    }
+    .btn-bordered{
+        width:100%;
+    }
+}
+
+
+

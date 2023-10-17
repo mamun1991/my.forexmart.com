@@ -1,0 +1,108 @@
+.step1-cont
+{
+	font-family: Open sans;
+}
+	.step1-cont h3
+	{
+		font-family: Open sans;
+		font-size: 16px;
+		color: #2988ca;
+		margin-top: 0;
+	}
+	.step1-cont p
+	{
+		font-size: 13px;
+	}
+.barcode-holder
+{
+	border: 1px solid #ccc;
+	background: #f0f0f0;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+	.barcode-holder img
+	{
+		width: 150px;
+		margin: 0 auto;
+		float: none;
+		-webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.1);
+		-moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.1);
+		box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.1);
+	}
+.step1-dialog
+{
+	max-width: 500px;
+}
+.txtcode
+{
+	padding: 10px 15px;
+	border: 1px solid #aaa;
+	font-size: 20px;
+	font-weight: 600;
+	width: 200px;
+}
+.step2-dialog
+{
+	max-width: 400px;
+	margin-top: 150px;
+}
+.mob-img-holder
+{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+	.mob-img-holder img
+	{
+		margin: 0 auto;
+		float: none;
+		width: 100px;
+	}
+.step2-input-holder
+{
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+	.step2-input-holder .btn-ver
+	{
+		width: 100%;
+		margin-top: 10px;
+		padding: 7px;
+		box-sixing: border-box;
+		font-size: 14px;
+		font-family: Open Sans;
+	}
+.txt-entercode
+{
+	border: 1px solid #aaa;
+	width: 100%;
+	padding: 8px 12px;
+	font-size: 14px;
+}
+.step2-text h4
+{
+	font-family: Open Sans;
+	padding: 0px 20px;
+	box-sixing: border-box;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 20px;
+}
+.verification-page
+{
+	/*border: 1px solid #eee;*/
+	-webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.1);
+	background: #f0f0f0;
+	padding: 10px;
+	margin: 15px 0;
+}
+	.verification-page .step2-text h4
+	{
+		padding: 0 10px;
+	}

@@ -1,0 +1,129 @@
+h2{
+    margin: 0;
+}
+.accoun-types-holder{
+    padding: 0 15px;
+}
+.grp-items .item{
+    padding: 15px 8px;
+}
+.grp-items > div{
+    padding:8px;
+}
+.item{
+    border:1px solid transparent;
+    padding:8px;
+    border-radius: 4px;
+}
+
+.item-title{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+}
+
+.item-title:lang(ru){
+    font-size: 22px;
+	min-height: 77px;
+}
+
+.item-title div{
+    text-transform:uppercase;
+}
+.subtitle{
+    font-size: 18px;
+    letter-spacing:0;
+    line-height: 1.5;
+}
+.item-default{
+    border:1px solid rgba(51, 51, 51, 0.205);
+}
+.item-primary{
+    border:1px solid rgba(16, 106, 170, 0.205);
+}
+.item-success{
+    border:1px solid rgba(4, 157, 63, 0.205);
+}
+.item-danger{
+    border:1px solid rgba(255, 49, 56, 0.205);
+}
+.btn-bordered{
+    min-width:150px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    min-height:40px; 
+    border:1px solid transparent;
+    letter-spacing: 1px;
+    background: #fff;
+    padding-top: 7px;
+}
+
+.btn-bordered:hover{
+    background:#ddd;
+    transition: linear;
+}
+
+.bordered-default{
+    border: 1px solid #333;
+    color:#333;
+}
+.bordered-default:hover{
+    background:#333;
+    color:#fff;
+}
+.bordered-primary{
+    border: 1px solid #106BAA;
+    color:#106BAA;
+}
+.bordered-primary:hover{
+    background:#106BAA;
+    color:#fff;
+}
+.bordered-success{
+    border: 1px solid #049D3E;
+    color:#049D3E;
+}
+.bordered-success:hover{
+    background:#049D3E;
+    color:#fff;
+}
+.bordered-danger{
+    border: 1px solid #FF3138;
+    color:#FF3138;
+}
+.bordered-danger:hover{
+    background:#FF3138;
+    color:#fff;
+}
+
+.text-default{
+    color: #333;
+}
+.text-primary{
+    color: #106BAA;
+}
+.text-success{
+    color: #049D3E;
+}
+.text-danger{
+    color: #FF3138;
+}
+
+@media only screen and (max-width:475px){
+    .grp-items > div{
+        width: 260px!important;
+        max-width: 100%;
+        margin: 0 auto;
+        float: none;
+    }
+	.grp-items .item {
+		min-height: 175px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1100px)  {
+.account-types-holder .item-title div{ font-size:20px !important; }
+.account-types-holder a.btn-bordered{ font-size:12px !important;min-width:135px!important; }  
+}  

@@ -1,0 +1,26 @@
+<?php
+$lang['tfa_0'] = 'Akaun anda dilindungi dengan dua peringkat pengesahan';
+$lang['tfa_off'] = 'Nyahaktif dua peringkat pengesahan';
+$lang['tfa_on'] = 'Aktifkan dua peringkat pengesahan';
+$lang['tfa_h4'] = 'Tetapkan aturan Authenticator';
+$lang['tfa_1'] = 'Pasang aplikasi Google Authenticator untuk telefon bimbit atau tablet anda.';
+$lang['tfa_1_1'] = '1. Sila lawati App Store (untuk sistem operasi iOS di telefon/tablet anda) atau Play Market (untuk sistem Android).';
+$lang['tfa_1_2'] = '2. Cari aplikasi Google Authenticator.';
+$lang['tfa_1_3'] = '3. Muat turun secara percuma dan pasang pada telefon/tablet anda.';
+$lang['tfa_2'] = 'Kemudian buka dan mengaturkan Google Authenticator.';
+$lang['tfa_2_1'] = '1. Di Google Authenticator ketik(tap) simbol "+" dan kemudian "Imbas Kod Bar".';
+$lang['tfa_2_2'] = "2. Gunakan kamera peranti anda untuk mengimbas kod bar ini.";
+$lang['tfa_2_3'] = "3. Setelah anda mengimbas kod bar, masukkan kod pengesahan 6 digit yang dihasilkan oleh aplikasi Authenticator.";
+$lang['tfa_2_manul_title'] = "TIDAK BOLEH MENGIMBAS?";
+$lang['tfa_2_manul_title_2'] = "PAPAR KOD QR";
+$lang['tfa_2_manual_1'] = "1. Salin nombor Akaun dan Kunci Rahsia di bawah";
+$lang['tfa_2_manual_2'] = "2. Membuat aturan secara manual di Google Authenticator pada peranti mudah alih anda.";
+$lang['tfa_2_manual_3'] = "3. Pastikan <b>Asas masa</b> diaktifkan.";
+$lang['tfa_2_manual_4'] ="Nombor Akaun";
+$lang['tfa_2_manual_5'] ="Kunci Rahsia";
+$lang['tfa_2_manual_p'] ='Setelah anda mengimbas kod bar, masukkan kod pengesahan 6 digit yang dihasilkan oleh aplikasi Authenticator.';// ' Kod ditetapkan semula pada kiraan detik. Ketik (tap) kod untuk menyalin dan masukkan kod pengesahan 6 digit yang dihasilkan oleh aplikasi Authenticator.';
+$lang['tfa_p'] = 'Setelah anda mengimbas kod bar, masukkan kod pengesahan 6 digit yang dihasilkan oleh aplikasi Authenticator.';
+$lang['tfa_cancel'] = 'Batalkan';
+$lang['tfa_vns'] = 'Sahkan dan Simpan';
+$lang['tfa_code'] = 'Kod';
+$lang['tfa_error_code']='Kod tidak sah';

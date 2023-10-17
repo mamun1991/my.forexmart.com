@@ -1,0 +1,140 @@
+.sa-left{
+    text-align: left!important;
+}
+.sa-right{
+    text-align: right!important;
+}
+
+.sa-mar-top-10{
+    margin-top:10px;
+}
+.sa-btn-pad-7-11{
+    padding: 7px 11px;
+}
+
+.sa-flt-l{
+    float: left!important;
+}
+.sa-flt-r{
+    float: right!important;
+}
+
+.sa-side-fix{
+    position: fixed!important;
+    left: 0 !important;;
+}
+
+
+/** FOR INTERNAL **/
+.navbar-brand-internal:lang(sa) {
+    margin-top: 0px;
+}
+
+.arabic-error-input {
+    text-align: right !important;
+}
+
+.arabic-int-side-collapse {
+    float: left !important;
+    margin-left: 0;
+}
+
+.arabic-dl-holder {
+    clear: both;
+    padding-top: 0.1px;
+}
+
+.arabic-navbar-brand-internal img {
+    margin-right: 20px;
+}
+
+.arabic-navbar-collapse ul .flag_pad {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.arabic-navbar-right-internal .dropdown {
+    float: left !important;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 450px) {
+    .arabic-account-ver {
+        padding-bottom: 0 !important;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .between {
+        margin-bottom: 2px !important;
+    }
+    #pn1, #pn2, #pn3 {
+        text-align: center !important;
+    }
+    .arabic-main-tab li a {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 656px) {
+    .arabic-connect-holder h1,
+    .arabic-follow-holder h1 {
+        text-align: right !important;
+    }
+    .arabic-connect-holder ul,
+    .arabic-follow-holder ul {
+        margin-right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+	#last-c{
+        margin: 0 !important;
+    }
+
+	ul.acc_nav li{
+        margin: 0 !important;
+
+    }
+	
+    div.dataTables_wrapper div.dataTables_filter:lang(sa),
+    div.dataTables_wrapper div.dataTables_paginate:lang(sa) {
+        text-align: center;
+    }
+    .arabic-navbar-right-internal .navbar-form {
+        display: block !important;
+    }
+    .arabic-navbar-right-internal .dropdown {
+        float: none !important;
+    }
+    .arabic-navbar-right-internal li .arabic-dropdown-toggle {
+        padding-top: 22px !important;
+        padding-bottom: 22px !important;
+    }
+    .arabic-navbar-right-internal li .arabic-dropdown-toggle:lang(sa){
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    .arabic-navbar-collapse ul .flag_pad {
+        margin-right: 15px;
+    }
+    #searchcon {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .arabic-navbar-right-internal .navbar-form {
+        display: none;
+    }
+    .arabic-side-nav li a .fa {
+        float: none !important;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .arabic-main-tab li a .fa {
+        float: none;
+    }
+}

@@ -1,0 +1,232 @@
+@media only screen and (max-width: 320px){
+    /* Force table to not be like tables anymore */
+    #tb_dshbrd{
+        display: block!important;
+    }
+    .table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>td, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>thead>tr>th{
+        white-space: inherit;
+    }
+}
+@media only screen and (max-width: 760px),(min-device-width: 768px) and (max-device-width: 1024px)  {
+    /* Force table to not be like tables anymore */
+    #tb_dshbrd table, #tb_dshbrd  thead,  #tb_dshbrd  tbody, #tb_dshbrd  th, #tb_dshbrd td, #tb_dshbrd tr {
+        display: block;
+    }
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #tb_dshbrd thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    #tb_dshbrd tr { border: 1px solid #ccc; padding: 8px;}
+    #tb_dshbrd td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+    #tb_dshbrd td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        padding-right: 10px;
+        /*padding-left: 10px;*/
+        white-space: nowrap;
+    }
+    /* Label the data */
+    #tb_dshbrd td:nth-of-type(1):before { content: "Account Number"; }
+    #tb_dshbrd td:nth-of-type(2):before { content: "Leverage"; }
+    #tb_dshbrd td:nth-of-type(3):before { content: "Currency"; }
+    #tb_dshbrd td:nth-of-type(4):before { content: "Balance"; }
+    #tb_dshbrd td:nth-of-type(5):before { content: "Status"; }
+    #tb_dshbrd td:nth-of-type(6):before { content: "Account Type"; }
+    #tb_dshbrd td:nth-of-type(7):before { content: "Swap-Free"; }
+}
+@media only screen and (max-width: 767px),(min-device-width: 768px) and (max-device-width: 1024px)  {
+    /* Force table to not be like tables anymore */
+    #tb_dshbrd2 table, #tb_dshbrd2  thead,  #tb_dshbrd2  tbody, #tb_dshbrd2  th, #tb_dshbrd2 td, #tb_dshbrd2 tr {
+        display: block;
+    }
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #tb_dshbrd2 thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    #tb_dshbrd2 tr { border: 1px solid #ccc; padding: 0 10px;}
+    #tb_dshbrd2 td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+    #tb_dshbrd2 td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    /*Label the data */
+    /*#tb_dshbrd2 td:nth-of-type(1):before { content: "Account Number"; }*/
+    /*#tb_dshbrd2 td:nth-of-type(5):before { content: "Leverage"; }*/
+    /*#tb_dshbrd2 td:nth-of-type(2):before { content: "Currency"; }*/
+    /*#tb_dshbrd2 td:nth-of-type(3):before { content: "Balance"; }*/
+    /*#tb_dshbrd2 td:nth-of-type(4):before { content: "Verification Status"; }*/
+    /*#tb_dshbrd2 td:nth-of-type(6):before { content: "Account Type"; }*/
+    /*#tb_dshbrd2 td:nth-of-type(7):before { content: "Swap-Free"; }*/
+
+
+    #tb_dshbrd2 td:nth-of-type(1):before { content: "Account Number"; }
+    #tb_dshbrd2 td:nth-of-type(2):before { content: "Leverage"; }
+    #tb_dshbrd2 td:nth-of-type(3):before { content: "Currency"; }
+    #tb_dshbrd2 td:nth-of-type(4):before { content: "Balance"; }
+    #tb_dshbrd2 td:nth-of-type(5):before { content: "Status"; }
+    #tb_dshbrd2 td:nth-of-type(6):before { content: "Trading Status"; }
+    #tb_dshbrd2 td:nth-of-type(7):before { content: "Account Type"; }
+    #tb_dshbrd2 td:nth-of-type(8):before { content: "Swap-Free"; }
+    #tb_dshbrd2 td:nth-of-type(9):before { content: "Action"; }
+
+
+
+
+
+
+
+
+}
+
+
+.tab-my-acct > tbody > tr > td:nth-child(6):lang(ru) {
+    width: 18%;
+}
+
+
+.dashboard > thead > tr > th {
+    text-align: center;
+}
+.dashboard > tbody > tr > td {
+    text-align: center;
+    line-height: 30px;
+}
+.tab-my-acct > tbody > tr > td {
+    line-height: 30px;
+}
+.tab-partner-acc > thead > tr > th {
+    text-align: center;
+}
+@-moz-document url-prefix() {
+    .open-demo_custom{
+        padding: 7px 56px!important;
+    }
+    .open-demo_custom:lang(ru){
+        padding: 7px 65px!important;
+        font-size: 12px!important;
+    }
+    .open-demo_custom:lang(jp){
+        padding: 7px 56px!important;
+    }
+    .open-demo_custom:lang(id){
+        padding: 7px 56px!important;
+    }
+    .open-demo_custom:lang(de){
+        padding: 7px 56px!important;
+    }
+    .open-demo_custom:lang(fr){
+        padding: 7px 56px!important;
+    }
+    .open-demo_custom:lang(it){
+        padding: 7px 56px!important;
+    }
+    .open-demo_custom:lang(sa){
+        padding: 7px 49px!important;
+    }
+    .open-demo_custom:lang(es){
+        padding: 7px 56px!important;
+    }
+    .open-demo_custom:lang(pt){
+        padding: 7px 56px!important;
+    }
+    .open-demo_custom:lang(bg){
+        padding: 7px 56px!important;
+    }
+    .open-demo_custom:lang(my){
+        padding: 7px 56px!important;
+    }
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .open-demo_custom{
+        padding: 7px 55px!important;
+    }
+    /*.open-demo_custom:lang(ru){*/
+        /*padding: 7px 65px!important;*/
+        /*font-size: 12px!important;*/
+    /*}*/
+    .open-demo_custom:lang(jp){
+        padding: 7px 55px!important;
+    }
+    .open-demo_custom:lang(id){
+        padding: 7px 55px!important;
+    }
+    .open-demo_custom:lang(de){
+        padding: 7px 55px!important;
+    }
+    .open-demo_custom:lang(fr){
+        padding: 7px 55px!important;
+    }
+    .open-demo_custom:lang(it){
+        padding: 7px 55px!important;
+    }
+    .open-demo_custom:lang(sa){
+        padding: 7px 46px!important;
+    }
+    .open-demo_custom:lang(es){
+        padding: 7px 55px!important;
+    }
+    .open-demo_custom:lang(pt){
+        padding: 7px 55px!important;
+    }
+    .open-demo_custom:lang(bg){
+        padding: 7px 55px!important;
+    }
+    .open-demo_custom:lang(my){
+        padding: 7px 55px!important;
+    }
+}
+.btns-open-acc {
+    margin-top: 15px;
+    margin-right: 10px;
+    /*float: left;*/
+}
+@media only screen and (max-width: 760px){
+    .btns-open-acc {
+        margin-top: 15px;
+        margin-right: 0px;
+        float: none;
+        width: 100%;
+    }
+    .btns-open-wid-acc {
+        width: 100% !important;
+    }
+}
+.open-trading:lang(pt) {
+    padding: 7px 27px;
+}
+.tab-my-acct > tbody > tr > td {
+    line-height: 20px;
+    padding: 8px;
+    padding-right: 8px;
+}
+.th-action{
+	width: 10%;
+}
+.tab-res-holder {
+    margin-left: 5px;
+}

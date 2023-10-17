@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400, 600, 700');
+
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    margin-top:0px;
+    margin-bottom: 40px;
+}
+.btn{
+    border-radius: 0px !important;
+
+}
+
+input,select{
+    border-radius: 0px !important;
+
+}
+.tooltip-inner {
+    white-space: pre-wrap;
+}
+
+.topheader{
+   /* background-image: url(../images/imgheader.jpg);
+    width: 130.6%;
+    width: 200%;
+    height:486px;
+    border-bottom: 12px solid #136fd7;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;*/
+    margin-top: 85px;
+
+}
+
+
+.content-delimetr, .head-separator {
+    height: 12px;
+}
+.input-group .form-control {
+    float: none;
+}
+
+.well {
+    /* min-height: 20px; */
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.tooltip-inner {
+    white-space: pre-wrap;
+}
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group .form-control {
+
+    float: none;
+
+}
+.form-head {
+    text-align: center;
+    font-weight: 700;
+}
+.main-tab li a {
+    /* background: #85C7F3; */
+    color: #333;
+    display: block;
+    padding: 10px!important;
+    padding-top: 14px!important;
+    line-height: 1.42857143;
+    /* font-size: 17px; */
+    font-size: 13px;
+    font-weight: normal;
+    border: 1px solid transparent;
+    border-bottom: 0px solid transparent;
+    background: #136fd7;
+    color: #fff;
+    border-radius: 0;
+    transition: all ease 0.3s;
+}
+
+.main-tab>li.active>a, .main-tab>li.active>a:focus, .main-tab>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    /* border-bottom-color: transparent; */
+}
+
+
+.nav-tabs{
+    margin-top: 20px;
+  border-bottom: 1px solid transparent;
+}
+.nav-tabs>li {
+    float: left;
+    width: calc(100% / 4);
+    margin-bottom: 0px;
+
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 22px 15px;
+    text-align: center;
+}
+.nav-tabs>li>a {
+    margin-right: 10px;
+    line-height: 1.42857143;
+    font-size: 17px;
+    font-weight: normal;
+    border: 1px solid transparent;
+    border-bottom: 0px solid transparent;
+    background: #136fd7;
+    color:#fff;
+    border-radius: 0;
+}
+.nav-tabs>li>a:hover {
+    background: #fff;
+    color:#222;
+    border: 1px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+
+#exTab p {
+
+  font-size: 15px;
+  font-style: normal;
+}
+.tab-content{
+    padding-top: 25px;
+}
+.padding-bottom{
+    padding-bottom: 10px;
+}
+#exTab h3 {
+  padding : 5px 15px;
+}
+.copytrading{
+  margin-top: 30px;
+  /*margin-bottom: 30px;*/
+  margin-bottom: 50px;
+
+}
+.account{
+  display: table;
+}
+.avatar{
+  display: inline-table;
+    width: 50px;
+    height: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  /*padding-left: 5px;*/
+    /*float: left;*/
+}
+.box-align{
+	display: flex;
+	align-items: center;
+}
+.project-block{
+  display: inline-block; 
+  margin: 10px;
+}
+.account-name{
+  display: inline-table;
+}
+.account-type{
+  display: inline-table;
+  font-style: italic;
+}
+.table>thead>tr{
+    border-bottom: 1px solid #ddd;
+}
+
+.table>tbody>tr{
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid #ddd;
+}
+
+.table>tbody>tr>td{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  border-top: 0px solid transparent;
+}
+.tbl-copytrade-col-1{
+  width:30%;
+}
+.tbl-copytrade-col-2{
+  width:20%;
+}
+.tbl-copytrade-col-3{
+  width:10%;
+}
+.tbl-copytrade-col-4{
+  width:10%;
+}
+.tbl-copytrade-col-5{
+  width:10%;
+}
+.tbl-copytrade-col-6{
+    width:10%;
+}
+.tbl-copytrade-col-7{
+    width:10%;
+}
+.tbl-copytrade-col-8{
+    width:10%;
+}
+.tbl-copytrade-col-9{
+    width:10%;
+}
+.subscribe{
+    width:100%;
+    text-align: center;
+}
+
+
+
+.btnsubscribe:hover{
+    color:#fff;
+    background: #136fd7;
+}
+.paging-wrapper{
+  display: block;
+  text-align: center;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: none;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #999;
+    text-decoration: none;
+    background-color: #fff;
+    border: none;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 2;
+    color: #000;
+    cursor: default;
+    background-color:#fff;
+    border-color: none;
+    border-bottom: 2px solid #136fd7;
+}
+.no-subs h3{
+  color:#999;
+}
+.subscription{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  border:1px solid #ccc;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.tbl-subs{
+  margin-bottom: 0px;
+}
+.tbl-subs>tbody>tr {
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+.subs-account-holder{
+  background: #eaeaea;
+}
+.avatar-subs{
+  /*display: inline-table;*/
+  max-width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.account-subs{
+  display: block;
+  font-size: 22px;
+  font-weight: 600;
+}
+.tbl-col-subs{
+  width: 50%;
+}
+.text-subs{
+  font-style: italic;
+  text-align: center;
+}
+.subs-button-holder{
+  background: #222;
+}
+.btn-unsubscribe{
+    width: 70%;
+    background: #222;
+    border:1px solid rgba(255,255,255,.3);
+    border-radius: 0px;
+    color:#fff;
+    font-size: 20px;
+    font-style: italic;
+    padding:7px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-unsubscribe:hover{
+    color:#fff;
+    background: #444;
+}
+.myproject-holder{
+  border-top: 1px solid #999;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #999;
+}
+.tbl-proj>tbody>tr {
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+.tbl-col-myproj{
+  width: 20%;
+}
+.text-myproj{
+  font-style: italic;
+  text-align: center;
+  color:#999999;
+}
+.myproj-desc{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color:#222;
+  font-style: normal;
+}
+.trading-style{
+   text-align: center;
+   color: #999;
+   font-weight: 600;
+}
+.trading-style p{
+  font-style: normal!important;
+  padding-top: 0px !important;
+}
+
+.trading-style p a{
+   font-style: italic;
+   font-weight: normal;
+   color:#999;
+}
+
+.agression{
+  display: inline-table;
+  padding-top:35px;
+  padding-left: 5px;
+  font-weight: 500;
+  color:#999;
+}
+.gap{
+  padding-right: 5%;
+}
+.tbl-profit-wrapper{
+  display: block;
+  margin-top: 30px;
+  padding-top: 50px;
+  margin-bottom: 30px;
+  background: #dbdce0;
+}
+.tbl-profit>tbody>tr {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.tbl-profit>tbody>tr>td {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: bottom;
+    border-top: 0px solid transparent;
+}
+.tbl-profit>tbody>tr>td {
+    padding: 0px;
+}
+
+.tbl-col-profit-1{
+  width:25%;
+}
+.tbl-col-profit-2{
+  width:2%;
+  text-align: right;
+}
+.tbl-col-profit-3{
+  width:8%;
+  text-align: left;
+}
+.tbl-col-profit-4{
+  width:65%;
+}
+.text-profit{
+  font-size: 16px;
+  font-style: italic;
+}
+.profit-desc{
+  display: table-cell;
+  font-size: 17px;
+  color:#222;
+  font-weight: 600;
+  font-style: normal;
+}
+.arrow-profit{
+  color:#136fd7;
+}
+.text-profit-small{
+  font-size: 12px;
+  font-style: normal;
+}
+.profit-desc-small{
+  display: table;
+  font-size: 12px;
+  color:#222;
+  font-style: normal;
+}
+.chart-profit{
+  border-bottom: 1px solid #999;
+}
+.btn-investing{
+    width: 200px;
+    font-size: 18px;
+    background: #136fd7;
+    border-radius: 0px;
+    color:#fff;
+    padding:7px 10px;
+}
+
+.btn-main {
+    color: #fff;
+    background-color: #3d83d2;
+    border-color: #337ab7;
+}
+.btn-cp{
+    margin-bottom: 30px!important;
+    border-radius: 0px !important;
+}
+
+.btn-group-xs>.btn, .btn-xs {
+    padding: 0 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    font-size: 12px!important;
+}
+
+.btn-investing:hover{
+    color:#fff;
+    background: #1748b7;
+}
+
+table.dataTable {
+  border-collapse: collapse !important;
+}
+
+.conf{
+    width: 30% !important;
+}
+.set_notf{
+    padding-right: 71px !important;
+}
+.copying_terms{
+    width: 78% !important;
+}
+.cpt{
+    padding-right: 230px!important;
+}
+
+
+@media screen and (max-width:991px){
+.btn-unsubscribe {
+    font-size: 18px;
+ }
+}
+
+@media screen and (max-width:767px){
+    .nav-tabs{
+      margin-top: -51px;
+    }
+
+    .nav-tabs>li>a {
+        margin-right: 5px;
+        font-size: 14px;
+    }
+    .nav>li>a {
+        padding: 15px 5px;
+    }
+    .table-responsive {
+        border: 0px solid transparent;
+    }
+    .proj-avatar{
+      width:100px;
+    }
+
+    .profit-desc{
+      font-size: 18px;
+    }
+    .be-center{
+      text-align: center;
+      float: none!important;
+    }
+    .gap{
+      padding-right: 15px;
+    }
+}
+@media only screen and (min-width: 0px)  and (max-width: 767px) {
+    .nav-tabs>li>a {
+        font-size: 11px;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:451px){
+    span.input-group-addon.g-ifn, .form-control.g-ifn {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:420px){
+    .nav-tabs{
+      margin-top: -45px;
+    }
+    .nav-tabs>li>a {
+        margin-right: 3px;
+        font-size: 10px;
+    }
+    .text-myproj, .myproj-desc{
+      font-size: 12px;
+    }
+    .trading-style, .trading-style p, .trading-style p a,.agression{
+       font-size: 12px;
+    }
+    .agression{
+      padding-top:0px;
+      padding-bottom: 15px;
+      padding-left: 25px;
+    }
+    .btn-investing{
+        width:150px;
+        font-size: 14px;
+    }
+    span.input-group-addon.g-ifn, .form-control.g-ifn {
+        font-size: 9px;
+    }
+
+    .cpt {
+        padding-right: 0px!important;
+    }
+    .copying_terms {
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .input-group-addon, .form-control {
+        font-size: 12px;
+    }
+    span.input-group-addon.g-ifn {
+        font-size: 8px;
+    }
+    select.form-control.g-ifn {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .input-group-addon, .form-control {
+        font-size: 10px;
+    }
+    span.input-group-addon.g-ifn {
+        font-size: 8px;
+    }
+    select.form-control.g-ifn {
+        font-size: 7px;
+    }
+}
+
+
+@media  screen and (max-width: 750px) {
+    .main-tab li a {
+        font-size: 13px;
+    }
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}

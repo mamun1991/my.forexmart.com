@@ -1,0 +1,35 @@
+<?php
+$lang['int_foo_01'] = 'ForexMart';
+$lang['int_foo_02'] = 'ForexMart';
+$lang['int_foo_03'] = 'ForexMart';
+
+$lang['foot_frx_txt_eu_01'] = 'INSTANT TRADING EU LTD';
+$lang['foot_frx_txt_eu_02'] = ' (Cyprus) is Cyprus Investment Firm (HE266937) regulated by Cyprus Securities and Exchange Commission, license number 266/15. ';
+$lang['foot_frx_txt_eu_03'] = ' is providing investment services under ForexMart  brand and operates <span class="blue-text">www.forexmart.eu</span> website. ';
+$lang['fx-mb-app'] = 'ForexMart Mobile App';
+
+$lang['rw'] = 'Risk Warning&#58;';
+$lang['rw1'] = 'Foreign exchange is highly speculative and complex in nature, and may not be suitable for all investors. Forex trading may result to substantial gain or loss. Therefore, it is not advisable to invest money you cannot afford to lose. Before using the services offered by';
+$lang['rw2'] = 'ForexMart';
+$lang['rw3'] = '&#44; please acknowledge and understand the';
+$lang['rw4'] = 'risks';
+$lang['rw5'] = ' relative to forex trading. Seek financial advice, if necessary.';
+$lang['pn1-1'] ='ForexMart';
+$lang['pn1-2'] ='is a trading name of';
+$lang['pn1-3'] ='&#44; a Cyprus Investment Firm regulated by the Cyprus Securities Exchange (CySEC) with licence number 266/15.';
+$lang['pn2-1'] ='ForexMart';
+// $lang['pn2-2'] ='was named by ShowFx World as the Best Broker in Europe 2015 and Most Perspective Broker in Asia 2015.';
+$lang['pn2-2'] ='was named by ShowFx World as the ';
+$lang['pn2-2-2'] ='Best Broker in Europe 2015 and Most Perspective Broker in Asia 2015.';
+$lang['pn2-3'] ='doesn&#39;t offer its services to residents of certain jurisdictions such as the USA, North Korea, Sudan and Syria.';
+$lang['pn2-4'] ='- official Forex Trading Partner of U.D. Las Palmas.';
+
+$lang['pn2-5'] =' was awarded by International Finance Magazine (IFM) as "Best New Broker Europe 2016" ';
+$lang['pn2-6'] =' is a trading name of';
+$lang['pn2-7'] ='testing It operates under the authority of the Cyprus Securities and Exchange Commission (CySEC) (license number <a href="http://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/71294/">266/15</a>) and is registered under the following EU regulators: the French Autorité de Contrôle Prudentiel et de Résolution (ACPR) (Registration number 75426), the German Federal Financial Supervisory Authority (BaFin) (registration number 146395), and the British Financial Conduct Authority (FCA) (registration number 728735). ForexMart is a certified member of the Investor Compensation Fund (ICF) and is MiFID compliant according to the Investment Services and Regulated Market Law of 2007 (law number 144(I)2007). Forexmart is licensed to offer various investment services of Reception and transmission of orders in relation to one or more financial instruments, Execution of orders on behalf of clients, Dealing on own account, Portfolio management, Safekeeping and administration of financial instruments for the account of clients, including custodianship and related services such as cash/collateral management, Granting credits or loans to an investor to allow him to carry out a transaction in one or more financial instruments, where the firm granting the credit or loan is involved in the transaction, Foreign exchange services where these are connected to the provision of investment services and Investment research and financial analysis or other forms of general recommendation relating to transactions in financial instruments. All these services are offered in connection to financial instruments (transferable securities, options, futures, SWAPS, forward rate agreements, CFDs, and other derivatives).';
+$lang['pn2-8'] ='It operates under the authority of the Cyprus Securities and Exchange Commission (CySEC) (license number';
+$lang['pn2-9'] =') and is registered under the following EU regulators: the French Autorité de Contrôle Prudentiel et de Résolution (ACPR) (Registration number 75426), the German Federal Financial Supervisory Authority (BaFin) (registration number 146395), and the British Financial Conduct Authority (FCA) (registration number 728735). ForexMart is a certified member of the Investor Compensation Fund (ICF) and is MiFID compliant according to the Investment Services and Regulated Market Law of 2007 (law number 144(I)2007). Forexmart is licensed to offer various investment services of Reception and transmission of orders in relation to one or more financial instruments, Execution of orders on behalf of clients, Dealing on own account, Portfolio management, Safekeeping and administration of financial instruments for the account of clients, including custodianship and related services such as cash/collateral management, Granting credits or loans to an investor to allow him to carry out a transaction in one or more financial instruments, where the firm granting the credit or loan is involved in the transaction, Foreign exchange services where these are connected to the provision of investment services and Investment research and financial analysis or other forms of general recommendation relating to transactions in financial instruments. All these services are offered in connection to financial instruments (transferable securities, options, futures, SWAPS, forward rate agreements, CFDs, and other derivatives).';
+
+//if(IPLoc::Office()){
+//    $lang['pn2-7'] ='It operates under the authority of the Cyprus Securities and Exchange Commission (CySEC) (license number <a href="'.FXPP::www_url('License').'">266/15</a>) and is registered under the following EU regulators: the French Autorité de Contrôle Prudentiel et de Résolution (ACPR) (Registration number 75426), the German Federal Financial Supervisory Authority (BaFin) (registration number 146395), and the British Financial Conduct Authority (FCA) (registration number 728735). ForexMart is a certified member of the Investor Compensation Fund (ICF) and is MiFID compliant according to the Investment Services and Regulated Market Law of 2007 (law number 144(I)2007). Forexmart is licensed to offer various investment services of Reception and transmission of orders in relation to one or more financial instruments, Execution of orders on behalf of clients, Dealing on own account, Portfolio management, Safekeeping and administration of financial instruments for the account of clients, including custodianship and related services such as cash/collateral management, Granting credits or loans to an investor to allow him to carry out a transaction in one or more financial instruments, where the firm granting the credit or loan is involved in the transaction, Foreign exchange services where these are connected to the provision of investment services and Investment research and financial analysis or other forms of general recommendation relating to transactions in financial instruments. All these services are offered in connection to financial instruments (transferable securities, options, futures, SWAPS, forward rate agreements, CFDs, and other derivatives).';
+//}

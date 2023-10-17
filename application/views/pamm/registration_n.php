@@ -1,0 +1,1458 @@
+<style type="text/css">
+    .page{
+        display:none;
+    }
+    .registrationBtn { 
+        background: #2988ca;
+        color: #fff;
+        text-align: center;
+        padding: 10px 20px;
+        font-size: 15px;
+        margin: 0 auto;
+        margin-top: -15px;
+        display: table;
+        text-decoration: none;
+        transition: all ease 0.3s;
+        border: none;
+    }
+
+
+
+</style>
+
+        <div class="modal fade" id="modalRegistration" tabindex="-1" role="dialog" aria-labelledby="">
+            <div class="modal-dialog crm-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title crm-modal-title">Error</h4>
+                    </div>
+                    <div class="modal-body">
+                       <p> Click checkbox to agree with the terms and condions.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btns-plain" data-dismiss="modal">ok</button>
+                        <!-- <button type="button" class="btns btns-info show-loader" data-dismiss="modal" >Ok</button> -->
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+
+<div class="section pamm-landing-page destination-class page" id="user_agreement">
+    <div class="pamm-landing-intro">
+        <h1>
+            <!--Agreement for PAMM-accounts-->
+            <?= lang('pamm_00'); ?>
+        </h1>
+        <p>
+            <!--At this page you can register your trading account in the system of PAMM-accounts-->
+            <?= lang('pamm_01'); ?>
+        </p>
+        <ul>
+            <li><?= lang('pamm_02'); ?></li>
+            <li><?= lang('pamm_03'); ?></li>
+        </ul>
+        <p><?= lang('pamm_04'); ?></p>
+        <p><?= lang('pamm_05'); ?></p>
+    </div>
+    <div class="pamm-landing-agreement">
+        <h1><?= lang('pamm_06'); ?></h1>
+        <div class="pamm-agreement-content">
+            <p><?= lang('pamm_07'); ?></p>
+            <ol class="pamm-agreement-list-parent" type="I">
+                <li>
+                    <span><?= lang('pamm_08'); ?></span>
+                    <ol class="pamm-agreement-list-child">
+                        <li><strong><?= lang('pamm_09'); ?></strong> - <?= lang('pamm_10'); ?></li>
+                        <li><strong><?= lang('pamm_11'); ?></strong> - <?= lang('pamm_12'); ?></li>
+                        <li><strong><?= lang('pamm_13'); ?></strong> - <?= lang('pamm_14'); ?></li>
+                        <li><strong><?= lang('pamm_15'); ?></strong> - <?= lang('pamm_16'); ?></li>
+                    </ol>
+                </li>
+                <li>
+                    <span><?= lang('pamm_17'); ?></span>
+                    <ol class="pamm-agreement-list-child">
+                        <li><?= lang('pamm_18'); ?></li>
+                        <ul style="padding-left:15px;">
+                          <li>Investors system registration;</li>
+                          <li>Traders system registrfation;</li>
+                          <li>Investors account funds withdrawal which will be invested in the account of the chosen Trader;</li>
+                          <li>Crediting invested funds to the Trader account;</li>
+                          <li>Shares computation of every traders and investors based on a single PAMM-account;</li>
+                          <li>Investors’ financial return or reward depending on the payable volume request;</li>
+                          <li>Funds withdrawal from the Trader’s in accordance to the volume demand as required by the current funds amount;</li>
+                          <li>Information Updates of PAMM-Trader’s account with details indicated within the  PAMM- Investors cabinet.</li>
+                        </ul> 
+                        <li><?= lang('pamm_19'); ?></li>
+                        <li> The PAMM-accounts system indicates the various risks associated to the Trader’s transaction settlement directly at the market. The Trader’s account will be the location of the invested funds,  and the system will also indicate the possible technical failures due to PAMM-system software errors or trading platform minor malfunctions.</li>
+
+                    </ol>
+                </li>
+                <li><span>Rights and Duties of the Company</span></li>
+                <p>The Framework Agreement provides additional Company’s rights and duties linked with the entitlement and obligations mentioned in the Client Agreement prior to the opening of an account. The responsibilities outlined in this article are implemented with the absence of technical difficulties generated by the Company’s servers.</p>
+                <ol class="pamm-agreement-list-parent">
+                    <li>Provision of services for the investing process.The Company assumes liability for keeping fund investment records and request from the PAMM-Investor account in the PAMM-Trader account within a period not exceeding an hour upon the acceptance of investment made by the Trader.</li>
+                    <li>Provision of records for the profits and losses of invested shares. The Company shall start the regular recording of profits and losses ratio of PAMM-Investors invested shares following the crediting of invested funds. The total accrued data will be calculated per hour and will be accessible in the PAMM-Investor and  PAMM-trader cabinets.</li>
+                    <li>Provision of security for funds repayment on PAMM-Trader’s account. In case that the specified holder of PAMM-Trader’s account requests for repayment of share to a PAMM-Investor account, the Company will carry out the request upon receiving the notice with a minimum completion of one hour. The total amount owed to the Investor against the sum of funds repayment on hand can vary from the displayed ordering funds. This is also applicable when the counting of data in PAMM-Trader’s account receives either a Stop Out or loses all of its funds.</li>
+                    <li> Protection of PAMM-Investor funds from possible withdrawals from Trader. The company guarantees the withdrawal prohibition of the PAMM-Trader once the PAMM-Investor funds are deposited into the PAMM-Trader’s account. PAMM-Trader will also be prohibited from withdrawing funds utilized for dealings. </li>
+                    <li>Account details designation.</li>
+                        <ul class="pamm-agreement-list-parent-ul">
+
+                          <li>The Company will be providing trader information including email addresses and phone numbers which will be shared in the monitoring page of the owner’s account via open access for the purpose of accomplishing information designations. This can then be utilized PAMM-Trader communications.</li>
+                          <li>The availability of PAMM-Investor contact data will be provided by the Company to the PAMM-Trader once the PAMM-Investor starts investing its assets.</li>
+                        </ul> 
+                    <li>The Client acknowledges the Company’s right to discontinue profits, whether partial or full,  as duly acquired by the PT via the PAMM-system, in case of a slander lawsuit, the Company will render facts from its communication facilities which involves electronic mails, interior connection with investors, and other social internet tools.</li>
+                    <li>Clients may change his/her PAMM-project information solely at their own expense in the event of a deliberate data usage which corresponds with the previously encoded PAMM-projects data which might be a cause for confusion among PAMM-investors. The Company also reserves the right to terminate any activity conducted within the PAMM-project.</li>                    
+                </ol>
+                <li><span>Rights and Duties of PAMM-Investor</span></li>
+                <p>The Framework Agreement provides additional Investor’s rights and duties linked with the entitlement and obligations mentioned in the acknowledged Client Offer Agreement prior to the opening of an account. The investor’s rights are implemented based on the present condition that the Company’s PAMM-system (software and hardware) supports the execution of the said system. The company does not guarantee a faultless system and shall not be held liable for any technical failures in the program.</p>
+                <ol class="pamm-agreement-list-parent">
+                    <li>
+                        Risk taking. PAMM-Investors acknowledges the risk warning specified in the Article 8 of this document. PAMM-investors shall be promptly notified that the potential risks may contain incomplete details due to reasons stipulated either by the Company or the third party.
+                    </li>
+                    <li>Compliance in features of PAMM-system’s technical realization. The PAMM-Investor agrees with the entire components of  technical realization mentioned in the Article 6 of this legal contract, along with its associated risks.</li>
+                    <li>Admission of the Company’s status as defined on the Framework Agreement. The PAMM-Investor affirms that the Company is a PAMM-account service provider with technical realization features and is not committed to any profit and losses responsibility relative to trading operations. </li>
+                    <li>Communications method for account management with the PAMM-Trader. The PAMM-Investor shall make queries directly to the owner of PAMM-Trader’s account via the provided contact details.</li>
+                    <li>Investment funds within the PAMM-Trader’s trading account. The PAMM-Investor reserves the right to conduct a request regarding funds investing towards his/her selected PAMM-Trader on their preferred time and period. The completion of an investing request does not necessarily guarantee that the PAMM-Trader accepts the application. Upon confirmation of investment, the total amount of investment fund will be charged off from the PAMM-Investor account to the PAMM- Trader account and will be likewise credited to the trader’s account after an hour of receiving the request. The Company allows every single PAMM-Investor to make more than one investment.</li>
+                    <li>Special access to PAMM-Trader’s account set of data. The PAMM-Investor has an authorized access to constantly update the PAMM-Trader account’s assets, balance and shares statistics anytime. However, this will strictly conform to a few stated conditions. The Company will allow traders to access the said database for the sole purpose of decision-making in the share repayment but its actuality is not fully guaranteed due to temporary delay issues which may affect normal hourly  conditions.</li>
+                    <li>Share repayments from PAMM-Trader account. PAMM-Investor may file a request for repayment of share from a PAMM-Trader account with an allotment of approximately one hour to perform the counting and share repayment. The initial rates owed to the PAMM-Investor may vary from the value perceived until such time that the execution is finished.</li>
+                    <li>PAMM Investors are allowed to carry out negotiation in the Forexmart Wallet system after 12 hours that the investment is transmitted to their respective accounts.</li>
+                </ol>
+                <li><span>PAMM-trader Rights and Responsibilities</span></li>
+                <p>This document provides additional Client’s rights and duties linked with the entitlement and obligations mentioned in the Client Offer Agreement which was acknowledged prior to the opening of an account. The trader’s rights are implemented based on the present condition that the Company’s PAMM-system (software and hardware) supports the execution of the said system. The company does not guarantee a faultless system and shall not held liable for any technical failures in the program.</p>
+                    <ol class="pamm-agreement-list-parent">
+                        <li>
+                             Assumption/Risk. PAMM-traders understands and acknowledges the risk warning specified in the Article 8 of this legal document. PAMM-trader shall be promptly notified that the potential risks may contain incomplete details due to reasons as indicated either by the Company or the third party. The Company waives any liability for uncontrollable losses within accounts and  the trader shall take full responsibility for the said loss.
+                        </li>
+                        <li>
+                            Compliance in the features of PAMM-system’s technical realization. PAMM-trader agrees with the entire components of  technical realization as mentioned in the Article 6 of this legal contract along with the accompanying risks.
+                        </li>
+                        <li>
+                            Affirmation within the Company status and agreement boundaries. PAMM- trader agrees that the Company is a PAMM-account service provider with technical realization features and is not committed to any profit and losses responsibility relative to trading operations. 
+                        </li>
+                        <li>
+                            Communication method for account management with the PAMM-Investor. PAMM-trader must explain all issues regarding the management of PAMM-trader account towards the PAMM- investor by means of the specified contact details. The PAMM-trader will be required to answer the investor’s queries within 72 hours.
+                        </li>
+                        <li>
+                            Monitoring placement. Upon registration, the PAMM-trader account will automatically appear in the  PAMM- system  for account monitoring which can be accessed within the official website of the Company and Client cabinet. Account monitoring will enable PAMM- investors to select their preferred PAMM- trader. 
+                        </li>
+                        <li>
+                            Investment receipt from PAMM-investors. After registering in the PAMM system, traders can now receive investments from investors for fund investing purposes. However, PAMM-trader has the prerogative to refuse invested funds at any given time before or after the account transfer takes place. Every withdrawal and deposit transactions made which involves the PAMM-trader account shall be subject to the rules and order as mentioned in the Article 6 of this contract.
+                        </li>
+                        <li>
+                            Investment refund to PAMM- investor. Refund of investment could take place in either of the following cases:     
+                            <ol>
+                                <li>
+                                    Investment refund to PAMM- investor. Refund of investment could take place in either of the following cases:     
+                                </li>
+                                <li>
+                                     PAMM- investor is instructed to return funds by selecting the designated cabinet option;
+                                </li>
+                                <li>
+                                    The Company prompts an investment return as demanded by the investor with assistance from customer support.
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            Partial payment to the PAMM- trader. The process from the investment receipt of PAMM- investor up to the funds withdrawal procedure in the PAMM- trader account with a purpose of refund and the profit  gained is based on the provisions of the Agreement included in the part 6.
+                        </li>
+                    </ol>
+                <li><span>PAMM-system Technical Regulations</span></li>
+                    <ol class="pamm-agreement-list-parent">
+                        <li>
+                            The technical regulation of the Company entails a timeframe description and other such procedural functions in an automatic method. Both parties shall acknowledge an external chance of technical equipment  problems affiliated with the Company.
+                        </li>
+                        <li>
+                            The Company’s technical regulations further includes the specification of the following operations: 
+                        </li>
+                            <ol>
+                                <li>
+                                     The Company administers the PAMM-investor and PAMM-trader registration within the client cabinet;
+                                </li>
+                                <li>
+                                    Safeguarding the contact data of PAMM-investor and PAMM-trader for communication purposes between three parties; 
+                                </li>
+                                <li>
+                                    Order execution for investment as made by PAMM-investor; 
+                                </li>
+                                <li>
+                                     Approval or decline of request for investment as conducted by PAMM-trader; 
+                                </li>
+                                <li>
+                                    PAMM-investor and PAMM-trader share computation made over the trader’s account during the calculation of investment fundings and other points;
+                                </li>
+                                <li>
+                                    Order execution for PAMM-investor payback; 
+                                </li>
+                                <li>
+                                    Financial return of PAMM-investor’s share; 
+                                </li>
+                                <li>
+                                    Repayment of PAMM-trader’s shared profit immediately following the payback received by the PAMM-investor; 
+                                </li>
+                                <li>
+                                    Financing of investment account by a PAMM-trader; 
+                                </li>
+                                <li>
+                                    Completion of money withdrawal request of a PAMM-trader; 
+                                </li>
+                                <li>
+                                    Processing the PAMM-trader’s request for funds withdrawal; 
+                                </li>
+                                <li>
+                                    Assessment of shares and profits earnings;  and
+                                </li>
+                                <li>
+                                    Imposing authorized access to the statistical data linked with the monitoring and account details made available for every PAMM- investor.
+                                </li>
+                            </ol>
+                        <li>
+                             Registration of PAMM-investor. PAMM-investor is considered registered upon approval of an Agreement as reviewed in the Client Cabinet  conveyed by the Company. The Company provides a Client cabinet link  accessible to the investor after signing up for an account.
+                        </li>
+                        <p>
+                            The registration process requires the PAMM- investor’s contact details (phone number and an e-mail address) which will be sent to other traders so investors could tap the investor they plan to invest with. Contact information can be changed using the option for modifications upon registering which can be altered at any given time.
+                        </p>
+                        <li>
+                            Registration of PAMM-trader. PAMM-trader is considered registered upon approval of this Agreement as reviewed in the Client Cabinet conveyed by the Company. Registration process requires the PAMM-investor’s contact details (phone number and an e-mail address) which will be send to other investors so traders could contact the investor who plan to invest in a PAMM-account. Contact information can be changed using the option for modifications upon registering which can be altered at any given period.  Aside from the communication data, the trader will also be responsible for setting up the profit size. The deduction will then be sent back to the PAMM-investors. The Company further provides a Client cabinet link accessible to the investor after signing up for an account. 
+                        </li>
+                        <li>
+                            PAMM-investor investment application. The process of application for investment made by an investor is processed through the PAMM-cabinet by selecting one trader account outlined in the monitoring. Deductions of funds from the PAMM-investor account will be automatically executed after the approval of the application. After which the funds will be transferred to the PAMM-trader account after securing the application with a proportional amount included within the investment account. In case that the application is declined by the trader, the funds will be promptly put back to the investor’s account.
+                        </li>
+                        <li>
+                            PAMM- trader sees new applications for investment in his trading account in his PAMM- cabinet. The PAMM-trader can either decline or confirm each of new applications by choosing a corresponding option in his cabinet within 72 hours from the moment of application for investment receipt. In case of absence of any actions from PAMM-trader party concerning the received application for investment in its trading account within 3 days from the moment of its receipt, funds will be promptly returned to the PAMM-investor’s account. 
+                        </li>
+                        <li>
+                            An automatic share recalculation within both accounts will be implemented after deposit or withdrawal transaction is made. The share computation is made up of the deducted amount from an investment of PAMM-investor together with the percentage of shares based on the trader’s regulation. The information saved regarding profits and shares are open and displayed in the Investor and Trader cabinet.
+                        </li>
+
+                        <li>
+                            Refund Application for PAMM-Investor. Refund order can be made by selecting the appropriate option available in the investor’s cabinet. The process of refund may take up to 2 hours under standard conditions. Investor shall concede that the total loss or profit during the return of his share may  vary from the presented data in the PAMM-statistics.
+                        </li>
+                        <li>
+                            Refundable share of Investor. The share refund is composed of deducted funds and absolute shares of an investor from the trader’s account, following the fund transfer towards the account of the investor. This transaction takes place prior to the payment of trader’s profit sharing.
+                        </li>
+                        <li>
+                            Return of PAMM- trader’s profit shares after the return of PAMM- investor’s share. This is  executed following a sum transfer to the trading account of PAMM- investor. The profit share of PAMM-trader will be received and calculated during a fund transfer made by the investor to trader’s account, investment deduction from the trader’s account and a proportional share from the PAMM-investor.
+                        </li>
+                        <p>
+                            The profit of traders can be calculated in case of fund transfer from the investor’s account to the trader’s account that coincides with the moment of investment deduction from trader’s account, profit is earned as described in the 6.13 of this contract.
+                        </p>
+                        <li>
+                            Investment deposit on PAMM- trader account. Deposit transactions are secured and conforms to the standard procedure indicated in the official website of the Company. The process of fund transfer to  PAMM- trader’s account would take some time. Therefore, traders has growing shares within his/her trading account as long as funds from investors are already put forth.
+                        </li>
+                        <li>
+                            Withdrawal application by PAMM-trader. The Company’s system provides high-security maintenance within the registry for withdrawal application by traders. Upon registration, traders should not indicate the withdrawal sum but should rather indicate the share percentage of funds available on his/her account. In the case of traders who desire to withdraw the entirety of their funds, the Company does not authorize 100% withdrawal in the event that there are remaining transactions within the market. Only a portion of the funds are available for withdrawal.
+                        </li>
+                        <li>
+                            Processing orders for PAMM- trader’s withdrawal. The trader funds will have deductions after the order execution. Therefore, funds withdrawal reduces the trader’s shares, if investor’s funds are currently on the account.
+                        </li>
+                        <li>
+                            Calculation of shares and profits. 
+                        </li>
+                            <ol class="pamm-agreement-list-parent">
+                                <li>
+                                    All shares and profits of the PAMM account are calculated for every PAMM investor and PAMM trader when: 
+                                </li>
+                                    <ol>
+                                        <li>
+                                            PAMM account credits an investment; 
+                                        </li>
+                                        <li>
+                                            PAMM account executes an investment withdrawal; 
+                                        </li>
+                                        <li>
+                                            The PAMM trader deposits or withdraws money from the PAMM account; and
+                                        </li>
+                                        <li>
+                                            An IR or rebate is credited to the PAMM account.
+                                        </li>
+                                    </ol>
+                                <li>
+                                    Shares and profits are calculated in the interest of: 
+                                </li>
+                                    <ol>
+                                        <li>
+                                            Newly registered PAMM investors; 
+                                        </li>
+                                        <li>
+                                            Active PAMM investors shares withdrawal;
+ 
+                                        </li>
+                                        <li>
+                                            Profits and losses in PAMM-account; and
+                                        </li>
+                                        <li>
+                                           PAMM account credited with IR or rebate. All calculations shall involve the equity value instead of the balance of account. The applied formula is part of the Company’s trade secret, but nevertheless the calculation is based on the account’s actual profits and losses and further warrants an accurate computation under usual circumstances with the absence of unwanted error within the Company’s technical system.
+                                        </li>
+                                    </ol>
+                            </ol>
+                        <li>
+                            Provision of access to PAMM-system’s statistical data whereby the provided information  includes:    
+                        </li>
+                            <ol class="pamm-agreement-list-parent">
+                                <li>
+                                    Account monitoring in the trader cabinet as underwritten by the Company. Copies of monitoring is displayed in the web page of the Company along with the websites of the Company’s official partners;
+                                </li>
+                                <li>
+                                    Balance and equity data received in the previous calculation of the PAMM-trader’s account; 
+                                </li>
+                                <li>
+                                     Investment history details and current investments information of the PAMM-trader’s account. The availability of the statistics abides by given transparency restrictions. However, technical realization  are accompanied with a delay of 1-2 hours due to statistics updates. 
+                                </li>
+                            </ol>
+                    </ol>
+                <li><span>About PAMM Account Bonuses</span></li>
+                    <ol class="pamm-agreement-list-parent">
+                        <li>
+                            When it comes to investing money from bonuses, the invested sum is considered as the bonus funds deposited in the PAMM investor account. The account balance in the investor’s account and losses (full or partial) in the invested funds will be disregarded.
+                        </li>
+                        <li>
+                            A portion of the bonus fund shall be cancelled out when an investor suffers from a stop-loss on his/her account and if it coincides with the withdrawal of funds from the account.
+                        </li>
+                        <li>
+                             If the total amount of bonuses deposited to the account of a PAMM Investor exceeds 30% of the total amount of existing real assets held in the account, then the amount resulting from subtracting the two mentioned volumes will be negated. Furthermore, the cancelled bonuses will be excluded from the calculation of the total volume of the deposited bonuses.
+                        </li>
+                        <li>
+                            After investing in a trader account, investors shall not solely base their trades on bonus funds which remain in their account.
+                        </li>
+                        <li>
+                            Withdrawal of bonus from a PAMM account is allowed only if the trader has already closed his positions, thereby conforming a total amount which is inversely proportionate to the trader’s average share from the moment of registration. The Company provides special terms and conditions for PAMM account since discrepancies might occur with the bonus statistics and the actual volume of the executed trades, which will require additional bonus withdrawal. The Company reserves the right for clients for bonus withdrawal from their respective trading accounts. Kindly send your application to <a href="mailto:support@forexmart.com">support@forexmart.com</a>.
+                        </li>
+                        <li>
+                            Upon investment of funds, the total amount of all bonus funds, including the cancelled incentives, go beyond 55% limit of the sum of free margin, with the accredited 55% bonus in the PAMM Investor account to be ordered as call off.
+                        </li>
+                        <li>
+                            Investments in PAMM accounts will be limited to 50% of total amount of bonuses received. Any amount exceeding the restricted percentage shall be rendered as invalid.
+                        </li>
+
+                    </ol>
+                <li><span>Risk Warning</span></li>
+                    <ol class="pamm-agreement-list-parent">
+                        <li>
+                            Upon registration, both parties will be required to accept the risk notification which involves certain complex situations. 
+                        </li>
+                        <li>
+                            PAMM-investor shall accept the possibility of entire fund loss due to failed transactions made by the PAMM-trader.
+                        </li>
+                        <li>
+                            The PAMM- investor fully understands that the availability of data in the PAMM-system statistics may vary from the actual result, and the statistics might display outdated information including funds, balance and other details with regards to the trader’s account.
+                        </li>
+                        <li>
+                            PAMM-investor shall recognize the risks associated in every situation, particularly with the return of investment order, and the outmoded displayed statistics will differ from the updated investment return and calculated share from PAMM-trader account owed to PAMM-investor.
+                        </li>
+                        <li>
+                            Both parties fully agree to the risks regarding the delayed inquiry process of PAMM-system with an approximate 1-2 hours deferment under normal conditions. When technical issues occur within the Company’s side, the Company does not guarantee timely processing of orders such as investment transfer or refund and updates in the statistics. PAMM-investor and PAMM-trader will be held liable for the risks regarding delays and technical difficulties which could lead to the losses of one of either two parties.
+                        </li>
+                    </ol>
+                <li><span>Claims and Complaints Management</span></li>
+                    <ol class="pamm-agreement-list-parent">
+                        <li>
+                            PAMM-trader and PAMM-investor agrees to consider all claims with regards to the technical features of PAMM-system without the possible disclosure and proceeds to termination of trials.
+                        </li>
+                        <li>
+                            The Company agrees to consider entire claims and complaints solely on the work of  PAMM-system except the profitability and non-profitability of the PAMM-system trade not beyond 30 calendar days upon obtaining the receipt. 
+
+                        </li>
+                        <li>
+                            Every claims and accusations charged will be conducted based on this contract and fair common sense if there are circumstances not precisely mentioned within this document.
+                        </li>
+                    </ol>
+                <li><span>Means of Communication</span></li>
+                    <ol class="pamm-agreement-list-parent">
+                        <li>
+                            The present Agreement employs English language. 
+                        </li>
+                        <li>
+                            The Company may provide a different language version of the agreement for the purpose of the customer’s convenience. <br>
+                            For customer convenience, the Company can provide the agreement version in a language different from English which purely consists of informative characters. 
+
+                        </li>
+                    </ol>
+
+
+
+
+            </ol>
+        </div>
+        <div class="pamm-agreement-checkbox">
+            <input type="checkbox" class="pamm-checkbox check" id="pamm-checkbox" name="pamm-checkbox"/>
+
+            <label id="lbl_check" style="display:inline;">
+                <?= lang('pamm_20'); ?>
+            </label>
+        </div>
+        <div class="pamm-select-account">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="display: none;">
+                <div class="pamm-select-account-child">
+                    <img src="<?= $this->template->Images()?>account-img-1.png" width="100" height="94"/>
+                    <a id="partner-registration" disabled="disabled" href="<?=FXPP::my_url('pamm?registration=1')?>">
+                        <!-- PAMM Partner -->
+                        <?= lang('pamm_21'); ?>
+                    </a>
+                    <p><?= lang('pamm_22'); ?></p>
+                </div>
+            </div>
+            <div class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-12 col-xs-12">
+                <div class="pamm-select-account-child">
+                    <img src="<?= $this->template->Images()?>account-img-2.png" width="100" height="94"/>
+                    <!-- <a id="investor-registration" disabled="disabled" href="<?=FXPP::my_url('pamm?registration=2')?>"> -->
+                        <!-- PAMM Investor -->
+                    <button id="investor-registration" class="registrationBtn" >
+                        <?= lang('pamm_23'); ?>
+                   </button>
+                    <!-- </a> -->
+                    <p><?= lang('pamm_24'); ?></p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="pamm-select-account-child">
+                    <img src="<?= $this->template->Images()?>account-img-3.png" width="100" height="94"/>
+                    <!-- <a id="trader-registration" disabled="disabled" href="<?=FXPP::my_url('pamm?registration=3')?>"> -->
+                        <!-- PAMM Trader -->
+                    <button id="trader-registration" class="registrationBtn" >
+                        <?= lang('pamm_25'); ?>
+                   </button>
+                    <!-- </a> -->
+                    <p><?= lang('pamm_26'); ?></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style type="text/css">
+   
+    .pamm-agreement-list-parent {
+        padding-left:30px!important;
+    }
+
+    @media only screen and (max-width: 412px)
+{ 
+
+    .pamm-agreement-content p {
+        text-align:justify!important;
+    }
+
+    .pamm-agreement-list-parent {
+        padding-left:0!important;
+    }
+
+    .pamm-agreement-list-parent li {
+        text-align: justify;
+    }
+
+    .pamm-agreement-list-parent {
+        padding: 0 20px!important;
+    }
+
+    .pamm-agreement-list-child {
+        padding:0 10px!important;
+    }
+
+   .pamm-agreement-list-parent-ul {
+       padding: 0 15px!important;  
+    }
+
+}
+
+    .a-reg-btn{
+        margin: 10px auto;
+        display: table;
+        background: rgb(41, 136, 202) none repeat scroll 0% 0%;
+        color: rgb(255, 255, 255);
+        padding: 8px 20px;
+        border: medium none;
+        transition: all 0.3s ease 0s;
+    }
+    .check{cursor: pointer;}
+    .fa {
+        padding-right: 0;
+    }
+
+    a {
+        color: #5874BF;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #112763;
+    }
+
+    .pamm-landing-page {
+        display:table;
+        margin-bottom:20px;
+    }
+
+    .pamm-landing-intro p {
+        padding:10px 0;
+        text-align:justify;
+    }
+
+    .pamm-landing-intro p , .pamm-landing-intro ul {
+        margin-bottom:0!important;
+    }
+
+    .pamm-landing-agreement h1 {
+        text-align:center;
+        font-size:20px;
+        color:#2988CA;
+    }
+
+    .pamm-agreement-content {
+        width:90%;
+        margin:20px auto;
+        padding:10px;
+        height:300px;
+        overflow-y:scroll;
+        border:1px solid #cacaca;
+    }
+
+    .pamm-agreement-content p {
+        font-weight:600;
+    }
+
+    .pamm-agreement-list-parent , .pamm-agreement-list-child {
+        padding:0 15px;
+    }
+
+    .pamm-agreement-list-parent li {
+        padding:5px 0;
+    }
+
+    .pamm-agreement-list-parent li span {
+        font-weight:600;
+        color:#ff0000;
+    }
+    .pamm-agreement-list-child li {
+        padding:0;
+    }
+
+    .pamm-agreement-checkbox {
+        display:table;
+        margin:0 auto;
+    }
+
+    .pamm-agreement-checkbox input[type=checkbox] {
+        float:left;
+        margin-right:5px;
+    }
+
+    .pamm-select-account {
+        margin:20px 0;
+        width:100%;
+        display:table;
+    }
+
+    .pamm-select-account-child {
+        width:100%;
+        display:table;
+    }
+
+    .pamm-select-account-child img {
+        margin:0 auto!important;
+        display:table;
+    }
+
+    .pamm-select-account-child a {
+        background:#2988ca;
+        color:#fff;
+        text-align:center;
+        padding:10px 20px;
+        font-size:15px;
+        margin:0 auto;
+        margin-top:-15px;
+        display:table;
+        text-decoration:none;
+        transition: all ease 0.3s;
+    }
+
+    .pamm-select-account-child p {
+        margin-top:10px;
+        text-align:center;
+    }
+
+    .pamm-onclick-page {
+        width:100%;
+        margin:20px 0;
+        display:none;
+    }
+
+    .pamm-tab-content {
+        border:1px solid #ddd;
+    }
+
+    .pamm-btn {
+        padding:0;
+        background:none;
+        color: #333;
+        font-size: 15px;
+        margin:0!important;
+        line-height:12px!important;
+    }
+
+    .pamm-btn-secondary {
+        padding-right:0!important;
+    }
+
+    .pamm-btn-group.open .dropdown-toggle , .pamm-btn:focus , .pamm-btn:hover {
+        box-shadow:none;
+    }
+
+    .pamm-dropdown-menu {
+        margin-top:5px!important;
+        border-radius:0!important;
+        padding:0!important;
+    }
+
+    .pamm-dropdown-menu ul {
+        position:relative;
+        padding:0!important;
+    }
+
+    .pamm-dropdown-menu ul li {
+        list-style-type:none;
+        padding:5px;
+        cursor:pointer;
+    }
+
+    .pamm-dropdown-menu ul li:hover {
+        background:#f0f0f0;
+    }
+
+    .navbar-brand-internal{
+        margin-top: 4px!important;
+    }
+
+    /*----- PAMM ONCLICK PAGE -----*/
+    .pamm-nav-tabs {
+        background:#eee;
+        border:1px solid #ddd;
+    }
+
+    .pamm-nav-tabs li a {
+        color:#333;
+        font-size:15px;
+    }
+
+    .pamm-nav-tabs .active a {
+        border-radius:0;
+        border:none!important;
+        border-bottom:2px solid #fff!important;
+        font-weight:600;
+    }
+    .pamm-tab-content {
+        margin-top:-1px;
+        padding:10px;
+        /*display:table;*/
+        width:100%;
+    }
+
+    /*----- PAMM PROFILE TAB -----*/
+
+    .pamm-content-input {
+        width:90%;
+        margin:0 auto;
+    }
+
+    .pamm-content-input h1 {
+        border-bottom:1px solid #2988CA;
+        color:#333;
+        text-align:left;
+        font-size:18px;
+        font-weight:600;
+        padding:5px;
+    }
+
+    .pamm-content-input-box {
+        margin:10px auto!important;
+        display:table;
+        float:none!important;
+    }
+
+    .pamm-content-input-box textarea {
+        resize:vertical;
+    }
+
+    .pamm-content-input-box label {
+        margin-bottom:0;
+    }
+
+    .pamm-content-input-box input[type=checkbox] {
+        float:left;
+        margin-right:5px;
+    }
+
+    .pamm-content-input-box button , .pamm-investment-parent button , .pamm-investment-secondary button {
+        margin:10px auto;
+        display:table;
+        background: #2988CA;
+        color: #fff;
+        padding:8px 20px;
+        border:none;
+        transition: all ease 0.3s;
+    }
+
+    .pamm-content-input-box button:hover , .pamm-investment-parent button:hover , .pamm-investment-secondary button:hover {
+        background:#319ae3;
+    }
+
+    .required-field {
+        font-size:12px;
+        font-weight:normal;
+        color:#ff0000;
+    }
+
+    .hide-unhide-input-box {
+        display:table;
+        float:right;
+    }
+
+    .show-button , .hide-button {
+        display:block;
+        width:20px;
+        height:20px;
+        float:left;
+        margin:0 1px;
+        transition: all ease 0.3s;
+    }
+
+    .show-button {
+        background:url(../assets/images/show-eye-button.png);
+    }
+
+    .show-button:hover {
+        background:url(../assets/images/show-eye-button-hover.png);
+    }
+
+    .hide-button {
+        background:url(../assets/images/hide-eye-button.png);
+    }
+
+    .hide-button:hover {
+        background:url(../assets/images/hide-eye-button-hover.png);
+    }
+
+    .pamm-trader-list ul {
+        padding:0;
+    }
+
+    .pamm-trader-list ul li {
+        list-style-type:none;
+        margin:5px 0;
+    }
+
+    .pamm-trader-list ul li label {
+        font-weight:normal;
+    }
+
+    /*----- PAMM MY INVESTMENTS TAB -----*/
+    .pamm-investment-container  {
+        width:90%;
+        margin:0 auto;
+        display:table;
+    }
+
+    .pamm-investment-container h5 {
+        font-size:15px;
+        padding:5px 0;
+        border-bottom:1px solid #2988CA;
+    }
+
+    .pamm-investment-content ul {
+        padding:0;
+    }
+
+    .pamm-investment-content ul li {
+        list-style-type:none;
+    }
+
+    .pamm-investment-content ul li i {
+        font-style:normal;
+        color:#2988CA;
+    }
+
+    .pamm-investment-parent {
+        display:table;
+        width:100%;
+    }
+
+    .pamm-investment-parent button , .pamm-investment-secondary button {
+        display:block;
+        clear:both;
+    }
+
+    .pamm-investment-secondary {
+        width:100%;
+        margin:0 auto;
+        display:table;
+    }
+
+    .pamm-investment-table {
+        width:100%;
+    }
+
+    .pamm-investment-table table thead {
+        background:#eee;
+    }
+
+    .pamm-investment-table table thead th {
+        text-align:center;
+        color:#707071;
+        font-weight:600;
+        padding:7px 5px;
+    }
+
+    .pamm-investment-table table tr td {
+        text-align:center;
+        padding:5px;
+        border-bottom:1px solid #ddd;
+    }
+
+    .pamm-trader-condition-child {
+        margin:0 0 20px 0;
+    }
+
+    .pamm-trader-condition-child label {
+        margin-bottom:0;
+        display:block;
+    }
+
+    .pamm-trader-condition-child input[type=text] {
+        width:80%!important;
+        float:left;
+        margin-right:5px;
+    }
+
+    .pamm-trader-condition-child span {
+        display:inline-block;
+        line-height:34px;
+    }
+
+    .max-investment-amount {
+        line-height:32px!important;
+        display:table;
+        background: #eee;
+        border: 1px solid #ddd;
+        padding:0 10px;
+    }
+
+    /*----- PAMM MONITORING TAB -----*/
+
+    .pamm-monitoring-landing h1 , .pamm-monitoring-live-feed h1 {
+        padding:0;
+        font-size:18px;
+        margin:0!important;
+        display:table;
+        font-weight:600;
+    }
+
+    .pamm-monitoring-landing h1 {
+        float:left;
+        line-height:31px;
+    }
+
+    .pamm-monitoring-info {
+        clear:both!important;
+        padding:20px 0;
+    }
+
+    .pamm-monitoring-live-feed {
+        display:none;
+    }
+
+    .pamm-monitoring-live-feed p {
+        margin-top:20px;
+    }
+
+    .live-feed-child-content {
+        display:table;
+        width:100%;
+        padding:10px;
+        margin:10px auto;
+    }
+
+    .live-feed-child-content:nth-child(odd) {
+        background:#fcfcfc;
+        border:1px solid #dadada;
+    }
+
+    .live-feed-child-content:nth-child(even) {
+        background:#f3f2f2;
+        border:1px solid #dadada;
+    }
+
+
+    .live-feed-child-content h2 {
+        font-size:14px;
+        font-weight:600;
+        margin:0 0 3px 0;
+    }
+
+    .live-feed-child-content img {
+        float:left;
+    }
+
+    .live-feed-child-content span {
+        color: #707071;
+        float:left;
+        margin-left:5px;
+        margin-top:3px;
+    }
+
+    .live-feed-child-content ul {
+        padding:0;
+        margin-bottom:0;
+        display:table;
+        width:100%;
+    }
+
+    .live-feed-child-content ul li {
+        list-style-type:none;
+        float:left;
+        border-right:1px solid #dadada;
+    }
+
+    .live-feed-child-content ul li a {
+        padding:0 10px;
+    }
+
+    .live-feed-child-content ul li:first-child a {
+        padding-left:0;
+    }
+
+    .live-feed-child-content ul li:last-child {
+        border-right:0;
+    }
+
+    .monitoring-btn-default {
+        padding:6px!important;
+    }
+
+    .secondary-monitoring-text-center {
+        margin-top:3px;
+    }
+
+    .btn-demo1 {
+        background: none;
+        border: 1px solid #2988ca;
+        color: #2988ca;
+        padding: 7px;
+        margin-top: 5px;
+        transition: all ease 0.3s;
+    }
+
+    .btn-demo1:hover {
+        background:#2988ca;
+        color:#fff;
+    }
+
+    .trades-tab-holder {
+        max-width:824px;
+    }
+
+    .conditions-input-holder {
+        display:table;
+        width:100%;
+    }
+
+    .conditions-slider {
+        width:80%;
+        float:left;
+        margin:12px 0;
+    }
+
+    .conditions-slider span {
+        outline:none!important;
+    }
+
+    .conditions-input {
+        width:15%;
+        border-radius:0;
+        float:right;
+    }
+
+    .conditions-slider .ui-state-hover , .conditions-slider .ui-state-focus {
+        background:#98d1f9!important;
+        border:1px solid #52aae7!important;
+    }
+
+    .conditions-mid-content {
+        text-align:center;
+    }
+
+    .conditions-mid-reward {
+        margin-top: 13px;
+        text-align:justify;
+    }
+
+    @media screen and (max-width: 1168px) {
+
+        .monitoring-text-center {
+            text-align:start!important;
+        }
+
+        .monitoring-btn-default {
+            font-size:12px;
+            padding:6px 4px!important;
+        }
+
+    }
+
+    @media screen and (max-width: 1066px) {
+
+        .monitoring-btn-default {
+            margin-top:2px;
+        }
+
+    }
+
+    @media screen and (max-width: 991px) {
+
+        .pamm-side-nav li {
+            width: calc(100% / 7)!important;
+        }
+
+    }
+
+    @media screen and (max-width: 928px) {
+
+        .pamm-side-nav li a {
+            width:100%;
+            display:table!important;
+        }
+
+        .pamm-side-nav li i , .pamm-side-nav li cite {
+            float:left;
+        }
+
+        .pamm-side-nav li cite {
+            font-size:11px!important;
+        }
+
+    }
+
+    @media screen and (max-width: 767px) {
+
+        .pamm-side-nav li {
+            width:100%!important;
+        }
+
+        .pamm-side-nav li cite {
+            font-size:14px!important;
+            margin-left:5px;
+        }
+
+        .pamm-side-nav li i {
+            margin-top:2px;
+        }
+
+        .pamm-investment-content {
+            padding:0!important;
+            float:none!important;
+        }
+
+        .pamm-investment-content ul {
+            margin-bottom:0!important;
+        }
+
+        .pamm-investment-parent button {
+            margin-top:10px!important;
+        }
+
+    }
+
+    @media screen and (max-width: 670px) {
+
+        .pamm-investment-table {
+            max-width:500px;
+            margin:0 auto!important;
+        }
+
+    }
+
+    @media screen and (max-width: 570px) {
+
+        .pamm-investment-table {
+            max-width:400px;
+            margin:0 auto!important;
+        }
+
+    }
+
+    @media screen and (max-width: 558px) {
+
+        .finance-payment-methods select {
+            width:100%;
+        }
+
+        .finance-method-amount .input-group {
+            width:100%;
+        }
+
+        .finance-method-amount label {
+            line-height:16px;
+        }
+
+        .finance-method-table button {
+            margin:0 auto;
+            display:table;
+            float:none;
+        }
+
+    }
+
+    @media screen and (max-width: 550px) {
+
+        .pamm-agreement-checkbox {
+            width:80%;
+        }
+
+    }
+
+    @media screen and (max-width: 475px) {
+
+        .pamm-investment-table {
+            max-width:300px;
+            margin:0 auto!important;
+        }
+
+    }
+
+    @media screen and (max-width: 465px) {
+
+        .pamm-monitoring-landing h1 , .pamm-monitoring-landing button {
+            float:none!important;
+        }
+
+        .pamm-monitoring-landing h1 {
+            display:block;
+            text-align:left;
+        }
+
+        .pamm-monitoring-landing button {
+            display:block;
+            margin:10px auto;
+        }
+
+        .pamm-monitoring-info {
+            padding:10px 0;
+        }
+
+    }
+
+    @media screen and (max-width: 430px) {
+
+        .pamm-nav-tabs li {
+            width:100%!important;
+        }
+
+        .pamm-nav-tabs li a {
+            border:none!important;
+            margin-right:0!important;
+        }
+
+        .pamm-content-input-box {
+            padding:0!important;
+        }
+
+        .live-feed-child-content ul li {
+            float:none;
+            display:block;
+            border-right:0;
+        }
+
+        .live-feed-child-content ul li a {
+            padding:0;
+        }
+
+    }
+
+    @media screen and (max-width: 370px) {
+
+        .pamm-investment-table {
+            max-width:200px;
+            margin:0 auto!important;
+        }
+
+    }
+    @media screen and (max-width: 315px) {
+
+        .finance-deposit-container {
+            margin:0 auto;
+            position:relative;
+            padding:10px 0!important;
+        }
+
+        .finance-deposit-container, .finance-payment-methods, .finance-method-content {
+            display:block;
+        }
+
+        .finance-table-holder {
+            border:1px solid #ddd;
+            overflow-x:scroll;
+        }
+
+        .finance-table-holder table {
+            margin-top:0;
+            border:none;
+        }
+
+    }
+
+    .slider {
+        width: 100px;
+    }
+
+    .slider > .dragger {
+        background: #2eb94b;
+        background: -webkit-linear-gradient(top, #2eb94b, #29a643);
+        background: -moz-linear-gradient(top, #2eb94b, #29a643);
+        background: linear-gradient(top, #2eb94b, #29a643);
+
+        -webkit-box-shadow: inset 0 2px 2px rgba(255,255,255,0.5), 0 2px 8px rgba(0,0,0,0.2);
+        -moz-box-shadow: inset 0 2px 2px rgba(255,255,255,0.5), 0 2px 8px rgba(0,0,0,0.2);
+        box-shadow: inset 0 2px 2px rgba(255,255,255,0.5), 0 2px 8px rgba(0,0,0,0.2);
+
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+
+        border: 1px solid #18872f;
+        width: 16px;
+        height: 16px;
+    }
+
+    .slider > .dragger:hover {
+        background: -webkit-linear-gradient(top, #2eb94b, #29a643);
+    }
+
+
+    .slider > .track, .slider > .highlight-track {
+        background: #ccc;
+        background: -webkit-linear-gradient(top, #bbb, #ddd);
+        background: -moz-linear-gradient(top, #bbb, #ddd);
+        background: linear-gradient(top, #bbb, #ddd);
+
+        -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+        -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+        box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+
+        border: 1px solid #aaa;
+        height: 4px;
+    }
+
+    .slider > .highlight-track {
+        background-color: #8DCA09;
+        background: -webkit-linear-gradient(top, #2eb94b, #29a643);
+        background: -moz-linear-gradient(top, #2eb94b, #29a643);
+        background: linear-gradient(top, #2eb94b, #29a643);
+
+        border-color: #496805;
+    }
+
+    .slider-volume {
+        width: 300px;
+    }
+
+    .slider-volume > .dragger {
+        width: 16px;
+        height: 16px;
+        margin: 0 auto;
+        border: 1px solid rgba(255,255,255,0.6);
+
+        -moz-box-shadow: 0 0px 2px 1px rgba(0,0,0,0.5), 0 2px 5px 2px rgba(0,0,0,0.2);
+        -webkit-box-shadow: 0 0px 2px 1px rgba(0,0,0,0.5), 0 2px 5px 2px rgba(0,0,0,0.2);
+        box-shadow: 0 0px 2px 1px rgba(0,0,0,0.5), 0 2px 5px 2px rgba(0,0,0,0.2);
+
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+
+        background: #c5c5c5;
+        background: -moz-linear-gradient(90deg, rgba(180,180,180,1) 20%, rgba(230,230,230,1) 50%, rgba(180,180,180,1) 80%);
+        background:	-webkit-radial-gradient(  50%   0%,  12% 50%, hsla(0,0%,100%,1) 0%, hsla(0,0%,100%,0) 100%),
+        -webkit-radial-gradient(  50% 100%, 12% 50%, hsla(0,0%,100%,.6) 0%, hsla(0,0%,100%,0) 100%),
+        -webkit-radial-gradient(	50% 50%, 200% 50%, hsla(0,0%,90%,1) 5%, hsla(0,0%,85%,1) 30%, hsla(0,0%,60%,1) 100%);
+    }
+
+    .slider-volume > .track, .slider-volume > .highlight-track {
+        height: 11px;
+
+        background: #787878;
+        background: -moz-linear-gradient(top, #787878, #a2a2a2);
+        background: -webkit-linear-gradient(top, #787878, #a2a2a2);
+        background: linear-gradient(top, #787878, #a2a2a2);
+
+        -moz-box-shadow: inset 0 2px 5px 1px rgba(0,0,0,0.15), 0 1px 0px 0px rgba(230,230,230,0.9), inset 0 0 1px 1px rgba(0,0,0,0.2);
+        -webkit-box-shadow: inset 0 2px 5px 1px rgba(0,0,0,0.15), 0 1px 0px 0px rgba(230,230,230,0.9), inset 0 0 1px 1px rgba(0,0,0,0.2);
+        box-shadow: inset 0 2px 5px 1px rgba(0,0,0,0.15), 0 1px 0px 0px rgba(230,230,230,0.9), inset 0 0 1px 1px rgba(0,0,0,0.2);
+
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    .slider-volume > .highlight-track {
+        background-color: #c5c5c5;
+        background: -moz-linear-gradient(top, #c5c5c5, #a2a2a2);
+        background: -webkit-linear-gradient(top, #c5c5c5, #a2a2a2);
+        background: linear-gradient(top, #c5c5c5, #a2a2a2);
+    }
+
+</style>
+
+<script type="text/javascript">
+    var site_url="<?=site_url('')?>";
+
+    $("[data-slider]")
+        .each(function () {
+            var input = $(this);
+            $("<span>")
+                .addClass("output")
+                .insertAfter($(this));
+        })
+        .bind("slider:ready slider:changed", function (event, data) {
+            $(this)
+                .nextAll(".output:first")
+                .html(data.value.toFixed(3));
+        });
+
+    /* START SHOW AND HIDE DIV */
+    $(function(){
+        $('body').on('click','.pamm-link',function(e){
+            e.preventDefault();
+            var destination = $(this).attr('data-destination');
+            $('.destination-class').hide();
+            $(destination).show();
+            console.log(destination);
+            console.log('test linkhit');
+        });
+    });
+    /* END SHOW AND HIDE DIV */
+
+    /* START DROPDOWN SHOW AND HIDE DIV */
+    $(function(){
+        $('body').on('click','.live-feed-link',function(e){
+            e.preventDefault();
+            var destination = $(this).attr('data-destination');
+            $('.live-feed-class').hide();
+            $(destination).show();
+        });
+    });
+    $(function(){
+        $('body').on('click','.monitoring-link',function(e){
+            e.preventDefault();
+            var destination = $(this).attr('data-destination');
+            $('partner-registration').hide();
+            $(destination).show();
+        });
+    });
+    /* END DROPDOWN SHOW AND HIDE DIV */
+
+    $('#partner-registration').bind('click', function(e){
+        e.preventDefault();
+    });
+    $('#investor-registration').bind('click', function(e){
+        e.preventDefault();
+    });
+    $('#trader-registration').bind('click', function(e){
+        e.preventDefault();
+    });
+
+    $(document).on("click", ".pamm-checkbox", function () {
+        if($("#pamm-checkbox").is(':checked')){
+
+            $('#partner-registration').unbind('click');
+            $('#investor-registration').unbind('click');
+            $('#trader-registration').unbind('click');
+
+        }else{
+            $('#partner-registration').bind('click', function(e){
+                e.preventDefault();
+            });
+            $('#investor-registration').bind('click', function(e){
+                e.preventDefault();
+            });
+            $('#trader-registration').bind('click', function(e){
+                e.preventDefault();
+            });
+        }
+    });
+
+    $(function(){
+        $('body').on('click','.show-name',function(e){
+            e.preventDefault();
+            $("input[name=tradername]").show();
+        });
+        $('body').on('click','.hide-name',function(e){
+            e.preventDefault();
+            $("input[name=tradername]").hide();
+        });
+
+
+
+        $('body').on('click','.showskype',function(e){
+            e.preventDefault();
+            $("input[name=traderskype]").show();
+        });
+        $('body').on('click','.hideskype',function(e){
+            e.preventDefault();
+            $("input[name=traderskype]").hide();
+        });
+
+
+        $('body').on('click','.showicq',function(e){
+            e.preventDefault();
+            $("input[name=tradericq]").show();
+        });
+        $('body').on('click','.hideicq',function(e){
+            e.preventDefault();
+            $("input[name=tradericq]").hide();
+        });
+
+    });
+    $(document).on("click", "#lbl_check", function () {
+        $('input[name=pamm-checkbox]').trigger('click');
+    });
+    $( window ).load(function() {
+        $('#user_agreement').removeClass('page');
+    });
+
+
+    $(document).on("click", ".registrationBtn", function (event) {
+            if (checkboxAgreement()) {
+                switch($(this).attr('id')) {
+                    case 'partner-registration':
+                        console.log('partner-registration');
+                        // window.location.href = site_url.'';
+                        // $(location).attr('href', site_url + 'PammTest/partner_registration');
+                        break;
+                    case 'investor-registration':
+                        console.log('investor-registration');
+                        $(location).attr('href', site_url + 'pamm?registration=2');
+
+                        break;
+                    case 'trader-registration':
+                        console.log('trader-registration');
+                        $(location).attr('href', site_url + 'pamm?registration=3');
+                        break;
+                    default:
+                        console.log('this is error');
+                        break;
+                }
+            }else{
+                // alert('Click checkbox to agree with the terms and condions.');
+                // $("#modalRegistration").show();
+                $("#modalRegistration").modal()
+
+            }
+
+        });
+
+        function checkboxAgreement(){ if ( $('input.pamm-checkbox').is(':checked') ) { return true; }else{ return false; } }
+
+</script>
+

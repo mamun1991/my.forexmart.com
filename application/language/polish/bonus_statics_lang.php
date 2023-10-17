@@ -1,0 +1,29 @@
+<?php
+
+$lang['bo_st_00'] = 'Strona ze Statystykami bonusowymi podsumowuje wszystkie bonusy związane z kontem numer ';
+$lang['bo_st_01'] = 'Klient powinien wypracować odpowiednią ilość lotów by wypłacić otrzymany bonus.';
+$lang['bo_st_02'] = 'Kwota dostępna do wypłaty (bez bonusu) wskazuje maksymalną kwotę, którą klient potrafi wypłacić ze swojego konta. Prosimy zwrócić uwagę, że w przypadku wypłaty maksymalnej kwoty bonus może zostać anulowany. Natomiast pole Kwota dostępna do wypłaty (z zachowaniem bonusu) wskazuje maksymalną kwotę, którą klient potrafi wypłacić ze swojego konta bez wpływu na otrzymany bonus. ';
+$lang['bo_st_03'] = "Należy pamiętać, że ustalamy łączną kwotę dostępną do wypłaty zgodnie z bieżącą kwotą wolnych środków na koncie.";
+$lang['bo_st_1'] = 'Podsumowanie';
+// $lang['bo_st_2'] = 'Saldo';
+$lang['bo_st_2'] = 'Saldo (Historia bonusów)';
+$lang['bo_st_3'] = 'Kapitał własny';
+$lang['bo_st_4'] = 'Wolne środki';
+$lang['bo_st_5'] = 'Dostępne do wypłaty (z anulowaniem bonusu)';
+$lang['bo_st_6'] = 'Dostępne do wypłaty (z zachowaniem bonusu)';
+$lang['bo_st_7'] = 'Oblicz kwotę pozostałego bonusu';
+$lang['bo_st_8'] = 'Oblicz';
+$lang['bo_st_9'] = 'Twoja statystyka bonusowa';
+$lang['bo_st_10'] = 'Ilość lotów konieczna do wypłaty bonusu';
+$lang['bo_st_11'] = 'Wypracowano lotów';
+$lang['bo_st_12'] = 'Lotów zostało do wypracowania';
+$lang['bo_st_13'] = 'Bieżacy status bonusu';
+$lang['bo_st_14'] = 'Brak bonusów dostępnych do wypłaty';
+$lang['bo_st_15'] = 'Pozostanie bonusu';
+$lang['bo_st_16'] = 'Błąd transakcji';
+$lang['bo_st_17'] = 'Kwota do wypłaty jest większa niż realne środki na koncie. Prosimy o kontakt z bonus@forexmart.com';
+$lang['bo_st_18'] = 'Bonusy';
+$lang['bo_st_19'] = 'Kwota';
+$lang['bo_st_20'] = 'Środki bonusowe';
+$lang['bo_st_21'] = 'Reszta środków bonusowych';
+$lang['bo_st_22'] = 'Saldo Całkowite';

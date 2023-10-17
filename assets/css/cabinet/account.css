@@ -1,0 +1,44 @@
+.btn-dash-account{
+    padding: 8px!important;
+    background: url(../../images/cabinet/pattern.png);
+    color: #333;
+    border-radius: 4px;
+    border:1px solid #2781c0;
+    width: 100%!important;
+}
+.btn-dash-account:hover{
+    background: #01487a;
+    text-decoration: none;
+    color: #fff;
+    background: url(../../images/cabinet/pattern.png), #01487a;
+}
+.img-b4-text span{
+    margin-right: 15px;
+}
+.img-b4-text .text{
+    font-size: 18px;
+}
+.btn-tbl-action{
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #5c7080;
+}
+.txt-account{
+    font-size: 18px;
+    color: #2988ca;
+    text-decoration: none;
+}
+.txt-account:hover{
+    text-decoration: none;
+}
+.dt-account .grp-inline{
+    margin-top: -8px;
+    display: flex;
+    align-items: center;
+}
+.grp-inline .divider{
+    height: 18px;
+    border-left: 1px solid #ddd;
+    padding: 0;
+}

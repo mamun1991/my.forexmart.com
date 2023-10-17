@@ -1,0 +1,342 @@
+
+
+.finance-deposit-container , .finance-deposit-second-container {
+	width:100%;
+	padding:10px 0;
+	display:table;
+}
+
+.finance-payment-methods select {
+    height:45px;
+    border-radius:0;
+    width: 105%;
+}
+
+.finance-payment-methods label {
+    margin-bottom:0;
+    color:#5a5a5a;
+}
+
+.finance-image-rep img {
+	margin:0 auto;
+}
+
+.finance-description p {
+	margin-bottom:0;
+	vertical-align:middle;
+}
+
+.finance-deposit-second-container {
+	border-top:1px solid #eaeaea;
+}
+
+.finance-total-amount {
+	margin-top:20px;
+}
+
+.finance-total-amount label {
+	margin-bottom:0;
+}
+
+.finance-total-amount input[type=text] , .finance-total-amount .input-group-addon {
+	border-radius:0;
+}
+
+.finance-total-amount .form-control {
+	height:40px;
+}
+
+.finance-total-amount button {
+	margin:10px auto;
+	width:100%;
+	padding:15px 0;
+	color: #fff;
+    transition: all ease 0.3s;
+	background: #2988CA;
+	border:0;
+}
+
+.finance-dep-table table {
+	width:100%;
+}
+
+.finance-dep-table table thead th , .finance-dep-table table tbody tr td {
+	text-align:center;
+	font-size:16px;
+}
+
+.finance-dep-table table thead th {
+	padding:25px 10px;
+}
+
+.finance-dep-table table thead th:nth-child(2) , .finance-dep-table table thead th:nth-child(3) , .finance-dep-table table thead th:last-child ,
+.finance-dep-table table tbody tr td:nth-child(2) , .finance-dep-table table tbody tr td:nth-child(3) , .finance-dep-table table tbody tr td:last-child {
+	width:31%;
+}
+
+.finance-dep-table table thead th:nth-child(2) , .finance-dep-table table thead th:nth-child(3) {
+	background:#eaeaea;
+	color: #707071;
+	border-bottom:4px solid #7d7d7d;
+}
+
+.finance-dep-table table thead th:nth-child(3) {
+	background:#3ba3eb;
+	color:#fff;
+	border-bottom:4px solid #1a6ea8;
+}
+
+.finance-dep-table table thead th:last-child {
+	background:#3bc057;
+	color:#fff;
+	border-bottom:4px solid #208134;
+}
+
+.finance-dep-table table tbody tr td {
+	padding:5px 10px;
+	border:1px solid #fff;
+	font-size:18px;
+	text-align:right;
+}
+
+.finance-dep-table table tbody tr td input[type=checkbox] {
+	float:left;
+	margin:11px 5px;
+}
+
+.finance-dep-table table tbody tr td img {
+	float:right;
+	margin:2px 0;
+}
+
+.finance-dep-table table thead th:first-child , .finance-dep-table table tbody tr td:first-child {
+	background:#f8f8f8;
+}
+
+.finance-dep-table table tbody tr td:nth-child(2) , .finance-dep-table table tbody tr td:nth-child(3) {
+	background:#f5f5f5;
+	color: #707071;
+}
+
+.finance-dep-table table tbody tr td:nth-child(2) , .finance-dep-table table tbody tr td:last-child {
+	padding-right:20px;
+}
+
+.finance-dep-table table tbody tr td:nth-child(4) {
+	background:#ddeee1;
+	color:#3c5742;
+	font-weight:600;
+}
+
+.finance-dep-table table input[type=radio] {
+	width:25px;
+	height:25px;
+}
+
+.finance-total-amount-left {
+	float:left;
+	width:25%;
+}
+
+.finance-total-amount-left input[type=radio] {
+	width:25px;
+	height:25px;
+	margin:28px auto;
+}
+
+.finance-total-amount-left input[type=radio] , .finance-total-amount-left-child input[type=checkbox] {
+	display:table;
+}
+
+.finance-total-amount-right {
+	width:75%;
+	float:right;
+}
+
+.finance-total-amount-left-child {
+	width:20%;
+	float:left;
+}
+
+.finance-total-amount-left-child input[type=checkbox] {
+	margin:34px auto;
+}
+
+.finance-total-amount-right-child {
+	width:80%;
+	float:right;
+}
+
+.finance-total-amount-right-child img {
+	margin:24px 0;
+	height:30px;
+}
+
+.finance-total-sub-amount {
+	width:60%;
+}
+
+.finance-total-sub-amount , .checking-bonus , .regulatory-note , .finance-deposit-description {
+	display:table;
+	margin:0 auto;
+}
+
+.regulatory-note {
+	float:none;
+}
+
+.regulatory-note a {
+	float:right;
+}
+
+.finance-deposit-description {
+	width:100%;
+	margin:20px auto;
+	background:#dff0d8;
+	padding:10px;
+	border:1px solid #d6e9c6;
+}
+
+.btn-download-mt4 {
+	text-align:center;
+	margin:10px auto;
+}
+
+.mt4-login-details-table {
+	background:#ffffff;
+	border:1px solid #81b86a;
+	margin:20px auto;
+}
+
+.mt4-login-details-table thead th , .mt4-login-details-table tbody tr td {
+	padding:5px 10px;
+	border-bottom:1px solid #81b86a;
+}
+
+.mt4-login-details-table thead th {
+	text-align:center;
+	padding:10px;
+	font-size:17px;
+	color:#2988CA;
+}
+
+.mt4-login-details-table tbody tr td:first-child {
+	color:#02891f;
+	font-weight:600;
+}
+
+.mt4-login-details-table tbody tr td:last-child {
+	color:#707071;
+}
+
+.main-finance-deposit-container {
+	display:none;
+}
+
+.username-dep {
+	font-weight:600;
+	color:#1e6700;
+}
+
+.finance-payment-methods-first {
+	padding:0!important;
+}
+
+@media screen and (max-width: 767px) {
+
+	.finance-payment-methods , .finance-image-rep {
+		width:50%;
+		margin-bottom:10px;
+	}
+
+	.finance-description {
+		float:none;
+		display:block;
+		clear:both;
+		padding:0;
+	}
+
+	.finance-description p {
+		text-align:justify;
+	}
+
+	.finance-total-amount {
+		margin-top:20px;
+	}
+
+	.finance-total-amount-left , .finance-total-amount-left-child  {
+		width:7%;
+	}
+
+	.finance-total-amount-right , .finance-total-amount-right-child {
+		width:92%;
+	}
+
+	.finance-total-amount-left input[type=radio] , .finance-total-amount-left-child input[type=checkbox] {
+		margin:0 auto;
+	}
+
+	.finance-total-amount-left input[type=radio] {
+		margin-top:28px;
+	}
+
+	.finance-total-amount-left-child input[type=checkbox] {
+		margin-top:10px;
+	}
+
+	.finance-total-sub-amount {
+		width:100%;
+	}
+
+	.finance-total-amount-right-child img {
+		margin:0;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.mt4-login-details-table {
+		margin:20px auto!important;
+	}
+
+	.finance-deposit-second-container , .finance-payment-methods , .finance-image-rep , .finance-description {
+		display:none!important;
+	}
+
+	.main-finance-deposit-container {
+		display:table;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	.finance-payment-methods , .finance-image-rep {
+		width:100%;
+		display:block;
+		padding:0;
+	}
+
+	.finance-deposit-second-container {
+		display:block;
+	}
+
+	.finance-dep-table-parent , .finance-total-amount {
+		float:none;
+		padding:0!important;
+		display:block;
+	}
+
+	.finance-dep-table {
+		float:none;
+		margin:0 auto;
+		padding:0!important;
+		overflow:auto;
+	}
+
+	.finance-dep-table table {
+		min-width:450px;
+	}
+
+}

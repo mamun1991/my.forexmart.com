@@ -1,0 +1,29 @@
+<?php
+
+$lang['bo_st_00'] = 'Halaman Statistik Bonus merangkum seluruh bonus yang tercatat dalam nomor akun ';
+$lang['bo_st_01'] = 'Seorang klien perlu menukarkan nomor tertentu dari lot untuk menarik sejumlah bonus.';
+$lang['bo_st_02'] = 'Jumlah Yang Tersedia Untuk Penarikan (tanpa bonus) menunjukkan jumlah bonus maksimum yang dapat diambil oleh klien dari akun mereka. Harap dicatat jika terdapat penarikan dengan jumlah maksimum, bonus dapat dibatalkan. Selain itu, Jumlah Yang Tersedia Untuk Penarikan (dengan simpanan bonus) menunjukkan jumlah maksimum yang dapat ditarik dari akun tradingnya tanpa mempengaruhi bonus.';
+$lang['bo_st_03'] = "Harap diingat bahwa kami menetapkan jumlah keseluruhan yang tersedia untuk penarikan dengan mengacu pada margin akun trading sesungguhnya.";
+$lang['bo_st_1'] = 'Ringkasan Akun';
+// $lang['bo_st_2'] = 'Saldo';
+$lang['bo_st_2'] = 'Balance (Bonus History)';
+$lang['bo_st_3'] = 'Equitas';
+$lang['bo_st_4'] = 'Bebas Margin';
+$lang['bo_st_5'] = 'Tersedia untuk penarikan (tanpa bonus)';
+$lang['bo_st_6'] = 'Tersedia untuk penarikan (dengan simpanan bonus)';
+$lang['bo_st_7'] = 'Hitung Bonus yang tersisa';
+$lang['bo_st_8'] = 'Hitung';
+$lang['bo_st_9'] = 'Statistik Bonus Anda';
+$lang['bo_st_10'] = 'Nomor lot yang diperlukan untuk penarikan bonus';
+$lang['bo_st_11'] = 'Nomor lot yang ditradingkan';
+$lang['bo_st_12'] = 'Nomor lot yang akan ditradingkan';
+$lang['bo_st_13'] = 'Status bonus saat ini';
+$lang['bo_st_14'] = 'Tidak ada bonus yang tersedia untuk penarikan';
+$lang['bo_st_15'] = 'Bonus yang tersisa';
+$lang['bo_st_16'] = 'Transaksi Error';
+$lang['bo_st_17'] = 'Jumlah untuk penarikkan lebih tinggi dari dana sesungguhnya. Harap hubungi bonus@forexmart.com';
+$lang['bo_st_18'] = 'Bonus';
+$lang['bo_st_19'] = 'Jumlah';
+$lang['bo_st_20'] = 'Dana Bonus';
+$lang['bo_st_21'] = 'Bonus yang tersisa';
+$lang['bo_st_22'] = 'Total Saldo';

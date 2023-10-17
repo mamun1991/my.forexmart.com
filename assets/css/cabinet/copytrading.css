@@ -1,0 +1,253 @@
+.table-custom-02 tr td{
+    vertical-align: middle!important;
+    padding: 4px 8px;
+}
+.table-custom-02 tr td,.table-custom-02 tr th{
+    text-align: center;
+}
+.table-custom-02 .img-b4-text{
+    margin-bottom: 0;
+    justify-content: left;
+}
+.img-b4-text li{
+    text-align: left;
+}
+.parent-class{
+    position: relative!important;
+    margin-bottom: 15px;
+}
+.chart-box{
+    border: 1px solid #e2e7e8;
+    background: #fff;
+    margin-bottom: 15px;
+}
+.chart-box-title{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 12px;
+    background: #257bb8;
+    color: #fff;
+}
+.chart-box-body{
+    padding:15px;
+}
+.trader-chart{
+    min-height: 300px;
+}
+.info-update{
+    font-size: 14px;
+    float: right;
+    display: inline-block;
+    font-weight: normal;
+}
+.table-information thead tr th{
+    color: #28a64a;
+    border-bottom-color: #28a64a;
+}
+.table-information tr td{
+    text-align: left;
+}
+.table-information tr td:last-child{
+    font-weight: 600;
+    color: #5c7080;
+}
+.btn-submit{
+    width: 200px;
+}
+.form-check{
+    margin-bottom: 15px;
+}
+#tbl_copytrading tr td:first-child{
+    min-width: 220px;
+}
+.tbl-avatar{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+.form-select{
+    width: 100%;
+}
+.tbl-wrapper{
+    position: relative;
+    height: auto;
+}
+.filter-wrapper{
+   width: 70%;
+   position: absolute;
+   right: 0;
+   top: 0;
+   z-index: 1;
+}
+.form-group-custom{
+    padding-left: 15px;
+}
+.form-group-custom .important-list{
+    padding-left: 22px;
+}
+.form-group-custom .important-list .fa-check{
+    color:#27A649;
+}
+.form-group-custom .form-check{
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.btn-setting{
+    display: inline-block;
+    padding: 12px;
+}
+.form-input-file-btn{
+    background-color: #5c7080;
+    color: white;
+    padding: 0.8rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    height: 45px;
+}
+.display-picture{
+    width: 150px;
+    height: 150px;
+    border:2px solid #5c7080;
+    margin:15px auto;
+}
+#file-chosen{
+    margin-left: 0.3rem;
+    font-family: sans-serif;
+}
+.file-upload{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.text-or{
+    text-align: center;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.modal-custom-title{
+    font-size: 18px;
+}
+.img-select{
+    display: inline-block;
+    padding: 8px;
+    background: #f5f5f5;
+    border-radius: 4px;
+    margin: 8px;
+}
+.img-select:hover{
+    background-color: #5c7080;
+}
+.modal-avatar-list .modal-dialog{
+    max-width: 620px;
+}
+.modal-avatar-list .close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.modal-avatar-list .avatar-list-container{
+    height: 296px;
+    overflow: auto;
+}
+.subscription-setting{
+    text-align: left!important;
+    padding: 15px!important;
+    background: aliceblue;
+}
+.btn-viewDetails{
+    display: none;
+}
+.tab-title{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-transform:uppercase;
+}
+.grp-btn-inline button{
+    margin-bottom: 0;
+}
+@media screen and (max-width:1199px){
+    .table-custom-02 .img-b4-text{
+        width: auto;
+        flex-direction: row;
+    }
+    .grp-btn-inline button:not(:last-child){
+        margin-bottom: 8px;
+    }
+}
+@media screen and (max-width:991px){
+    .filter-wrapper{
+        width: 100%;
+    }
+    .form-group-custom:last-child{
+        margin-bottom: 15px;
+    }
+    .nav-tab-custom .nav-link{
+        border-radius: 4px;
+        border-color: #5c7080!important;
+    }
+    .nav-tab-custom .nav-item{
+        width: 100%;
+        margin-right: 0!important;
+        margin-bottom: 8px;
+    }
+    .form-input-file-btn{
+        height: 40px;
+        padding: 0.6rem;
+    }
+    .table-subscription tr td{
+        text-align: left;
+    }
+    .table-subscription tr th:nth-child(3),
+    .table-subscription tr td:nth-child(3),
+    .table-subscription tr th:nth-child(4),
+    .table-subscription tr td:nth-child(4),
+    .table-subscription tr th:nth-child(5),
+    .table-subscription tr td:nth-child(5){
+        display: none;
+    }
+    .btn-viewDetails{
+        margin-top:8px;
+        display: block;
+    }
+    .grp-btn-inline button{
+        display: block;
+    }
+}
+@media screen and (max-width:767px){
+    .filter-wrapper{
+        position: relative;
+     }
+     .filter-wrapper select, .filter-wrapper input{
+        margin-bottom: 15px;
+     }
+     #tbl_copytrading_wrapper tr td{
+        text-align: left;
+    }
+     #tbl_copytrading_wrapper tr td:first-child{
+        min-width: 150px;
+    }
+    .modal-avatar-list .modal-dialog{
+        max-width: 500px;
+    }
+    .grp-actions li{
+        display: block;
+        float: none;
+    }
+}
+@media screen and (max-width:500px){
+    .btn-setting{
+        width: 100%;
+    }
+    .modal-avatar-list .modal-dialog{
+        max-width: 400px;
+        margin:0 auto;
+    }
+    .hide-text{
+        display: none;
+    }
+}

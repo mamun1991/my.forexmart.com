@@ -1,0 +1,246 @@
+$sizes:16px, 26px, 32px, 48px, 64px,72px, 128px, 256px;
+.icon{
+    background-size: cover!important;
+    display: inline-block;
+    @each $size in $sizes{
+        &-#{$size}{
+            height: $size;
+            width: $size;
+            font-size: $size;
+        }
+    }
+    &-fm{
+        &--bonuses{
+            background:url(../../images/cabinet/icon-fm-bonuses.svg) no-repeat;
+        }
+        &--copytrading{
+            background:url(../../images/cabinet/icon-fm-copytrading.svg) no-repeat;
+        }
+        &--deposit{
+            background:url(../../images/cabinet/icon-fm-deposit.svg) no-repeat;
+        }
+        &--email{
+            background:url(../../images/cabinet/icon-fm-email.svg) no-repeat;
+        }
+        &--logout{
+            background:url(../../images/cabinet/icon-fm-logout.svg) no-repeat;
+        }
+        &--partnership{
+            background:url(../../images/cabinet/icon-fm-partnership.svg) no-repeat;
+        }
+        &--platform{
+            background:url(../../images/cabinet/icon-fm-platform.svg) no-repeat;
+        }
+        &--trading{
+            background:url(../../images/cabinet/icon-fm-trading.svg) no-repeat;
+        }
+        &--transaction-h{
+            background:url(../../images/cabinet/icon-fm-transaction-h.svg) no-repeat;
+        }
+        &--transfer{
+            background:url(../../images/cabinet/icon-fm-transfer.svg) no-repeat;
+        }
+        &--verified{
+            background:url(../../images/cabinet/icon-fm-verified.svg) no-repeat;
+        }
+        &--wallet{
+            background:url(../../images/cabinet/icon-fm-wallet.svg) no-repeat;
+        }
+        &--webterminal{
+            background:url(../../images/cabinet/icon-fm-webterminal.svg) no-repeat;
+        }
+        &--withdraw{
+            background:url(../../images/cabinet/icon-fm-withdraw.svg) no-repeat;
+        }
+        &--lock{
+            background:url(../../images/cabinet/icon-profile-lock.svg) no-repeat;
+        }
+        &--logout{
+            background:url(../../images/cabinet/icon-profile-logout.svg) no-repeat;
+        }
+        &--secure{
+            background:url(../../images/cabinet/icon-profile-secure.svg) no-repeat;
+        }
+        &--user{
+            background:url(../../images/cabinet/icon-profile-user.svg) no-repeat;
+        }
+        &--switch{
+            background:url(../../images/cabinet/icon-fm-switch.svg) no-repeat;
+        }
+        &--invert{
+            &-chat{
+                background:url(../../images/cabinet/icon-fm-invert-chat.svg) no-repeat;
+            }
+            &-deposit{
+                background:url(../../images/cabinet/icon-fm-invert-deposit.svg) no-repeat;
+            }
+            &-phone{
+                background:url(../../images/cabinet/icon-fm-invert-phone.svg) no-repeat;
+            }
+            &-switch{
+                background:url(../../images/cabinet/icon-fm-invert-switch.svg) no-repeat;
+            }
+            &-transaction-h{
+                background:url(../../images/cabinet/icon-fm-invert-transaction-h.svg) no-repeat;
+            }
+            &-transfer{
+                background:url(../../images/cabinet/icon-fm-invert-transfer.svg) no-repeat;
+            }
+            &-withdraw{
+                background:url(../../images/cabinet/icon-fm-invert-withdraw.svg) no-repeat;
+            }
+            &-verified{
+                background:url(../../images/cabinet/icon-fm-invert-verified.svg) no-repeat;
+            }
+        }
+        &--avatar{
+            background:url(../../images/cabinet/icon-fm-user-default.svg) no-repeat;
+        }
+        &-hourglass{
+            background:url(../../images/cabinet/icon-hourglass.svg) no-repeat;
+        }
+        &-password{
+            background:url(../../images/cabinet/icon-password.svg) no-repeat;
+        }
+        &-complete{
+            background:url(../../images/cabinet/icon-done.svg) no-repeat;
+        }
+        &-details{
+            background:url(../../images/cabinet/icon-details.svg) no-repeat;
+        }
+    }
+    &-16{
+        @extend .icon;
+        height: 16px;
+        width: 16px;
+    }
+    &-22{
+        @extend .icon;
+        height: 22px;
+        width: 22px;
+    }
+    &-26{
+        @extend .icon;
+        height: 26px;
+        width: 26px;
+    }
+    &-32{
+        @extend .icon;
+        height: 32px;
+        width: 32px;
+    }
+    &-48{
+        @extend .icon;
+        height: 48px;
+        width: 48px;
+    }
+    &-56{
+        @extend .icon;
+        height: 56px;
+        width: 56px;
+    }
+    &-72{
+        @extend .icon;
+        height: 72px;
+        width: 72px;
+    }
+    &-128{
+        @extend .icon;
+        height: 128px;
+        width: 128px;
+    }
+    &-flag{
+        @extend .icon;
+        height:26px;
+        width: 26px;
+        margin:0 4px;
+        &-xs{
+            @extend .icon;
+            height: 22px;
+            width: 22px;
+        }
+        &-bangladesh{
+            @include imageUrl(url('../../images/cabinet/flags/round/bangladesh-flag-round-icon-256.png'))
+        }
+        &-bulgaria{
+            @include imageUrl(url('../../images/cabinet/flags/round/bulgaria-flag-round-icon-256.png'))
+        }
+        &-china{
+            @include imageUrl(url('../../images/cabinet/flags/round/china-flag-round-icon-256.png'))
+        }
+        &-czech-republic{
+            @include imageUrl(url('../../images/cabinet/flags/round/czech-republic-flag-round-icon-256.png'))
+        }
+        &-france{
+            @include imageUrl(url('../../images/cabinet/flags/round/france-flag-round-icon-256.png'))
+        }
+        &-germany{
+            @include imageUrl(url('../../images/cabinet/flags/round/germany-flag-round-icon-256.png'))
+        }
+        &-indonesia{
+            @include imageUrl(url('../../images/cabinet/flags/round/indonesia-flag-round-icon-256.png'))
+        }
+        &-japan{
+            @include imageUrl(url('../../images/cabinet/flags/round/japan-flag-round-icon-256.png'))
+        }
+        &-malaysia{
+            @include imageUrl(url('../../images/cabinet/flags/round/malaysia-flag-round-icon-256.png'))
+        }
+        &-pakistan{
+            @include imageUrl(url('../../images/cabinet/flags/round/pakistan-flag-round-icon-256.png'))
+        }
+        &-poland{
+            @include imageUrl(url('../../images/cabinet/flags/round/poland-flag-round-icon-256.png'))
+        }
+        &-portugal{
+            @include imageUrl(url('../../images/cabinet/flags/round/portugal-flag-round-icon-256.png'))
+        }
+        &-russia{
+            @include imageUrl(url('../../images/cabinet/flags/round/russia-flag-round-icon-256.png'))
+        }
+        &-saudi-arabia{
+            @include imageUrl(url('../../images/cabinet/flags/round/saudi-arabia-flag-round-icon-256.png'))
+        }
+        &-spain{
+            @include imageUrl(url('../../images/cabinet/flags/round/spain-flag-round-icon-256.png'))
+        }
+        &-united-kingdom{
+            @include imageUrl(url('../../images/cabinet/flags/round/united-kingdom-flag-round-icon-256.png'))
+        }
+    }
+    &-round{
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &-image{
+        &-avatar{
+            background:url(../../images/cabinet/avatar.png);
+        }
+        &-fb{
+            background:url(../../images/cabinet/icon-twitter.png);
+        } 
+        &-twitter{
+            background:url(../../images/cabinet/icon-fb.png);
+        } 
+        &-google-plus{
+            background:url(../../images/cabinet/icon-gplus.png);
+        } 
+        &-linkedin{
+            background:url(../../images/cabinet/icon-linkedin.png);
+        } 
+        &-times{
+            background:url(../../images/cabinet/icon-.png);
+        }
+        &-demo-account{
+            background: url(../../images/cabinet/fm-internal-v2-01.png);
+        }
+        &-real-account{
+            background: url(../../images/cabinet/fm-internal-v2-02.png);
+        }
+        &-edit-personal{
+            background: url(../../images/cabinet/fm-internal-v2-03.png);
+        }
+    }
+}

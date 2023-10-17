@@ -1,0 +1,123 @@
+.avatar-holder{
+    margin-bottom: 15px;
+    padding: 15px;
+    background: #5c7080;
+}
+.avatar-img{
+    width: 125px;
+    height: 125px;
+    border: 1px solid #5c7080;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    background:#fff;
+}
+.form-btn--personal{
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+.important-list li{
+    font-size: 14px;
+    font-weight: 500;
+}
+.important-list li i{
+    color:#27A649;
+    margin-right: 8px;
+}
+
+.input-code{
+    height:50px;
+    border:2px solid #5c7080;
+    margin-bottom: 15px;
+}
+.img-barcode{
+    width:120px;
+    height: 120px;
+}
+.fa-active{
+    color:#29A643;
+}
+.fa-inactive{
+    color: #5c7080;
+}
+.fa-rotate{
+    transform: rotate(90deg);
+}
+.form-account .form-group{
+    display: block;
+    margin-bottom: 8px;
+}
+.form-account button{
+    margin-bottom: 15px;
+}
+.form-account img{
+    width: 100%
+}
+.form-account .default-profile{
+    padding: 15px;
+    text-align: center;
+    background: #e9ecef;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.form-account .btn-details{
+    display: block;
+    text-align: center;
+}
+.btn-account{
+    font-weight: 600;
+    letter-spacing: 1px;
+    min-width: 115px;
+}
+.upload-file button{
+    width: 100%;
+}
+.btn-personal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.btn-personal i{
+    margin-right: 8px;
+}
+@media screen and (max-width:991px){
+    .icon-tab{
+        width: 32px;
+        height: 32px;
+        font-size: 26px;
+    }
+    .nav-tab-link{
+        font-size: 14px!important;
+    }
+}
+@media screen and (max-width:767px){
+    .form-btn--personal{
+        position: relative;
+        top: inherit;
+    }
+    .nav-pill-custom{
+        flex-direction: column;
+    }
+    .nav-pill-custom li .nav-link{
+        border:0;
+    }
+    .nav-pill-custom li .nav-link.active{
+        border:1px solid #27A649;
+    }
+}
+@media screen and (max-width:567px){
+    .btn-personal{
+        width: 100%;
+        position: relative;
+    }
+    .tab-content-custom{
+        padding: 0;
+    }
+    .upload-file input[type=file]{
+        font-size: 12px;
+    }
+}

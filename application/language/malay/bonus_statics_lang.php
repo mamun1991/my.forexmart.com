@@ -1,0 +1,29 @@
+<?php
+
+$lang['bo_st_00'] = 'Laman Bonus Statistik memberikan Ringkasan bagi semua bonus yang direkodkan pada nombor akaun ';
+$lang['bo_st_01'] = 'Seorang pelanggan perlu melaksanakan dagangan dengan sebilangan lot ForexMart untuk menuntut bonus.';
+$lang['bo_st_02'] = 'Tunai yang boleh dikeluarkan (tanpa bonus) menunjukkan jumlah maksimum dimana pelanggan boleh mengeluarkannya daripada akaun. Sila ambil perhatian dalam kes pengeluaran jumlah maksimum, bonus boleh dibatalkan. Sebaliknya, jumlah yang boleh dikeluarkan (dengan simpanan bonus) menunjukkan jumlah maksimum dimana pelanggan boleh mengeluarkannya daripada akaun dagangan, tidak termasuk bonus.';
+$lang['bo_st_03'] = "Sila ambil perhatian bahawa kami menentukan jumlah keseluruhan yang mana boleh dikeluarkan merujuk kepada margin semasa terbaru baki akaun dagangan anda.";
+$lang['bo_st_1'] = 'Ringkasan akaun';
+// $lang['bo_st_2'] = 'Baki';
+$lang['bo_st_2'] = 'Baki (Sejarah Bonus)';
+$lang['bo_st_3'] = 'Ekuiti';
+$lang['bo_st_4'] = 'Margin Bebas';
+$lang['bo_st_5'] = 'Boleh dikeluarkan (tanpa bonus)';
+$lang['bo_st_6'] = 'Boleh dikeluarkan (dengan bonus disimpan)';
+$lang['bo_st_7'] = 'Kira bonus untuk ditinggalkan';
+$lang['bo_st_8'] = 'Kira';
+$lang['bo_st_9'] = 'Statistik Bonus anda';
+$lang['bo_st_10'] = 'Jumlah lot yang diperlukan untuk pengeluaran bonus';
+$lang['bo_st_11'] = 'Bilangan lot yang didagangkan';
+$lang['bo_st_12'] = 'Bilangan lot untuk didagangkan';
+$lang['bo_st_13'] = 'Status bonus semasa';
+$lang['bo_st_14'] = 'Tiada bonus yang boleh dikeluarkan';
+$lang['bo_st_15'] = 'Bonus untuk dikekalkan';
+$lang['bo_st_16'] = 'Transaksi Ralat';
+$lang['bo_st_17'] = 'Jumlah pengeluaran lebih tinggi daripada dana sebenar. Sila hubungi bonus@forexmart.com';
+$lang['bo_st_18'] = 'Bonus';
+$lang['bo_st_19'] = 'Jumlah';
+$lang['bo_st_20'] = 'Dana Bonus';
+$lang['bo_st_21'] = 'Bonus yang dikekalkan';
+$lang['bo_st_22'] = 'Jumlah Baki';

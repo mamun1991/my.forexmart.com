@@ -1,0 +1,145 @@
+.btn{
+    font-size: 14px;
+    &__control{
+        width: 100%;
+    }
+    &-custom{
+        border-radius:4px;
+        height: 40px;
+        transition: all 0.3s;
+        margin-bottom: 15px;
+        border:0;
+        font-size: 14px;
+        @media screen and (min-width:767px){
+            height: 45px;
+            padding: 11px;           
+        }
+        span{
+            margin-right: 5px;
+        }
+        &--success{
+            @include btnSolid($base-color, #29A643);
+            &:hover{
+                @include btnSolid($base-color, #00420d);
+            }
+        }
+        &--primary{
+            @include btnSolid($base-color, #2988CA);
+            &:hover{
+                @include btnSolid($base-color, #01487a);
+            }
+        }
+        &--danger{
+            @include btnSolid($base-color, #FF0000);
+            &:hover{
+                @include btnSolid($base-color, #810101);
+            }
+        }
+        &--default{
+            @include btnSolid($base-color,$default-color);
+            &:hover{
+                @include btnSolid($base-color, #333);
+            }
+        }
+        &:hover{
+            text-decoration: none;
+            border:0;
+            outline: 0;
+            box-shadow: none;
+        }
+        &:focus{
+            text-decoration: none;
+            border:0;
+            outline: 0;
+            box-shadow: none;
+
+        }
+    }
+    &-link{
+        color:#2988CA;
+    }
+    &-holder{
+        @include itemFlex(center, center, null);
+    }
+    &-bordered{
+        &--success{
+            font-weight: 600;
+            @include btnBordered( #29A643,1px,#29A643);
+            &:hover{
+                @include btnSolid($base-color, #29A643);
+            }
+        }
+        &--primary{
+            font-weight: 600;
+            @include btnBordered( #2988CA,1px,#2988CA);
+            &:hover{
+                @include btnSolid($base-color, #2988CA);
+            }
+        }
+        &--danger{
+            font-weight: 600;
+            @include btnBordered( #FF0000,1px,#FF0000);
+            &:hover{
+                @include btnSolid($base-color, #FF0000);
+            }
+        }
+        &--default{
+            font-weight: 600;
+            @include btnBordered( #333,1px,#333);
+            &:hover{
+                @include btnSolid($base-color, #333);
+            }
+        }
+    }
+    &--lg{
+        @include txtStyle(18px, 300);
+        height: 50px!important;
+        @media screen and (max-width:767px){
+            height: 40px;
+            @include txtStyle(14px, 500);
+        }
+    }
+    &--flag{
+        @include itemFlex(center, null, row);
+        span{
+            margin-right: 8px;
+        }
+    }
+    &--link{
+        &:hover{
+            text-decoration: none;
+        }
+        &:focus{
+            text-decoration: none;
+        }
+    }
+    &-inline {
+        button{
+            display: inline-block;
+            float: left;
+            width: auto;
+            &:not(:last-child){
+                margin-right: 8px;
+            }
+        }        
+    }
+    &-control{
+        width: 100%!important;
+        display: block;
+        text-align: center;
+    }
+    &-icon{
+        min-width: 45px;
+    }
+    &-grp-inline{
+        button{
+            margin-bottom: 0;
+            &:not(:last-child){
+                margin-right: 4px;
+            }
+        }
+    }
+    &-holder{
+        padding:15px;
+    }
+}

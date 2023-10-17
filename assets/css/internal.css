@@ -1,0 +1,731 @@
+.navbar-default {
+    background-color: #106BAA!important;
+}
+.navbar-default .navbar-brand {
+    color: #fff!important;
+}
+.navbar-default .navbar-text {
+    color: #fff!important;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff!important;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff!important;
+    background-color: #888!important;
+}
+
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fff!important;
+    background-color: #888!important;
+}
+
+
+.btn-sign
+{
+    color: #fff;
+    background: #2988ca;
+    border: none;
+    float: right;
+    padding: 7px 30px;
+}
+
+.btn-sign:hover
+{
+    background: #49aff5;
+    transition: all ease 0.3s;
+}
+
+
+
+
+.step-tab-holder1
+{
+    margin: 0 auto;
+    float: none;
+    width: 100%;
+    margin-top: 30px;
+}
+.step-tab-holder1 ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 90px;
+}
+.step-tab-holder1 ul li
+{
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Open Sans;
+    padding: 0 10px;
+}
+.line
+{
+    border-top: 1px solid #ff0000;
+    margin-top: 20px;
+}
+.forgot
+{
+    float: left;
+    color: #2988ca;
+}
+.blue-line
+{
+    border-top: 1px solid #2988ca;
+    margin-top: 30px;
+}
+.btn-real
+{
+    background: none;
+    border: 1px solid #29a643;
+    color: #29a643;
+    width: 100%;
+    padding: 7px 0;
+    transition: all ease 0.3s;
+}
+.btn-real:hover
+{
+    background: #29a643;
+    color: #fff;
+}
+.btn-demo
+{
+    background: none;
+    border: 1px solid #2988ca;
+    color: #2988ca;
+    width: 100%;
+    padding: 7px 0;
+    transition: all ease 0.3s;
+}
+.btn-demo:hover
+{
+    background: #2988ca;
+    color: #fff;
+}
+.optional
+{
+    color: #29a643;
+}
+.optional i
+{
+    font-size: 20px;
+}
+.fileup
+{
+    background: #29a643;
+    border-radius: 0;
+    transition: all ease 0.3s;
+    border: none;
+}
+.fileup:hover
+{
+    background: #4CE56C;
+    border: none;
+}
+.capture
+{
+    border: 1px solid #29a643;
+    color: #29a643;
+    background: #fff;
+    padding: 4px 10px 6px!important;
+    transition: all ease 0.3s;
+}
+.capture:hover
+{
+    background: #29a643;
+    color: #fff;
+}
+.note
+{
+    font-size: 13px;
+    font-family: Open Sans;
+    margin-top: 10px;
+    text-align: justify;
+}
+.sub
+{
+    font-family: Open Sans;
+    font-size: 17px;
+    color: #333;
+}
+.agreement
+{
+    text-align: justify;
+    color: #ff0000;
+}
+.color
+{
+    color: #29a643;
+}
+
+.main-content
+{
+    background: #fff;
+    width: 100%;
+    /* padding-top: 20px; */
+}
+
+.side-nav-holder
+{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.side-nav-holder .side-nav
+{
+    list-style: none;
+    padding: 0;
+}
+.side-nav-holder .side-nav li
+{
+    padding: 0;
+    float: left;
+}
+.side-nav-holder .side-nav li a
+{
+    padding: 7px 16px;
+    display: block;
+    font-size: 14px;
+    font-family: Open Sans;
+    color: #333;
+    border-left: 2px solid #fff;
+    background: #eee;
+}
+.side-nav-holder .side-nav li a cite
+{
+    font-style: normal;
+}
+.side-nav-holder .side-nav li a i
+{
+    color: #2988CA;
+    font-size: 17px;
+    width: 30px;
+    margin-right: 5px;
+}
+.side-nav-holder .side-nav li a:hover
+{
+    background: #c0c0c0;
+    text-decoration: none;
+}
+.active-sidenav
+{
+    background: #c0c0c0;
+}
+.dl-holder
+{
+    width: 100%;
+}
+
+a.btn-deposit:hover
+{
+    text-decoration: none;
+}
+a.btn-withdraw:hover
+{
+    text-decoration: none;
+}
+a.btn-virtual:hover{
+    text-decoration: none;
+}
+.btn-deposit
+{
+    display: table;
+    margin-top: 10px;
+    background: #29a643;
+    color: #fff;
+    border: none;
+    padding: 7px 75px !important;
+    font-size: 16px !important;
+    font-family: Open Sans;
+    text-decoration: none;
+}
+.btn-withdraw
+{
+    display: table;
+    margin-top: 10px;
+    background: #29a643;
+    color: #fff;
+    border: none;
+    padding: 7px 68px !important;
+    font-size: 16px !important;
+    font-family: Open Sans;
+    text-decoration: none;
+}
+
+.btn-virtual{
+    display: table;
+    margin-top: 10px;
+    background: #A0A0A0;
+    color: #fff;
+    border: none;
+    padding: 7px 45px !important;
+    font-size: 16px !important;
+    font-family: Open Sans;
+    text-decoration: none;
+    width: 100%;
+}
+
+.btn-virtual-disable{
+    display: table;
+    margin-top: 10px;
+    background: #D0D0D0;
+    color: #fff;
+    border: none;
+    padding: 7px 45px !important;
+    font-size: 16px !important;
+    font-family: Open Sans;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+    width: 100%;
+}
+
+.dls
+{
+    width: 100%;
+}
+.dls h1
+{
+    font-size: 20px;
+    font-family: Open Sans;
+    color: #333;
+}
+.dls .platforms
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.dls .platforms li
+{
+    font-family: Open Sans;
+}
+.dls .platforms li a
+{
+    color: #2988CA;
+}
+.dls .platforms li cite
+{
+    font-style: normal;
+    color: #333;
+}
+.dls .platforms li img
+{
+    margin-bottom: 20px!important;
+    margin-right: 10px;
+}
+.section
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.section h1
+{
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    font-family: Open Sans;
+    color: #333;
+}
+.btns
+{
+    margin-top: 10px;
+}
+
+.open-trading
+{
+    background: #29a643;
+    color: #fff;
+    border: none;
+    padding: 7px 50px;
+    font-size: 14px;
+    font-family: Open Sans;
+    transition: all ease 0.3s;
+}
+.open-trading:hover
+{
+    background: #50DF6E;
+}
+.open-demo
+{
+    background: #2988CA;
+    color: #fff;
+    border: none;
+    padding: 7px 50px;
+    font-size: 14px;
+    font-family: Open Sans;
+    transition: all ease 0.3s;
+}
+.open-demo:hover
+{
+    background: #53B7FC;
+}
+.show-hide
+{
+    margin-top: 10px;
+    background: #eee;
+    color: #333;
+    border: none;
+    padding: 7px 20px;
+    font-size: 14px;
+    font-family: Open Sans;
+    transition: all ease 0.3s;
+    float: right;
+}
+.show-hide:hover
+{
+    background: #c0c0c0;
+}
+
+.deposits-holder
+{
+    width: 100%;
+    padding: 0;
+}
+.deposits-holder h1
+{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: Open Sans;
+    color: #333;
+    margin-bottom: 10px;
+}
+.about-us-holder
+{
+    width: 100%;
+    padding: 0;
+}
+.about-us-holder h1
+{
+    font-size: 17px;
+    font-family: Open Sans;
+    color: #333;
+}
+.about-us-holder ul
+{
+    list-style: none;
+    padding: 0;
+}
+.about-us-holder ul li
+{
+    padding: 0;
+}
+.about-us-holder ul li a
+{
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    padding: 4px 0;
+    display: block;
+    transition: all ease 0.3s;
+}
+.about-us-holder ul li a:hover
+{
+    text-decoration: none;
+    color: #2988CA;
+}
+
+.account-holder
+{
+    width: 100%;
+    padding: 0;
+}
+.account-holder h1
+{
+    font-size: 17px;
+    font-family: Open Sans;
+    color: #333;
+}
+.account-holder ul
+{
+    list-style: none;
+    padding: 0;
+}
+.account-holder ul li
+{
+    padding: 0;
+}
+.account-holder ul li a
+{
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    padding: 4px 0;
+    display: block;
+    transition: all ease 0.3s;
+}
+.account-holder ul li a:hover
+{
+    text-decoration: none;
+    color: #2988CA;
+}
+
+.other-link
+{
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+.other-link li
+{
+    padding: 0;
+    float: left;
+}
+.other-link li a
+{
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    padding: 4px 15px;
+    display: block;
+    transition: all ease 0.3s;
+}
+.copyright
+{
+    width: 100%;
+    text-align: right;
+}
+.connect-holder
+{
+    width: 100%;
+    padding: 0;
+}
+.connect-holder h1
+{
+    font-family: Open Sans;
+    font-size: 17px;
+}
+.connect-holder ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.connect-holder ul li
+{
+    padding: 0;
+    float: left;
+}
+.connect-holder ul li a
+{
+    font-family: Open Sans;
+    font-size: 15px;
+    color: #333;
+    padding: 0 15px;
+}
+.connect-holder ul li a:hover
+{
+    text-decoration: none;
+    color: #2988CA;
+}
+
+.gplus
+{
+    background: url(../images/gplus.png);
+    width: 50px;
+    height: 50px;
+}
+.fb
+{
+    background: url(../images/fb.png);
+    width: 50px;
+    height: 50px;
+}
+.in
+{
+    /*background: url(../images/linkedin.png);*/
+    /*width: 50px;*/
+    /*height: 50px;*/
+}
+.twit
+{
+    background: url(../images/twitter.png);
+    width: 50px;
+    height: 50px;
+}
+
+.follow-holder
+{
+    width: 100%;
+    padding: 0;
+}
+.follow-holder h1
+{
+    font-family: Open Sans;
+    font-size: 17px;
+}
+.follow-holder ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.follow-holder ul li
+{
+    padding: 0;
+    float: left;
+}
+.follow-holder ul li:first-child
+{
+    padding-left: 10px;
+}
+.follow-holder ul li a
+{
+    padding: 0 5px;
+}
+.date
+{
+    width: 100%;
+    padding-right: 15px;
+    text-align: right;
+}
+.date p
+{
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-family: Open Sans;
+    font-weight: 600;
+}
+
+.prof-tabs-holder
+{
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+    background: #2988CA;
+}
+.prof-tabs-holder ul
+{
+    list-style: none;
+    padding: 0;
+}
+.prof-tabs-holder ul li
+{
+    padding: 0;
+    float: left;
+}
+.prof-tabs-holder ul li a
+{
+    padding: 7px 40px;
+    display: block;
+    font-family: Open Sans;
+    font-size: 16px;
+    color: #fff;
+    transition: all ease 0.3s;
+}
+.prof-tabs-holder ul li a:hover
+{
+    text-decoration: none;
+    background: #53B7FC;
+}
+.prof-form
+{
+    margin-top: 50px;
+}
+.txt-balance
+{
+    color: #8AB721;
+    font-size: 20px;
+    box-shadow: none;
+    text-align: right;
+    font-weight: 600;
+    font-family: Open Sans;
+}
+.euro-sign
+{
+    color: #ff0000;
+    font-size: 20px;
+    background: #fff;
+    font-weight: 600;
+    font-family: Open Sans;
+    width: 25% !important;
+    height: 34px !important;
+    padding: 0px !important;
+}
+
+.euro-sign select {
+    padding: 0px !important;
+    width: 100% !important;
+    margin: 0px !important;
+    border: none !important;
+    height: 100% !important;
+}
+.accbal-title
+{
+    font-family: Open Sans;
+    font-size: 17px;
+    color: #333;
+    font-weight: 600;
+}
+
+.nav-search
+{
+    padding-top: 8px;
+}
+.navbar{
+    padding: 0px !important;
+}
+
+.navbar-brand{
+    padding: 5px 15px !important;
+}
+
+.navbar-nav > li > a {
+    padding-top: 23px !important;
+    padding-bottom: 22px !important;
+}
+
+
+.error{
+    color: #a94442;
+}
+
+/*external home*/
+
+.cd-top {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: rgba(86, 171, 232, 0.8) url("../images/cd-top-arrow.svg") no-repeat scroll center 50%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+}
+.cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: .5;
+}
+
+/*external home*/
+

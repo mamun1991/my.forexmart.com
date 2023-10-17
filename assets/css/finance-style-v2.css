@@ -1,0 +1,116 @@
+
+.main-finance-deposit-container {
+	float:none;
+	margin:0 auto;
+}
+
+.finance-deposit-holder , .parent-fin-dep-content {
+	width:100%;
+	display:table;
+}
+
+.fin-dep-content , .fin-dep-content-input {
+	padding:10px 5px;
+}
+
+.fin-dep-content img {
+	margin:0 auto;
+}
+
+.fin-dep-content p {
+	margin:9px auto;
+	text-align:justify;
+}
+
+.fin-dep-content-input label {
+	float:right;
+	line-height:40px;
+	margin-right:5px;
+	margin-bottom:0;
+}
+
+.fin-dep-content-input img {
+	float:right;
+	margin:5px 0;
+}
+
+.fin-dep-content-input select , .fin-dep-content-input input[type=text] {
+	border-radius:0;
+	height:40px;
+}
+
+.fin-dep-content-input-button {
+	float:right;
+	padding:10px 5px;
+}
+
+.fin-dep-content-input-button button {
+	display:table;
+	width:100%;
+	padding:10px;
+	color: #fff;
+    transition: all ease 0.3s;
+    background: #2988CA;
+    border: 0;
+}
+.fin-dep-content-input-button a {
+	display:table;
+	width:100%;
+	padding:10px;
+	color: #fff;
+    transition: all ease 0.3s;
+    background: #2988CA;
+    border: 0;
+}
+
+.fin-dep-content-input-button button:hover {
+	background: #53b7fc;
+}
+.fin-dep-content-input-button a:hover {
+	background: #53b7fc;
+}
+
+@media screen and (max-width: 767px) {
+
+	.fin-dep-content-input label , .fin-dep-content-input img {
+		float:left;
+	}
+
+}
+
+@media screen and (max-width: 558px) {
+
+	.fin-dep-content-input {
+		float:none;
+		display:block;
+		width:100%;
+		padding:5px 0;
+	}
+
+	.fin-dep-content-input label {
+		line-height:20px;
+	}
+
+	.fin-dep-content-input-button {
+		padding:10px 0!important;
+	}
+
+}
+
+@media screen and (max-width: 485px) {
+
+	.fin-dep-content-input-button , .fin-dep-content-input-button button {
+		float:none;
+		display:block;
+		width:100%;
+	}
+
+	.fin-dep-content-input-button {
+		padding:5px 0;
+	}
+
+	.fin-dep-content-input-button button {
+		padding:20px 10px;
+	}
+
+}

@@ -1,0 +1,96 @@
+.table{
+    &-custom{
+        margin-top:0!important;
+        margin-bottom:0!important;
+        tr{
+            td{
+                &:nth-child(6){
+                    min-width: 320px;
+                }
+            }
+        }
+        thead{
+            tr{
+                th{
+                    @include txtStyle(14px, 600);
+                    text-align: center;
+                    border-bottom: 0;
+                }
+            }
+        }
+        tbody{
+            tr{
+                td{
+                    padding:8px;
+                    vertical-align: middle;
+                    text-align: left;
+                }
+                &:nth-of-type(odd){
+                    background:#1283d6;
+                    td{
+                        color: #fff;
+                    }
+                }
+                &:nth-of-type(even){
+                    background:#F2FAFF;
+                }
+            }
+        }
+    }
+    &-custom-02{
+        width: 100%!important;
+        thead{
+            tr{
+                th{
+                    padding: 15px 8px;
+                    color:$default-color;
+                    border-bottom-color:$default-color;
+                    text-align: center;
+                    border-top: 1px solid #5c7080;
+                }
+            }
+        }
+        tbody{
+            tr{
+                &:nth-child(odd){
+                    background-color: $base-color!important;
+                }
+                td{
+                    vertical-align: middle;
+                    border-top: 1px solid #5c7080;
+                    text-align: left;
+                    &.dt-txt-center{
+                        text-align: center;
+                    }
+                }
+            }
+        }        
+    }
+}
+%form{
+    height: 45px;
+    background-color: #fff;
+    border: 1px solid #5c7080;
+}
+.dataTables_wrapper{
+    .dataTables_filter{
+        input{
+            @extend %form;
+        }        
+    }
+    .dataTables_length{
+        select{
+            @extend %form;
+
+        }
+    }
+}
+.page-item .page-link {
+    border-color: #5c7080!important;
+    height: 45px!important;
+    padding: 12px!important;
+}
+.page-item.active .page-link {
+    background-color: #2988ca;
+    border-color: #2988ca;
+}

@@ -1,0 +1,38 @@
+@mixin txtStyle($size, $weight){
+    @if $size != null {
+    font-size: $size;
+    }
+    @if $weight != null {
+    font-weight: $weight;
+    }
+}
+@mixin btnSolid($btnColor, $btnBg) {
+    color:$btnColor;
+    background: $btnBg;
+}
+@mixin btnBordered($btnColor, $btnBorderSize, $btnBorderColor) {
+    color:$btnColor;
+    background: #fff;
+    border:$btnBorderSize solid $btnBorderColor;
+}
+@mixin itemFlex($align, $justify, $itemDirection){
+    display: flex;
+    @if $align !=null{
+        align-items: $align;
+    }  
+    @if $justify !=null{
+        justify-content: $justify; 
+    }      
+    @if $itemDirection !=null{
+        flex-direction: $itemDirection;
+    }    
+}
+@mixin imageUrl($img){     
+    background:$img;  
+}
+
+@mixin freeContainer($x, $xdir, $y, $ydir){
+    position: absolute;
+    #{$x}:$xdir;
+    #{$y}:$ydir;
+}

@@ -1,0 +1,84 @@
+.debit-credit-row
+{
+	width: 100%;
+}
+	.debit-credit-row .debit-col
+	{
+		width: 50%;
+		float: left;
+		padding: 20px;
+	}
+	.debit-credit-holder
+	{
+		width: 100%;
+		border: 5px solid #eee;
+		box-sizing: border-box;
+		text-align: center;
+		padding: 15px;
+		transition: all ease 0.3s;
+	}
+		.debit-credit-holder:hover
+		{
+			border: 5px solid #ccc;
+			transition: all ease 0.3s;
+		}
+		.debit-credit-holder img
+		{
+			float: none;
+			margin: 0 auto;
+		}
+		.debit-credit-holder p
+		{
+			text-align: justify;
+			/* height: 90px; */
+		}
+		.debit-credit-holder a
+		{
+			background: #29a643;
+			color: #fff;
+			font-family: Open Sans;
+			font-size: 17px;
+			padding: 10px;
+			display: block;
+			transition: all ease 0.3s;
+		}
+			.debit-credit-holder a:hover
+			{
+				text-decoration: none;
+				background: #50DF6E;
+				transition: all ease 0.3s;
+			}
+
+		.debit-credit-holder button
+		{
+			background: #29a643;
+			color: #fff;
+			font-family: Open Sans;
+			font-size: 17px;
+			padding: 10px;
+			display: block;
+			transition: all ease 0.3s;
+			border: 0;
+		    width: 100%;
+		    outline: none;
+		}
+		.debit-credit-holder button:hover
+		{
+			text-decoration: none;
+			background: #50DF6E;
+			transition: all ease 0.3s;
+		}
+
+
+@media screen and (max-width: 817px) {
+	.debit-credit-row .debit-col
+	{
+		padding: 10px;
+	}
+}
+@media screen and (max-width: 675px) {
+	.debit-credit-row .debit-col
+	{
+		width: 100%;
+	}
+}

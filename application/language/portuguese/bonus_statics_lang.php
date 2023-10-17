@@ -1,0 +1,29 @@
+<?php
+
+$lang['bo_st_00'] = 'A página de estatísticas de bônus recapitula todos os bônus registados no número da conta ';
+$lang['bo_st_01'] = 'O cliente precisa negociar um certo número de lotes para retirar um montante de bônus.';
+$lang['bo_st_02'] = 'A soma disponível para retirada (sem bônus) indica o valor máximo que o cliente pode tirar de sua conta. Por favor, note que em caso de retirada máxima, o bônus pode ser cancelado. Por outro lado, a Soma Disponível para Retirada (com seguro de bônus) mostra o valor máximo que um cliente pode retirar de sua conta de negociação sem afetar o bônus.';
+$lang['bo_st_03'] = "Por favor, tenha em mente que determinamos o valor agregado disponível para retirada referente à margem da conta de negociação real.";
+$lang['bo_st_1'] = 'Resumo da Conta';
+// $lang['bo_st_2'] = 'Saldo';
+$lang['bo_st_2'] = 'Balance (Bonus History)';
+$lang['bo_st_3'] = 'Equidade';
+$lang['bo_st_4'] = 'Margem Livre';
+$lang['bo_st_5'] = 'Disponível para retirada (sem bônus)';
+$lang['bo_st_6'] = 'Disponível para retirada (com bônus seguro)';
+$lang['bo_st_7'] = 'Calcular bônus a ser deixado';
+$lang['bo_st_8'] = 'Calcular';
+$lang['bo_st_9'] = 'Suas estatísticas de bônus';
+$lang['bo_st_10'] = 'Número necessário de lotes para retirada de bônus';
+$lang['bo_st_11'] = 'Número de lotes negociados';
+$lang['bo_st_12'] = 'Número de lotes para negociar';
+$lang['bo_st_13'] = 'Status de bônus negociados';
+$lang['bo_st_14'] = 'Nenhum bônus disponível para retirada';
+$lang['bo_st_15'] = 'Bônus a ser deixado';
+$lang['bo_st_16'] = 'Erro da transação';
+$lang['bo_st_17'] = 'O montante para retirada é superior ao fundo real. Por favor entre em contato bonus@forexmart.com';
+$lang['bo_st_18'] = 'Bônus';
+$lang['bo_st_19'] = 'Valor';
+$lang['bo_st_20'] = 'Bonus Funds';
+$lang['bo_st_21'] = 'Bonus to be left';
+$lang['bo_st_22'] = 'Total Balance';

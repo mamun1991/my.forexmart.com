@@ -1,0 +1,81 @@
+.footer{
+    background: linear-gradient(45deg, #2988ca, #2274ad);
+    padding: 30px;
+    margin-top: 15px;
+    &-title{
+        color: $base-color;
+        @include txtStyle(14px, 600);
+        margin-bottom: 8px;
+    }
+    p{
+        @include txtStyle(13px, 500);
+    }
+    &-links{
+        text-align: center;
+        width: 100%;
+        display: table;
+        margin-bottom: 8px;
+        @media screen and (min-width:767px){
+        text-align: left;    
+        }
+        li{
+            display: inline-block;
+            color: $base-color;
+            @media screen and (max-width:767px){
+                width: 50%;
+                text-align: left;
+                &.dot-divider{
+                    display: none;
+                } 
+            }
+            @media screen and (max-width:575px){
+                width: 100%; 
+            }
+            a{
+                display: inline-block;
+                color: $base-color;
+                @include txtStyle(14px, 500);
+                text-decoration: underline;
+                padding: 8px 15px;
+            }           
+        }
+    }
+    p, h4{
+        color:$base-color;
+        padding: 0 15px;
+    }
+    .img-card{
+        width: 70px!important;
+        @media screen and (min-width:767px){
+            width: 96px!important;
+        }
+    }
+}
+.fm-accounts{
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid #5c7080;
+    background: #e2e7e8;
+    img{
+        margin-bottom: 15px; 
+    }
+    .title{
+        @include txtStyle(18px,500);
+        margin-bottom: 15px;
+    }
+}
+
+.footer-button{
+    @media screen and (max-width:$mobile-width){
+        align-items: flex-start;
+        li{
+            button{
+                max-width: 100%;
+            }
+        }
+    } 
+}
+.dot-divider{
+    font-size: 4px;
+    vertical-align: middle;
+}

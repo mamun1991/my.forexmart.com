@@ -1,0 +1,244 @@
+.slider-holder
+{
+	margin-top: 35px;
+}
+.slider-tick-label-container
+{
+    display: none;
+}
+.slider-horizontal
+{
+	width: 100%!important;
+}
+.slider-holder
+{
+	padding: 0 10px;
+}
+.tick-slider-selection
+{
+	background: #2988ca!important;
+}
+.slider-tick
+{
+	background: #7ac2f4!important;
+	opacity: 1;
+}
+.slider-track-high
+{
+	background: #7ac2f4!important;
+}
+.in-selection, .min-slider-handle
+{
+	background: #227cba!important;
+}
+.cash-holder
+{
+	margin: 0 auto;
+	border: 3px solid #ddd;
+	width: 200px;
+	margin-top: 30px!important;
+	text-align: center;
+	background: #f1f1f1;
+}
+	.cash-holder h2
+	{
+		margin: 0;
+		padding: 20px 0;
+		font-size: 45px;
+		font-family: Open Sans;
+		font-weight: 600;
+	}
+	.cash-holder a
+	{
+		background: #29a643;
+		color: #fff;
+		display: block;
+		padding: 7px;
+		font-family: Open Sans;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.cash-holder button
+	{
+		background: #29a643;
+		color: #fff;
+		display: block;
+		padding: 7px;
+		font-family: Open Sans;
+		font-size: 20px;
+		font-weight: 600;
+	}
+		.cash-holder button:hover, .cash-holder button:focus
+		{
+			text-decoration: none;
+			background: #3ECD5C!important;
+			transition: all ease 0.3s;
+		}
+			.cash-holder a:hover, .cash-holder a:focus
+		 {
+			 text-decoration: none;
+			 background: #3ECD5C!important;
+			 transition: all ease 0.3s;
+		 }
+
+.avatar-holder
+{
+	margin: 0 auto;
+	border: 3px solid #ddd;
+	width: 350px;
+	height:auto;
+	margin-top: 30px!important;
+	text-align: center;
+	background: #f1f1f1;
+}
+
+.avatar-holder-logo
+{
+	/*margin: 0 auto;*/
+	border: 3px solid #ddd;
+	width: 100px;
+	height: 100px;
+	/*margin-top: 30px!important;*/
+	text-align: center;
+	background: #f1f1f1;
+	margin:10px;
+	height: 100px;
+
+}
+.avatar-holder-desc {
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+}
+
+
+.loyalty-tab
+{
+	width: 100%;
+	margin-top: 30px;
+}
+	.loyalty-tab ul
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+		.loyalty-tab ul li
+		{
+			float: left;
+		}
+			.loyalty-tab ul li a
+			{
+				display: block;
+				padding: 7px 15px;
+				background: #EEE;
+				color: #333;
+				transition: all ease 0.3s;
+			}
+				.loyalty-tab ul li a:hover
+				{
+					background: #C0C0C0;
+					text-decoration: none;
+					transition: all ease 0.3s;
+				}
+				.loyalty-tab ul li a:focus
+				{
+					background: #C0C0C0;
+					text-decoration: none;
+				}
+				.loyalty-tab ul li a:active
+				{
+					background: #C0C0C0;
+					text-decoration: none;
+				}
+				.loyalty-active
+				{
+					background: #C0C0C0!important;
+					text-decoration: none!important;
+				}
+.slider-label
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 15px!important;
+	position: relative;
+}
+	.slider-label li
+	{
+		display: inline-block;
+		width: 20%;
+	}
+.tab-now
+{
+	background: #29a643;
+	color: #fff;
+	padding: 5px 7px;
+	display: inline-block;
+	font-size: 12px;
+	font-family: Open Sans;
+	transition: all ease 0.3s;
+}
+	.tab-now:hover
+	{
+		background: #3ECD5C;
+		text-decoration: none;
+		color: #fff;
+		transition: all ease 0.3s;
+	}
+.caption
+{
+	position: relative;
+	margin-top: 15px;
+}
+.regular
+{
+	position: absolute;
+	left: 0;
+}
+.pro
+{
+	position: absolute;
+	left: 32.55%;
+}
+.expert
+{
+	position: absolute;
+	left: 64%;
+}
+.vip
+{
+	position: absolute;
+	left: 97.6%;
+}
+@media screen and (max-width: 991px){
+	.caption
+	{
+		position: relative;
+		padding-bottom: 5px;
+	}
+	.slider-holder
+	{
+		margin-top: 20px;
+	}
+}
+
+
+
+@media only screen and (max-width:991px) {
+	.avatar-holder-desc {
+		text-align: center;
+		height: auto;
+		display: block;
+	}
+	.avatar-holder-logo {
+		border: 3px solid #ddd;
+		margin: 0 auto 20px auto;
+	}
+	.avatar-holder{
+		height:auto;
+		text-align:center;
+	}
+}

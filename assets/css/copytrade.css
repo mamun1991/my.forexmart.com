@@ -1,0 +1,53 @@
+.btn-ribbon{
+	position:relative;
+	display:inline-block;
+	font-size:32px;
+	color:#fff;
+	margin-bottom:20px;
+}
+.btn-ribbon:hover, .btn-ribbon:focus{
+	color:#fff;
+	opacity:0.9;
+}
+.btn-ribbon img{
+	max-width:400px;
+}
+.ribbon-number{
+	position:absolute;
+	top:15px;
+	right:54px;
+	text-shadow:1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+.ribbon-label{
+	position:absolute;
+	top:58px;
+	left:26px;
+	text-shadow:1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.chart-container
+{
+	width: 100%;
+	min-height: 650px;
+}
+.chart-container h3
+{
+	font-family: Open Sans;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 17px;
+}
+
+.chart-apply {
+	padding: 7px 10px;
+	border: none;
+	background: #29a643;
+	color: #fff;
+	width: 100%;
+	font-size: 14px;
+	font-family: Open Sans;
+	margin-top: 15px;
+	transition: all ease 0.3s;
+}

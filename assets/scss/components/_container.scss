@@ -1,0 +1,111 @@
+.icon-b4-text{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    .icon{
+        margin-right: 8px;
+    }
+    &-title{
+        color: $primary-color;
+    }
+    &-desc{
+        font-size: 12px;
+    }
+}
+.txt-below-img{
+    margin-bottom: 15px;
+    display: block;
+    .text{
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+        @media screen and (max-width:$tablet-width){
+            text-align: left;
+        }
+    }
+    .image{
+        display: block;
+        margin: 0 auto;
+        text-align: center;    
+    }
+    span{
+        @media screen and (max-width:$tablet-width){
+            text-align: left;
+            margin:0;
+        }
+    }
+}
+.img-b4-text{
+    display: table;
+    margin-bottom: 15px;
+    padding:0!important;   
+    li{
+        display: inline-block;
+        float: left;
+        padding: 4px;
+        &.image{
+            margin-right: 8px;
+        }
+    }
+    &::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+.notif{
+    padding: 15px;
+    border-radius: 4px;
+    &-title{
+       font-size: 20px;
+       margin-bottom: 15px; 
+    }
+    &--danger{
+        background: #b5262831;
+        .notif-title{
+            color:#B52628;
+         }
+    }
+}
+
+.grp-inline{
+    display: table;
+    li{
+        display: inline-block;
+        padding: 8px;
+        float: left;
+    }
+    &::after{
+        content: '';
+        clear: both;
+        display: table;
+    }
+}
+%comment{
+    font-size: 14px;
+    color: $default-color;
+}
+.comment{
+    background: #E3E3E3;
+    padding: 30px;
+    &-block{
+        background: $base-color;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 4px;
+    }
+    &-content{
+        @extend %comment;
+    }
+    &--title{
+        @extend %comment;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    &--date{
+        @extend %comment;
+    }
+    
+}

@@ -1,0 +1,565 @@
+@font-face {
+    font-family: Open Sans;
+    src: url(../fonts/open-sans-v17-latin-regular.woff);
+}
+
+
+body {
+    font-family: Open Sans !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: Open Sans !important;
+}
+button, input, select, textarea {
+    font-family: Open Sans !important;
+}
+
+.account-sub-title{
+    font-size: 20px;
+    text-align: center;
+    color:#2987c9;
+    font-weight: 500;
+    font-style: italic;
+}
+.fa{
+    padding-right:5px;
+}
+.icon-list, .icon-list li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.icon-list li {
+  margin-left: 0.5em;
+  padding: 0;
+  /*font-family: Open Sans;*/
+  font-size: 13px;
+  color: #333;
+}
+.icon-list li:before {
+  content: '\f0da'; /* fa-caret-right */
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.1em;
+  color: #ff0000;
+}
+
+.req-list, .req-list li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.req-list li {
+  margin-left: 0.5em;
+  padding: 0;
+  /*font-family: Open Sans;*/
+  font-size: 13px;
+  color: #333;
+}
+.req-list li:before {
+  content: '*'; 
+  float: left;
+  margin-left: -1.1em;
+  color: #ff0000;
+}
+.account-sub{
+    list-style-type: none;
+    color: #333;
+}
+.btn-up-file2
+{
+    background: #29a643;
+    border-radius: 0;
+    transition: all ease 0.3s;
+    border: none;
+    padding: 4px 10px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+    .btn-up-file2:hover
+    {
+        background: #4CE56C;
+        border: none;
+    }
+.gaps{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.acct-tab-holder{
+    width: 101%;
+}
+.corp-acc-tab{
+    height: 50px;
+
+}
+.searchD{
+        padding: 0;margin: 0
+    }
+    .searchA{
+        padding: 15px;
+    }
+    .zeropadding{
+        padding: 0 !important;
+    }
+    .nolinkline{
+
+        outline: none;
+    }
+    .accta {
+        padding-bottom: 5px!important;
+        padding-top: 5px!important;
+    }
+    .col-search {
+        padding-left: 0px;
+    }
+    .flag-drp-holder {
+        display: none;
+    }
+	
+	
+    ul.main-tab li {
+        width: auto !important;
+    }
+@media screen and (max-width: 1000px) {
+    #last-c{
+        margin-right: 5px !important;
+        width: 100% !important;
+    }
+
+    ul.main-tab li {
+        width: 100% !important;
+    }
+
+
+	ul.acc_nav li{
+        width: 100%;
+        float: none;
+        margin: 1px;
+        margin-right: 12px;
+
+    }
+    ul.acc_nav li a{
+        text-align: center;
+        }
+
+
+}
+    .arabic-main-tab li {
+        width: 20%;
+    }
+
+    /*.flag_pad{*/
+        /*margin: 7px 0px;*/
+    /*}*/
+    @media screen and (max-width: 767px) {
+        .ssl-img img {
+            width: 40% !important;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        .int-logo{
+            width: 250px;
+        }
+    }
+    @media screen and (min-width: 776px) and (max-width: 964px) {
+        .int-logo{
+            margin-top: 4px;
+        }
+    }
+    @media screen  and (max-width: 964px) {
+
+        .int-logo{
+            width: 250px;
+            margin-top: 4px;
+        }
+    }
+    @media screen and (max-width: 942px) {
+
+        .int-logo{
+            width: 250px;
+        }
+    }
+    @media screen and (max-width: 800px) {
+
+        .int-logo{
+            width: 200px;
+        }
+    }
+    @media screen and (max-width: 731px) {
+        .int-logo{
+            width: 200px;
+        }
+    }
+    @media screen and (max-width: 556px) {
+        .int-logo{
+            width: 200px;
+        }
+    }
+    @media screen and (max-width: 411px) {
+        .int-logo{
+            width: 200px;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        /*.nav>li {
+            display: inline-block;
+        }*/
+        /*.dropdown {
+            width: 60%;
+            float: left;
+        }*/
+        .flag_pad {
+            width: 22%;
+        }
+        /*.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+            padding-left: 0;
+        }*/
+        .btn-flag {
+            margin-top: 10px !important;
+        }
+    }
+    @media screen and (max-width: 223px) {
+        .int-logo{
+            width: 155px;
+            margin-top: 10px;
+        }
+    }
+    @media screen and (max-width: 200px) {
+        .int-logo{
+            width: 100px;
+        }
+    }
+    @media screen and (max-width: 150px) {
+        .int-logo{
+            width: 80px;
+        }
+    }
+
+
+    @media screen and (max-width: 800px) {
+        #searchcon{
+            width: 90%;
+            margin: auto;
+        }
+		#searchcon:lang(sa) {
+			width: 66% !important;
+			float: right !important;
+		}
+		.arabic-navbar-right-internal .dropdown:lang(sa) {
+			float: none !important;
+			margin-left: 0px;
+		}
+		.arabic-navbar-right-internal li .arabic-dropdown-toggle:lang(sa) {
+			padding-top: 10px !important;
+			padding-bottom: 10px !important;
+		}
+    }
+    @media screen and (max-width: 715px) {
+
+        #searchform{
+            border: 0!important;
+        }
+        /*#nav_ul{*/
+            /*width: 90%;*/
+            /*margin: auto;*/
+        /*}*/
+        .flag_pad {
+            margin: 7px 10px;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        .int-logo:lang(sa) {
+            margin-top: -6px;
+        }
+        .navbar-right-internal li a
+        {
+            padding-bottom: 10px!important;
+            padding-top: 10px!important;
+        }
+        .btn-flag {
+            margin: 0px !important;
+        }
+        .flag_pad {
+            display: none!important;
+        }
+        .flag-drp
+        {
+            position: fixed!important;
+            z-index: 9;
+            left: 10px;
+            top: 155px;
+            width: 150px;
+            float: right;
+        }
+        .flag-drp-holder {
+            display: block;
+        }
+        .border-none {
+            border: none;
+        }
+    }
+    #nav_ul{
+        /*height: 64px;*/
+    }
+    .int-logo{
+        margin-left:18px;
+    }
+
+     .footerstyle{
+        border-top: 1px solid #2988CA; padding: 10px; 0
+    }
+    .verticalalignbottom{
+        vertical-align: bottom;
+    }
+    h4.SetAlignment{
+        margin-top: 0;
+    }
+    .tradomart {
+        margin-bottom: 4px;
+        padding: 0px !important;
+    }
+    .forexmart{
+        /*margin: 3px 0px;*/
+    }
+    .bttmnvlnks{
+        text-decoration: none!important;
+        outline: none;
+    }
+    .bttmnvlnks:focus {
+        outline: none;
+    }
+    button::-moz-focus-inner {
+        border: 0;
+    }
+    a::-moz-focus-inner {
+        border: 0;
+    }
+    @media screen and (max-width: 1000px) {
+        .rowC{
+            margin-left: 2px;
+        }
+    }
+
+    @-moz-document url-prefix() {
+
+        @media screen  and (max-width: 645px) {
+            .ver-line:lang(en) {
+                display: none !important;
+            }
+
+            .other-link li:lang(en) {
+                float: none;
+            }
+        }
+        @media screen  and (max-width: 892px) {
+            .ver-line:lang(ru) {
+                display: none !important;
+            }
+
+            .other-link li:lang(ru) {
+                float: none;
+            }
+        }
+        @media screen  and (max-width: 467px) {
+            .ver-line:lang(jp) {
+                display: none !important;
+            }
+
+            .other-link li:lang(jp) {
+                float: none;
+            }
+        }
+        @media screen  and (max-width: 646px) {
+            .ver-line:lang(id) {
+                display: none !important;
+            }
+
+            .other-link li:lang(id) {
+                float: none;
+            }
+        }
+        @media screen  and (max-width: 627px) {
+            .ver-line:lang(de) {
+                display: none !important;
+            }
+
+            .other-link li:lang(de) {
+                float: none;
+            }
+        }
+        @media screen  and (max-width: 835px) {
+            .ver-line:lang(fr) {
+                display: none !important;
+            }
+
+            .other-link li:lang(fr) {
+                float: none;
+            }
+        }
+        @media screen  and (max-width: 773px) {
+            .ver-line:lang(it) {
+                display: none !important;
+            }
+
+            .other-link li:lang(it) {
+                float: none;
+            }
+        }
+
+
+        @media screen  and (max-width: 598px) {
+            .ver-line:lang(es){
+                display: none!important;
+            }
+            .other-link li:lang(es){
+                float: none;
+            }
+        }
+        @media screen  and (max-width: 729px) {
+            .ver-line:lang(pt){
+                display: none!important;
+            }
+            .other-link li:lang(pt){
+                float: none;
+            }
+        }
+        @media screen and  (max-width: 650px) {
+            .ver-line:lang(bg) {
+                display: none !important;
+            }
+
+            .other-link li:lang(bg) {
+                float: none;
+            }
+        }
+        @media screen  and (max-width: 696px) {
+            .ver-line:lang(my){
+                display: none!important;
+            }
+            .other-link li:lang(my){
+                float: none;
+            }
+        }
+
+
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 593px) {
+        .ver-line:lang(en) {
+            display: none !important;
+        }
+
+        .other-link li:lang(en) {
+            float: none;
+        }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 760px) {
+        .ver-line:lang(ru) {
+            display: none !important;
+        }
+
+        .other-link li:lang(ru) {
+            float: none;
+        }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 425px) {
+        .ver-line:lang(jp) {
+            display: none !important;
+        }
+
+        .other-link li:lang(jp) {
+            float: none;
+        }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 591px) {
+        .ver-line:lang(id) {
+            display: none !important;
+        }
+
+        .other-link li:lang(id) {
+            float: none;
+        }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 567px) {
+        .ver-line:lang(de) {
+            display: none !important;
+        }
+
+        .other-link li:lang(de) {
+            float: none;
+        }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 791px) {
+        .ver-line:lang(fr) {
+            display: none !important;
+        }
+
+        .other-link li:lang(fr) {
+            float: none;
+        }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 728px) {
+        .ver-line:lang(it) {
+            display: none !important;
+        }
+
+        .other-link li:lang(it) {
+            float: none;
+        }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 728px) {
+
+        .ver-line:lang(bg){
+            display: none!important;
+        }
+        .other-link li:lang(bg){
+            float: none;
+        }
+
+
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 538px) {
+        .ver-line:lang(es){
+            display: none!important;
+        }
+        .other-link li:lang(es){
+            float: none;
+        }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 709px) {
+        .ver-line:lang(pt){
+            display: none!important;
+        }
+        .other-link li:lang(pt){
+            float: none;
+        }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 669px) {
+        .ver-line:lang(my){
+            display: none!important;
+        }
+        .other-link li:lang(my){
+            float: none;
+        }
+    }
+    @-moz-document url-prefix() {
+        .tradomart1{
+            margin-bottom: 2px;
+
+        }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .tradomart1 {
+            margin-top: 3px;
+        }
+    }
+
+.trademart {
+    height: 14px;
+    width: auto;
+}
+
+
+

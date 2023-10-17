@@ -1,0 +1,75 @@
+.fr-personal-details{
+    position: relative;
+    display: block;
+    /*width: 75%;*/
+    width: 102.3%;
+    padding: 40px;
+    border:1px solid #ddd;
+}
+.fr-personal-details:lang(pk){
+    width: 100%;
+}
+.fr-personal-details:lang(sa){
+    width: 100%;
+}
+.fr-personal-details a::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fr-personal-details input{
+    margin-bottom: 15px;
+    height: 40px;
+}
+.fr-personal-details  a{
+    float: right;
+}
+
+.btn-custom{
+    padding:15px;
+    width: 200px;
+    box-shadow: 0;
+    border-radius: 0;
+    text-decoration: none;
+    border: none;
+    font-size: 12px;
+
+}
+.btn-custom-success{
+    background-color: #29a643;
+    color: #ffffff;
+}
+
+.avatar-holder{
+    width: 100px;
+    height: 100px;
+    margin:0 auto;
+    /*border:2px solid #ddd;*/
+}
+.avatar-holder img{
+    width: 100%;
+    height: 95px!important;
+
+
+}
+
+ul.main-tab{
+    margin-right: 10px!important;
+}
+
+@media screen and (max-width: 768px){
+    .avatar-holder img{
+        /*height: 95px!important;*/
+        height: auto !important;
+    }
+
+    .avatar-holder {
+        width: 120px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: -30px;
+        margin-bottom: 10px;
+    }
+}
+

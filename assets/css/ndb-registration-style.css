@@ -1,0 +1,114 @@
+
+.no-deposit-bonus-body {
+	position: relative;
+    width: 100%;
+    background:url(../images/no-deposit-bonus-bg.png);
+    min-height: 100%;
+}
+
+.bonus-holder-background {
+	box-shadow:none!important;
+}
+
+.register-ndb {
+	border-top:1px solid #eaeaea;
+	padding-top:10px;
+}
+
+.register-ndb span {
+	display:block;
+	text-align:center;
+}
+
+.register-ndb button {
+	display:table;
+	margin:5px auto;
+	float:none!important;
+}
+
+.register-ndb-child-container {
+	margin:5px auto;
+	display:table;
+}
+
+.register-ndb-child-container input[type=checkbox] {
+	float:left;
+}
+
+.register-ndb-child-container button , .register-ndb-child-container button {
+	float:right;
+}
+
+.register-ndb-child-container p {
+	margin-bottom:0!important;
+}
+
+.register-ndb-child-container button , .no-deposit-bonus-input button {
+	color: #fff;
+	background: #29a643;
+	border: none;
+	padding: 7px 30px;
+}
+
+.register-ndb-child-container button:hover , .no-deposit-bonus-input button:hover {
+  background: #4CE56C;
+  transition: all ease 0.3s;
+}
+
+.no-depo-bonus-img img {
+	margin:0 auto;
+}
+
+.no-deposit-bonus-col-centered p {
+	font-size:16px;
+	text-align:center;
+}
+
+.no-deposit-bonus-input {
+	float:none!important;
+	margin:15px auto!important;
+}
+
+.no-deposit-bonus-input input , .no-deposit-bonus-input button {
+	margin:0 auto!important;
+}
+
+.no-deposit-bonus-input label {
+	margin-bottom:2px;
+}
+
+.no-deposit-bonus-input button {
+	display:inline-block;
+}
+
+.bonus-modal-container-two {
+	background:url(../images/background-modal-two.png) no-repeat #fff;
+	width:100%;
+	background-size:cover;
+}
+
+.left-bonus-container-two {
+	margin:142px 0!important;
+}
+
+@media screen and (max-width: 1199px) {
+
+ .left-bonus-container-two {
+	margin:40px 0!important;
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+
+	.right-bonus-container-two h1 {
+		font-size:18px!important;
+	}
+
+}
+
+#btn_container{
+	margin: auto!important;
+    display: block;
+    text-align: center;
+}

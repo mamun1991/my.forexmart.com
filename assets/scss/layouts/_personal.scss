@@ -1,0 +1,87 @@
+.avatar{
+    &-holder{
+        margin-bottom: 15px;
+        padding: 15px;
+        background: #5c7080;
+    }
+    &-img{
+        width: 125px;
+        height: 125px;
+        border: 1px solid #5c7080;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        background:$base-color;
+    }    
+}
+.form{
+    &-btn{
+        &--personal{
+            position: absolute;
+            top: -55px;
+            right: 0;
+            @media screen and (max-width:$tablet-width){
+                position: relative;
+                top: inherit;
+            }
+        }
+    }
+}
+
+.important-list{
+    li{
+        @include txtStyle(14px, 500);
+        line-height: 2;
+        i{
+            color:#27A649;
+            margin-right: 8px;
+        }
+    }
+}
+.input-code{
+    height:50px;
+    border:2px solid #5c7080;
+    margin-bottom: 15px;
+}
+.img-barcode{
+    width:120px;
+    height: 120px;
+}
+.fa-active{
+    color:#29A643;
+}
+.fa-inactive{
+    color: #e2e7e8;
+}
+.fa-rotate{
+    transform: rotate(90deg);
+}
+.form-account{
+    display: block;
+    padding: 15px;
+    .form-group{
+        margin-bottom: 8px;
+    }
+    button{
+        margin-bottom: 15px;
+    }
+    img{
+        width: 100%;
+    }
+    .default-profile{
+        padding: 15px;
+        text-align: center;
+        background: #e9ecef;
+        overflow: hidden;
+        margin-bottom: 15px;
+    }
+    .btn-details{
+        display: block;
+        text-align: center;
+    }
+}
+.btn-account{
+    font-weight: 600;
+    letter-spacing: 1px;
+    min-width: 115px;
+}

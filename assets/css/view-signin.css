@@ -1,0 +1,81 @@
+.a-cutom{
+        text-decoration: none !important;
+    }
+    .red{ color: red; text-align: left!important;}
+    .customr{
+        color: #008000;
+        padding: 10px 100px;
+    }
+    .resetl{
+        text-align: center;
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .btn-demo:lang(es) {
+            top: 10px;
+            position: relative;
+            height: 56px;
+        }
+        .btn-demo:lang(pt) {
+            top: 10px;
+            position: relative;
+            height: 56px;
+        }
+        .btn-demo:lang(fr) {
+            height: 56px;
+            position: relative;
+            top: 10px;
+        }
+    }
+    @-moz-document url-prefix() {
+
+        .btn-demo:lang(es) {
+            height: 56px;
+            position: relative;
+            float: right;
+        }
+        .btn-demo:lang(pt) {
+            height: 56px;
+            position: relative;
+            bottom: 10px;
+        }
+        .btn-demo:lang(fr) {
+            height: 56px;
+            position: relative;
+            bottom: 10px;
+        }
+    }
+    @media screen and (max-width: 560px) {
+        .btn-demo:lang(es) {
+            margin: 10px;
+        }
+        .btn-demo:lang(pt) {
+            margin: 10px;
+        }
+        @-moz-document url-prefix() {
+            .btn-demo:lang(fr) {
+                margin: 10px;
+            }
+
+        }
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+            .btn-demo:lang(fr) {
+                margin: 0px;
+            }
+            .btn-real:lang(fr) {
+                margin: 0px;
+            }
+        }
+
+    }
+    .btn-real:lang(pt) {
+        padding: 7px 5px;
+    }
+    .btn-real:lang(fr) {
+        padding: 7px 5px;
+    }
+    .alert-style{margin-top: 30px;}
+
+    @media screen and (max-width: 320px) {
+        .form-control{font-size: 13px;}
+    }

@@ -1,0 +1,78 @@
+.nav-pill{
+    &-custom{
+        li{            
+            .nav-link{
+                text-align: left;
+                @include itemFlex(center,null,null);
+                border-radius: 0;
+                border-bottom:2px solid #5c708030;
+                background: transparent;
+                color: #5c7080;
+                font-size: 16px;;
+                img{
+                    margin-right: 8px;
+                }
+                &.active{
+                    background: transparent;
+                    border-color: #27A649;
+                    color: #27A649;
+                }
+            }
+        }        
+    }
+}
+.tab-content{
+    &-custom{
+        padding: 15px;
+    }
+}
+%nav{
+    background-color: $primary-color;
+    border-color: $primary-color;
+    color:$base-color;
+}
+.nav{
+    &-tab{
+        &-custom{
+            margin-top: 15px;
+            border-bottom: 2px solid #2276b0;
+            .nav-item{
+                &.show{
+                    .nav-link{
+                        @extend %nav;
+                    }
+                }
+                &:not(:last-child){
+                    margin-right: 8px;
+                }
+            }
+            .nav-link{
+                &.active{
+                    @extend %nav;
+                }
+                &:hover{
+                    border-color: #2988ca;
+                }                               
+                padding: 15px;
+                background:$base-color;
+                border-color: #5c7080 #5c7080 #2988CA;
+                color: #5c7080;
+            }
+        }
+    }   
+}
+.tab-content-custom{
+    padding: 15px;
+    border: 1px solid transparent;
+    border-color: #2a88c9 #e2e7e8 #e2e7e8;
+    margin-bottom: 15px;
+}
+.icon-tab{
+    background-color: #5c7080;
+    color: #fff;
+    font-size: 36px;
+    margin-right: 8px;
+    &.active{
+        background-color: #27A649;  
+    }
+}

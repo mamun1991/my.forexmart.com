@@ -1,0 +1,23 @@
+$m:".modal";
+#{$m}-custom{
+    #{$m}-dialog{
+        max-width: 600px;
+    }
+    #{$m}-content{
+        text-align: center;
+        #{$m}-title{
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            letter-spacing: -1px;
+        }
+        #{$m}-desc{
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 15px;
+        }
+        #{$m}-icon{
+            margin:0 auto;
+        }
+    }
+}

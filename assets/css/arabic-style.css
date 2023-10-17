@@ -1,0 +1,657 @@
+/*----- ARABIC INTERNAL STYLES -----*/
+
+.arabic-main-tab li a , .arabic-side-nav li a , .arabic-int-search-group input::-webkit-input-placeholder , 
+.arabic-section h1 , .arabic-about-us-holder h1 , .arabic-account-holder h1 , .arabic-about-us-holder ul li a ,
+.arabic-account-holder ul li a , .arabic-connect-holder h1 , .arabic-follow-holder h1 , .arabic-footer-text , .arabic-input-box , .arabic-alert-danger ,
+.arabic-bankdep-holder p , .arabic-bonus-tab-pane h3 , .arabic-bonus-tab-pane p , .arabic-affiliate-code , .arabic-part-table thead th , .arabic-calc-val-pip h2 ,
+.arabic-calc-pip-example h2 , .arabic-calc-pip-example p , .arabic-input-placeholder input::-webkit-input-placeholder , .arabic-input-placeholder textarea , 
+.arabic-trans-history-table tbody tr td , .arabic-acct-sum-title , .arabic-part-text , .arabic-dropdown-menu li a , .arabic-cur-trades-text , .arabic-dropdown-toggle , input[type=text] , input[type=password] , 
+.arabic-account-ver p , .arabic-alert-success , .arabic-require-listings ul li , .arabic-account-ver-centered p , .arabic-form-label , .arabic-bonus-statistics p , .arabic-txt-period , .arabic-invite-friend-form p ,
+.arabic-table-mail thead th , .arabic-table-mail tr td {
+	text-align:right;
+}
+
+.arabic-btn-ok-holder , .arabic-btn-send-invitation , .arabic-form-finance , .arabic-btn-trnsfer-holder {
+	text-align:left;
+}
+
+.arabic-profile-label , .arabic-invite-friend-form {
+	text-align:left!important;
+}
+
+.arabic-main-tab li a .fa , .arabic-side-nav li a .fa , .arabic-connect-holder ul , .arabic-follow-holder ul , .arabic-alert-danger .fa , .arabic-txt-period , 
+.arabic-form-group-container label , .arabic-radio label , .arabic-navbar-header , .arabic-btn-sync , .arabic-account-ver , .arabic-account-ver-child , .arabic-account-ver-child input[type=file] ,
+.arabic-account-ver-child-button button , .arabic-require-listings , .arabic-require-listings ul , .arabic-browse-button , .arabic-profile-tooltip i , .arabic-error , .arabic-input-form input[type=radio] , .arabic-input-form span ,
+.arabic-send-request , .arabic-form-finance , .arabic-bonus-statistics , .arabic-invite-friend-form {
+	float:right;
+}
+
+.arabic-side-navigation , .arabic-footer-navigation-holder , .arabic-footer-child-navigation , .arabic-footer-other-link , .arabic-footer-copyright , .arabic-footer-other-link ul ,
+.arabic-footer-other-link ul li , .arabic-cur-trades-tab ul , .arabic-cur-trades-tab ul li , .arabic-main-tab li , .arabic-dropdown-toggle img , .arabic-bonus-statistics button {
+	float:right!important;
+}
+
+.arabic-alert-danger .close , .arabic-navbar-collapse , .arabic-btn-send-invitation , .arabic-account-ver .dp-holder img , .arabic-account-ver .dp-holder button , .arabic-send-request button , .arabic-txt-period select {
+	float:left;
+}
+
+.arabic-main-container , .arabic-connections-holder , .arabic-footer-copyright , .arabic-footer-copyright .copyright h4 , .arabic-btn-reverse , .arabic-account-ver-child-button {
+	float:left!important;
+}
+
+.arabic-txt-period select , .arabic-select-box , .arabic-selection-form , .arabic-account-ver p , .arabic-account-ver-child input[type=file] , .arabic-require-listings ul li , .arabic-trans-history-table , .arabic-part-table , 
+.arabic-table-mail {
+	direction:rtl;
+}
+
+.arabic-side-nav li a .fa {
+	margin-right:0;
+}
+
+.arabic-dropdown-toggle img , .arabic-account-ver-child-button button , .arabic-bonus-statistics button {
+	margin-right:0!important;
+}
+
+.arabic-secondary-btn-sync , .arabic-input-form span , .arabic-txt-period select {
+	margin-right:5px;
+}
+
+.arabic-dropdown-toggle img {
+	margin-left:8px;
+}
+
+.arabic-main-tab li a .fa , .arabic-side-nav li a .fa , .arabic-alert-danger .fa {
+	margin-left:7px;
+}
+
+.arabic-btn-trnsfer-holder button {
+	margin-left:54px;
+}
+
+.arabic-fix-menu-feedback {
+	margin-top:90px;
+}
+
+.arabic-btn-ok-holder {
+	margin-top:15px!important;
+}
+
+.arabic-alert-danger .fa {
+	margin-top:4px;
+}
+
+.arabic-main-tab li a .fa , .arabic-side-nav li a .fa {
+	margin-top:2px;
+}
+
+.arabic-alert-danger .close  {
+	margin-top:-2px;
+}
+
+.arabic-account-ver-child-button button {
+	margin-top:-10px;
+}
+
+.arabic-txt-period {
+	margin-bottom:10px!important;
+}
+
+.arabic-account-ver-child input[type=file] {
+	margin:4px 0;
+}
+
+.arabic-radio {
+	margin:5px 0!important;
+}
+
+.arabic-profile-tooltip {
+	margin:7px 0;
+}
+
+.arabic-trns-holder {
+	padding-top:40px;
+}
+
+.arabic-finance-main-tab li a {
+	padding:10px 7px!important;
+	font-size:11px;
+}
+
+.arabic-part-table thead th , .arabic-part-table tr td {
+	padding:5px;
+}
+
+.arabic-navbar-collapse , .arabic-footer-other-link , .arabic-footer-copyright {
+	padding:0!important;
+	width: auto;
+}
+
+.arabic-btn-text-holder {
+	padding:0 20px;
+}
+
+.arabic-radio , .arabic-part-table , .arabic-form-label {
+	width:100%;
+}
+
+.arabic-bonus-main-tab li , .arabic-footer-navigation-holder , .arabic-footer-child-navigation {
+	width:50%;
+}
+
+.arabic-partnership-main-tab li , .arabic-invite-friend-tab li {
+	width:33.33%;
+}
+
+.arabic-finance-main-tab li , .arabic-my-account-main-tab li , .arabic-my-profile-main-tab li {
+	width:25%;
+}
+
+.arabic-radio , .arabic-form-parent-group {
+	display:table;
+}
+
+.arabic-footer-copyright {
+	display:table!important;
+}
+
+.arabic-int-main-cont {
+	border-left:none!important;
+	border-right:1px solid #ccc!important;
+}
+
+.arabic-fix-holder .fix-menu , .arabic-fix-holder {
+	left:0!important;
+}
+
+.arabic-fix-holder , .arabic-fix-holder .fix-menu  {
+	position:absolute;
+}
+
+.arabic-footer-other-link {
+	height:46px;
+}
+
+.arabic-txt-period {
+	line-height:34px;
+}
+
+.arabic-footer-other-link {
+	line-height:46px;
+}
+
+.arabic-main-tab li {
+	border-left:2px solid #fff!important;
+	border-right:0!important;
+}
+
+.arabic-main-tab li:last-child , .arabic-finance-main-tab li:last-child {
+	border-left:0!important;
+}
+
+.arabic-int-side-collapse {
+	z-index:1000;
+}
+
+.arabic-hidden-section-title h1 {
+	display:none;
+}
+
+@media screen and (max-width: 1199px) {
+ 
+	.arabic-container-bottom-footer {
+		margin:0!important;
+	}
+	
+
+}
+
+@media screen and (max-width: 991px) {
+
+	.arabic-main-container , .arabic-side-navigation , .arabic-account-ver .dp-holder img {
+		float:none!important;
+	}
+
+	.arabic-secondary-container {
+		margin-top:50px;
+	}
+
+	.arabic-part-table {
+		width:100%;
+	}
+
+	#owl-demo .item img , .arabic-btn-calculate-button button {
+		margin:0 auto;
+	}
+
+	.arabic-container {
+		width:100%!important;
+	}
+
+	.arabic-bankdep-holder p {
+		text-align:center;
+	}
+
+	.arabic-int-main-cont {
+		border-right:0!important;
+	}
+
+	.arabic-account-ver .dp-holder , .arabic-btn-calculate-button button {
+		display:table;
+	}
+
+	.arabic-account-ver .dp-holder img {
+		display:block;
+	}
+
+	.arabic-btn-calculate-button button {
+		margin-bottom:20px!important;
+	}
+
+}
+
+@media screen and (max-width: 818px) {
+
+	.arabic-footer-other-link li a {
+		padding:4px 5px!important;
+	}
+	
+	.arabic-navbar-collapse , .arabic-footer-other-link , .arabic-footer-copyright {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	ul.main-tab li {
+		width: 100%;
+	}
+	.arabic-secondary-container:lang(sa) {
+		margin-top: 0px;
+	}
+	.arabic-hidden-section-title h1 {
+		display:block;
+		float:right!important;
+		padding: 0;
+	    margin: 0;
+	    font-size: 22px;
+	    font-family: Open Sans !important;
+	    color: #333;
+	    margin-top: 14px;
+	}
+
+	.arabic-top-header {
+		height:88px;
+	}
+
+	.arabic-navbar-header {
+		margin:12px auto!important;
+		width:100%!important;
+		float:none;
+		display:table;
+		height:64px;
+	}
+	.arabic-int-collapse {
+		float:left;
+		margin:17px 0;
+	}
+
+	.arabic-navbar-header:lang(sa) {
+		height:auto;
+	}
+	
+	.arabic-int-collapse:lang(sa) {
+		float:left;
+		margin:5px 0;
+	}
+
+	.arabic-navbar-brand-internal , .arabic-btn-flag-reg , .arabic-btn-flag-dropdown li img , .arabic-account-ver-child-button button {
+		float:right;
+	}
+
+	.arabic-account-ver .dp-holder , .arabic-browse-button-holder , .arabic-input-form , .arabic-error , .arabic-send-request , .arabic-invite-friend-form button {
+		float:none;
+	}
+
+	.arabic-invite-friend-buttons a {
+		float:none!important;
+	}
+
+	.arabic-navbar-right-internal , .arabic-account-ver .dp-holder , .arabic-browse-button-holder , .arabic-input-form , .arabic-error , .arabic-send-request {
+		margin:0 auto!important;
+	}
+
+	.arabic-navbar-right-internal li a {
+		padding-top:10px!important;
+		padding-bottom:10px!important;
+	}
+
+	.arabic-btn-flag-reg {
+		margin: 5px 14px -4px 14px;
+	}
+
+	.arabic-btn-flag-dropdown {
+		text-align:right;
+	}
+
+	.arabic-profile-label , .arabic-form-finance , .arabic-invite-friend-form {
+		text-align:right!important;
+	}
+
+	.arabic-btn-trnsfer-holder button , .arabic-invite-friend-form button {
+		margin:0 auto!important;
+ 	}
+
+ 	.arabic-invite-friend-buttons a  {
+ 	 	margin:5px auto!important;
+ 	 }
+
+	.arabic-btn-flag-dropdown li img {
+		margin-left:8px;
+	}
+
+	.arabic-int-search-group {
+		width:100%;
+		margin:0 auto!important;
+	}
+
+	.arabic-navbar-collapse .navbar-form {
+		margin-right:0!important;
+		margin-left:0!important;
+	}
+
+	.arabic-int-main-cont {
+		border-right:none!important;
+	}
+
+	.arabic-bonus-main-tab li {
+		border-left:0!important;
+	}
+
+	.btn-text-holder {
+		padding-left:0;
+	}
+
+	.arabic-form-group-holder {
+		margin:15px 0!important;
+	}
+
+	.btn-acct-calc {
+		margin-bottom:0;
+		margin-right:0;
+		display:table;
+		margin:20px auto!important;
+	}
+
+	.arabic-account-ver .dp-holder {
+		margin-bottom:10px!important;
+	}
+
+	.arabic-browse-button-holder , .arabic-input-form , .arabic-error , .arabic-send-request button , .arabic-send-request , .arabic-btn-trnsfer-holder button , .arabic-invite-friend-form button , .arabic-invite-friend-buttons a {
+		width:auto;
+		display:table;
+	}
+
+	.arabic-invite-friend-buttons a {
+		min-width:208px;
+		text-align:center;
+	}
+
+	.arabic-account-ver-child , .arabic-form-parent-group {
+		width:100%!important;
+		float:none!important;
+	}
+
+	.arabic-account-ver-child {
+		text-align:right!important;
+	}
+
+	.arabic-account-ver-child-button button {
+		margin-right:0!important;
+		margin-top:3px;
+	}
+
+	.arabic-form-parent-group {
+		display:block;
+	}
+
+	.arabic-trns-holder {
+		padding-top:10px;
+	}
+
+	.arabic-bonus-bottom {
+		border-bottom:1px solid #eaeaea;
+		margin-bottom:10px;
+	}
+
+	.arabic-btn-text-holder {
+		padding:0;
+	}
+
+	.arabic-bonus-statistics button {
+		float:none!important;
+		margin:0 auto!important;
+		margin-top:20px!important;
+		display:table;
+	}
+
+}
+
+@media screen and (max-width:751px) {
+
+	.arabic-finance-main-tab li {
+		width:100%!important;
+		border-left:0!important;
+		border-top:1px solid #fff;
+	}
+
+	.arabic-finance-main-tab li a {
+		font-size:14px;
+	}
+
+}
+
+@media screen and (max-width:720px) {
+
+	.arabic-my-profile-main-tab li a {
+		font-size:12px;
+	}
+
+}
+
+@media screen and (max-width: 656px) {
+
+	.arabic-footer-navigation-holder , .arabic-connections-holder {
+		width:100%;
+		display:block;
+		margin:0 auto;
+		float:none;
+	}
+
+	.arabic-connect-holder h1 , .arabic-follow-holder h1 , .arabic-footer-copyright .copyright h4 {
+		text-align:center;
+	}
+
+	.arabic-connect-holder ul , .arabic-follow-holder ul , .arabic-footer-other-link .other-link , .arabic-footer-copyright , .arabic-footer-copyright .copyright h4 img {
+		margin:0 auto!important;
+		float:none!important;
+		display:table;
+	}
+
+	.arabic-footer-other-link {
+		width:100%;
+	}
+
+	.arabic-footer-other-link .other-link {
+		width:auto!important;
+	}
+
+}
+
+@media screen and (max-width:641px) {
+
+	.arabic-my-profile-main-tab li a {
+		font-size:11px;
+	}
+
+}
+
+@media screen and (max-width:639px) {
+
+	.arabic-bonus-main-tab li , .arabic-partnership-main-tab li , .arabic-invite-friend-tab li , .arabic-my-account-main-tab li , .arabic-my-profile-main-tab li ,
+	.arabic-partnership-main-tab li {
+		width:100%!important;
+	}
+
+	.arabic-invite-friend-tab li , .arabic-my-account-main-tab li , .arabic-my-profile-main-tab li , .arabic-partnership-main-tab li {
+		border-left:0!important;
+	}
+
+	.arabic-my-profile-main-tab li a {
+		font-size:14px!important;
+	}
+
+}
+
+@media screen and (max-width:531px) {
+
+	.arabic-my-account-trades-tab ul , .arabic-my-account-trades-tab li {
+		width:100%!important;
+	}
+
+	.arabic-my-account-trades-tab li {
+		text-align:center;
+	}
+
+} 
+
+@media screen and (max-width: 519px) {
+
+	.arabic-navbar-brand-internal {
+		display:block!important;
+		float:none!important;
+		position:absolute;
+		right:0;
+		left:0;
+	}
+
+	.arabic-navbar-brand-internal , .arabic-navbar-brand-internal img {
+		margin:0 auto!important;
+		margin-top:-6px!important;
+	}
+
+	.arabic-int-collapse {
+		display:block!important;
+		position:relative;
+		margin-top:80px;
+		float:left;
+	}
+
+	.arabic-top-header {
+		height:130px;
+	}
+}
+
+@media screen and (max-width: 469px) {
+
+	.int-logo {
+		width:90%!important;
+		padding-top:10px;
+	}
+
+}
+
+@media screen and (max-width: 414px) {
+
+	.arabic-top-header {
+		height:100px;
+	}
+
+	.arabic-int-collapse {
+		display:block!important;
+		position:relative;
+		margin-top:50px;
+		float:left;
+	}
+
+	.arabic-container-footer {
+		padding:0!important;
+		margin:0!important;
+	}
+
+}
+
+@media screen and (max-width:370px) {
+
+	.arabic-cur-trades-tab li , .arabic-cur-trades-tab ul {
+		width:100%!important;
+	}
+
+	.arabic-cur-trades-tab li {
+		text-align:center;
+	}
+
+}
+
+@media screen and (max-width: 367px) {
+
+	.arabic-footer-copyright {
+		margin-top:100px!important;
+	}
+
+	.arabic-footer-other-link ul li a {
+		padding:0!important;
+	}
+
+	.arabic-footer-other-link ul {
+		padding:20px;
+	}
+
+	.arabic-footer-other-link ul li {
+		display:block;
+		width:100%;
+		line-height:20px;
+		text-align:center;
+	}
+
+}
+
+@media screen and (max-width:364px) {
+
+	.btn-get-bonus {
+		width:auto!important;
+	}
+
+}
+
+@media screen and (max-width: 330px) {
+
+	.arabic-txt-period select , .arabic-txt-period label {
+		display:block;
+		float:right!important;
+	}
+
+	.arabic-txt-period select {
+		margin-right:0!important;
+	}
+
+	.arabic-txt-period label {
+		margin-bottom:0!important;
+	}
+
+}
+
+@media screen and (max-width:300px) {
+
+	.arabic-error {
+		text-align:center;
+	}
+
+	.arabic-input-form span {
+		font-size:11px;
+	}
+
+	.arabic-input-form input[type=radio] {
+		margin-top:0;
+	}
+
+}

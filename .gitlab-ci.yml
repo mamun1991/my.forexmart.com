@@ -1,0 +1,26 @@
+
+stages:
+    - deploy
+
+ 
+
+testing-push:
+  stage: deploy 
+  script: 
+    
+   -  rsync -zavh --exclude '*.git' . /var/www/projects/my.forexmart.com/
+  
+  tags:
+    - fxpp-my-staging
+  only:
+    - develop
+
+production-push:
+  stage: deploy 
+  script:  
+    -  rsync -zavh --exclude '*.git' . /var/www/html/projects/my.forexmart.com/
+    
+  tags:
+    - fxpp-my-live
+  only:
+    - master

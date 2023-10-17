@@ -1,0 +1,91 @@
+<?php
+
+//its
+
+$lang['its_01'] ="Generovat bezpečnostní kód";
+$lang['its_02'] ="Generovat kód";
+$lang['its_03'] ="Bezpečnostní kód";
+$lang['its_04'] ="<b>Bezpečnostní kód</b> umožňuje Partnerům s ITS přístup na stránku Žádosti klientů.";
+$lang['its_05'] ="<b>Bezpečnostní kód</b> je jedinečný a může ho použít jen jeden (1) Partner.";
+$lang['its_06'] ="Nový <b>Bezpečnostní kód</b> můžete vygenerovat pouze v případě, že předchozí kód je použit pro Žádost klientů výběr.";
+$lang ['its_07'] = "Žádost o službu interního přenosu (ITS)";
+$lang['its_08'] ="uzavřít";
+$lang['its_09'] ="Generování bezpečnostního kódu selhalo";
+
+$lang['its_10'] ="Žádost o službu interního přenosu úspěšně odeslána.";
+$lang['its_11'] ="Žádost o službu interního přenosu byla úspěšně odeslána, ale email se nepodařilo odeslat.";
+$lang['its_12'] ="Již máte odeslánu žádost o ITS.";
+
+$lang['its_13'] ="Žádost o službu interního přenosu úspěšně odeslána.";
+$lang['its_14'] ="Váš skupinový (umbrella) účet byl deaktivován.";
+$lang['its_15'] =" Nyní máte status skupinového (umbrella) účtu.";
+
+$lang['its_16'] ="Bezpečnostní kód";
+$lang['its_17'] =" není používán pro tranzitní převody. Než budete moci vygenerovat nový, požádejte svého partnera, aby použil tento kód.";
+$lang['its_18'] ="Odeslat Klientovi";
+$lang['its_19'] ="Máte otevřen skupinový (umbrella) účet a můžete zadávat převody Vašim Klientům";
+$lang['its_20'] ="Odeslat jinému Partnerovi";
+$lang['its_21'] ="Nyní můžete převádět prostředky jinému Partnerovi";
+$lang['its_22'] ="Žádost od Klienta";
+$lang['its_23'] ="Nyní můžete požádat klienta o kredit skrze tranzitní převod";
+$lang['its_24'] ="Pokračovat";
+$lang['its_25'] ="Tranzitní převod";
+$lang['its_26'] ="Níže vyplňte informace o účtu příjemce u ForexMart:";
+$lang['its_27'] ="Číslo účtu příjemce ";
+$lang['its_28'] ="Vyberte číslo účtu";
+$lang['its_29'] ="Ostatní";
+$lang['its_30'] ="Zadejte číslo účtu";
+$lang['its_31'] ="Částka";
+$lang['its_32'] ="Nový zůstatek ";
+$lang['its_33'] ="Bonus";
+$lang['its_34'] ="Ne";
+$lang['its_35'] ="Zpět";
+$lang['its_36'] ="Odeslat";
+$lang['its_37'] ="Chystáte se klientovi převést prostředky pomocí tranzitního převodu. Ujistěte se, prosím, že níže uvedené informace jsou úplné a správné.";
+$lang['its_38'] ="Číslo Vašeho účtu";
+$lang['its_39'] ="Druh bonusu";
+$lang['its_40'] ="Převod";
+$lang['its_41'] ="Váš tranzitní převod byl úspěšně proveden. Níže jsou uvedeny podrobnosti o transakci:";
+$lang['its_42'] ="Částka převodu:";
+$lang['its_43'] ="Příjemce";
+$lang['its_44'] ="Číslo Affiliate účtu";
+$lang['its_45'] ="Chystáte se podat žádost o prostředky u Vašeho Affiliate partnera. Ujistěte se, prosím, že níže uvedené informace jsou úplné a správné.";
+$lang['its_46'] ="Číslo účtu Klienta";
+$lang['its_47'] ="Vaše žádost o finanční prostředky prostřednictvím tranzitního převodu byla úspěšně podána. Níže jsou uvedeny podrobnosti o transakci:";
+$lang['its_48'] ="Affiliate";
+$lang['its_49'] ="Požadovaná částka:";
+$lang['its_50'] ="Převedená částka:";
+$lang['its_51'] ="Bezpečnostní kód";
+$lang['its_52'] ="Referenční číslo:";
+$lang['its_53'] ="Partnerský tranzitní převod";
+$lang['its_54'] ="Níže vyplňte informace o účtu příjemce u ForexMart:";
+$lang['its_55'] ="Chystáte se převést prostředky jinému partnerovi pomocí tranzitního převodu. Ujistěte se, prosím, že níže uvedené informace jsou úplné a správné.";
+$lang['its_56'] ="Váš partnerský tranzitní převod byl úspěšně proveden. Níže jsou uvedeny podrobnosti o transakci:";
+$lang['its_57'] ="Částka převodu:";
+$lang['its_58'] ="Žádost o ITS byla zamítnuta. Zkontrolujte prosím svůj e-mail nebo uvedené spojení ";
+$lang['its_59'] ="Další informace.";
+$lang['its_60'] ="Žádost o ITS";
+$lang['its_61'] ="Žádost o službu interního přenosu již byla odeslána.";
+$lang['its_62'] ="Žádost o službu interního přenosu (ITS)";
+$lang['its_63'] ="uzavřít";
+$lang['its_64'] ="Toto pole je povinné.";
+$lang['its_65'] ="Částka by měla být větší nebo rovna 2.";
+$lang['its_66'] = "Zadejte prosím platný formát bezpečnostního kódu (6 číslic).";
+$lang['its_67'] ="Chystáte se podat žádost o výběr prostředků z účtu, který není Affiliate účtem. Ujistěte se, prosím, že níže uvedené informace jsou úplné a správné.";
+$lang['its_68'] = "Bezpečnostní kód je neplatný nebo již byl použit.";
+$lang['its_69'] ="Bezpečnostní kód již byl použit pro tranzitní převod";
+$lang['its_70'] = "Nedostatek prostředků.";
+$lang['its_71'] ="Číslo účtu je buď účet Klienta nebo neexistuje";
+$lang['its_72'] ="Číslo účtu je buď účet Partnera nebo neexistuje.";
+$lang['its_73'] = "Nemůžete provést převod na svůj vlastní účet";
+$lang['its_74'] ="Bonusy nelze v rámci jednoho účtu kombinovat.";
+$lang['its_75'] = "Příjemce nemá nárok na 50% bonus. Platí pouze pro účet ForexMart Standard.";
+$lang['its_76'] ="Ne";
+$lang['its_77'] ="30% BONUS";
+$lang['its_78'] ="50% BONUS";
+$lang['its_79'] ="Tranzitní převod nebyl úspěšný. Zkuste to prosím znovu nebo nás kontaktujte ohledně dalšího postupu.";
+$lang['its_80'] ="Tranzitní převod nebyl úspěšný. Číslo účtu Klienta";
+$lang['its_81'] =" Nedostatečný zůstatek:";
+$lang['its_82'] ="Tranzitní převod nebyl úspěšný. Došlo k problému s webovými službami. Zkuste to prosím znovu později ";
+$lang['its_83'] ="Partnerský tranzitní převod nebyl úspěšný. Zkuste to prosím znovu nebo nás kontaktujte ohledně dalšího postupu.";
+

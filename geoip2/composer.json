@@ -1,0 +1,12 @@
+{
+    "name": "itgd/geoip2",
+    "require": {
+        "geoip2/geoip2": "^2.10"
+    },
+    "authors": [
+        {
+            "name": "Moniruzzaman",
+            "email": "monir@m.insta.kim"
+        }
+    ]
+}

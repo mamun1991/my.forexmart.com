@@ -1,0 +1,91 @@
+.side-nav-holder .side-nav li a {
+	padding: 7px 16px!important;
+}
+
+.side-nav-holder .side-nav li a i {
+	width: 30px!important;
+	margin-right: 5px!important;
+}
+
+.navbar-brand-internal {
+	margin-top:0!important;
+}
+
+.navbar-right-internal li a {
+	padding-bottom: 30px!important;
+	padding-top: 30px!important;
+}
+
+.nav-search {
+	padding-top: 15px!important;
+}
+
+.fix-icon3 {
+	padding: 10px 13.5px!important;
+}
+
+.cur-trades-tab {
+	border-bottom: 1px solid #ddd;
+}
+
+.part-table
+{
+	margin-top: 0!important;
+}
+
+.int-logo
+{
+	width: 420px!important;
+	margin-top: 4px;
+}
+
+.agreement-holder:lang(sa) {
+	text-align: right;
+}
+
+@media screen and (max-width: 856px) {
+
+	.side-nav-holder .side-nav li a {
+		font-size:12px;
+		padding:7px 2px!important;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	.int-logo
+	{
+		display: block;
+		margin-top: -6px;
+	}
+
+	.side-nav-holder .side-nav li a {
+		font-size:14px;
+	}
+
+}
+
+@media screen and (max-width: 469px) {
+	.int-logo {
+		width: 90% !important;
+		padding-top: 10px;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.int-logo
+	{
+		width: 270px;
+		transition: all ease 0.3s;
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 375px) {
+
+	.int-logo { 
+		margin-top: 0;
+	}
+
+}

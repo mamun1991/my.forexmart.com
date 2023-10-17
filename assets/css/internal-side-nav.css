@@ -1,0 +1,121 @@
+
+
+.int-side-thirty-percent-bonus {
+	border:1px solid #dadada;
+}
+
+.int-side-child-buttons {
+	display:table;
+	width:96%;
+	margin:5px auto;
+}
+
+.int-side-get-bonus , .int-side-learn-more {
+	width: 49%;
+	padding: 7px 5px;
+    border: none;
+    text-align: center;
+    cursor:pointer;
+}
+
+.int-side-get-bonus a , .int-side-learn-more a {
+	color: #fff;
+    font-size: 12px;
+    /*font-family: Open Sans;*/
+    text-decoration:none;
+    display:block;
+}
+
+.int-side-get-bonus {
+    float:left;
+    background: #29a643;
+}
+
+.int-side-get-bonus:hover {
+	background:#50df6e;
+}
+
+.int-side-learn-more {
+	float:right;
+    background: #2988CA;
+}
+
+.int-side-learn-more:hover {
+	background:#53b7fc;
+}
+
+
+/*----- VERSION 2 -----*/
+.int-side-thirty-percent-bonus-v2 {
+	width:75%;
+	display:table;
+	margin:0 auto;
+}
+
+.int-side-thirty-percent-bonus-v2 img {
+	margin:0 auto;
+}
+
+.int-side-child-buttons-v2 {
+	width:100%;
+	display:table;
+	margin:0 auto;
+}
+
+.int-side-child-buttons-v2 .int-side-get-bonus , 
+.int-side-child-buttons-v2 .int-side-learn-more {
+	width:100%;
+	display:block;
+	margin:2px auto;
+}
+
+.int-side-child-buttons-v2 .int-side-get-bonus a ,
+.int-side-child-buttons-v2 .int-side-learn-more a {
+	font-size:13px;
+}
+
+@media screen and (max-width: 991px) {
+
+	.int-side-thirty-percent-bonus-v2 img {
+		margin:0 auto;
+	}
+
+	.int-side-child-buttons-v2 .int-side-get-bonus , .int-side-child-buttons-v2 .int-side-learn-more {
+		width:49%;
+		padding:10px;
+	}
+
+	.int-side-child-buttons-v2 .int-side-get-bonus a , .int-side-child-buttons-v2 .int-side-learn-more a {
+		font-size:16px;
+	}
+
+	.int-side-child-buttons-v2 .int-side-get-bonus {
+		float:left;
+	}
+
+	.int-side-child-buttons-v2 .int-side-learn-more {
+		float:right;
+	}
+
+}
+
+@media screen and (max-width: 420px) {
+
+	.int-side-get-bonus , .int-side-learn-more {
+		padding:7px 5px;
+	}
+
+	.int-side-child-buttons-v2 .int-side-get-bonus a , .int-side-child-buttons-v2 .int-side-learn-more a {
+		font-size:13px;
+	}
+}
+
+@media screen and (max-width: 358px) {
+
+	.int-side-child-buttons-v2 .int-side-get-bonus , .int-side-child-buttons-v2 .int-side-learn-more {
+		width:100%;
+		float:none;
+		margin:5px auto;
+	}
+
+}

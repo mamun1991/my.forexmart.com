@@ -1,0 +1,639 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.grp-list-payment {
+    display: table;
+    padding: 0;
+}
+
+.grp-list-payment li {
+    list-style-type: none;
+    width: calc(100% / 3);
+    float: left;
+    padding: 8px;
+    height: 160px;
+}
+
+.btn-img-payment {
+    width: 100%;
+    display: inline-block;
+    background-color: #edf8ff;
+    border: 2px solid transparent;
+}
+
+.btn-img-payment:hover {
+    border-color: #0d6ffb;
+}
+
+.btn-highlight {
+    border-color: #0d6ffb;
+}
+
+.btn-highlight .lbl-payment {
+    background-color: #0d6ffb;
+}
+
+.img-holder {
+    padding: 15px;
+}
+
+.img-item {
+    display: block;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 174px;
+    height: 76px;
+}
+
+.img-banktransfer {
+    background-image: url(../images/banktransfer.png);
+    width: 200px;
+}
+.img-zotapay {
+    background-image: url(../images/payment_getway_logo/zotapay.png);
+    width: 200px;
+}
+.img-mxn {
+    background-image: url(../images/payment_getway_logo/bank-mxn-logo.png);
+    width: 150px;
+}
+.img-ngn {
+    background-image: url(../images/payment_getway_logo/bank-ngn-logo.png);
+    width: 90px;
+}
+.img-brl {
+    background-image: url(../images/payment_getway_logo/bank-brl-logo.png);
+    width: 230px;
+}
+.img-ugx {
+    background-image: url(../images/payment_getway_logo/bank-ugx-ghs-logo.png);
+    width: 80px;
+}
+.img-ghs {
+    background-image: url(../images/payment_getway_logo/bank-ugx-ghs-logo.png);
+    width: 80px;
+}
+.img-kes {
+    background-image: url(../images/payment_getway_logo/bank-kes-logo.png);
+}
+
+.img-debit-credit {
+    background-image: url(../images/payment_getway_logo/debit-cards.png);
+}
+
+.img-mastercard {
+    background-image: url(../images/mastercard.png);
+    width:150px;
+}
+
+.img-nova2Pay{
+    background-image: url(../images/payment_getway_logo/nova2Pay.png);
+    width:170px;
+}
+
+
+.img-thunderxpay {
+    background-image: url(../images/sqr_thunderxpay.png);
+    width:150px;
+}
+
+.img-myr {
+    background-image: url(../images/payment_getway_logo/myr-cards.png);
+}
+
+/*.img-idr {*/
+    /*background-image: url(../images/payment_getway_logo/idr-cards.png);*/
+    /*background-size: contain !important;*/
+    /*background-position: center;*/
+/*}*/
+.img-idr {
+    background-image: url(../images/payment_getway_logo/bca-idr.png);
+    background-position: center;
+}
+
+.img-vnd {
+    background-image: url(../images/payment_getway_logo/vnd-cards.png);
+    background-size: contain !important;
+    background-position: center;
+}
+
+.img-skrill {
+    background-image: url(../images/payment_getway_logo/skrill.png);
+}
+
+.img-neteller {
+    background-image: url(../images/payment_getway_logo/neteller.png);
+}
+
+.img-payco {
+    background-image: url(../images/payment_getway_logo/payco.png);
+}
+
+.img-bitcoin {
+    background-image: url(../images/payment_getway_logo/bitcoin.png);
+}
+
+.img-fasapay {
+    background-image: url(../images/payment_getway_logo/fasapay.png);
+}
+
+.img-union-pay {
+    background-image: url(../images/payment_getway_logo/chinapay.png);
+}
+
+.img-alipay {
+    background-image: url(../images/payment_getway_logo/alipay.png);
+}
+
+.lbl-payment {
+    bottom: 0;
+    background-color: #777;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+    padding: 2px 0;
+    
+}
+
+.bonus-holder {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.btn-center {
+    display: block;
+    margin: 0 auto;
+}
+
+.form-text-center {
+    text-align: center;
+}
+
+.form-check {
+    margin-bottom: 15px;
+}
+
+.form-check label {
+    margin-bottom: 0;
+}
+
+.form-grp-holder {
+    background-color: #edf8ff;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+.form-grp-holder div.form-group:last-child {
+    margin-bottom: 0;
+}
+
+.form-bonus {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-bonus .form-group label {
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.form-bonus .form-group .form-input {
+    height: 40px;
+    border: 0;
+    font-weight: 600;
+    text-align: left;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.drp-select {
+    width: 100%;
+}
+
+.drp-select .caret {
+    position: absolute;
+    top: 18px;
+    right: 12px;
+}
+
+.drp-select .dropdown-menu {
+    width: 100%;
+}
+
+.drp-select ul li a {
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.btn-input {
+    font-weight: 600;
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+    height: 40px;
+    background: #fff;
+    letter-spacing: 1px;
+}
+
+.btn-continue {
+    background-color: #0d6ffb;
+    font-size: 16px;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    opacity: 0.8;
+    max-width: 100%;
+}
+
+.btn-continue:hover,
+.btn-continue:focus {
+    opacity: 1;
+    color: #fff;
+}
+
+/* The container */
+.form-checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Hide the browser's default checkbox */
+.form-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked~.checkmark {
+    background-color: #29a643;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@media only screen and (max-width:767px) {
+    .grp-list-payment li {
+        width: 50%;
+        display: contents;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .img-item {
+        width: 100px;
+        height: 44px;
+    }
+
+    .bonus-holder {
+        width: 100%;
+    }
+
+    .lbl-payment {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:356px) {
+    .grp-list-payment li {
+        width: 100%;
+    }
+
+    .img-holder {
+        padding: 8px;
+    }
+}
+
+.left-line {
+    border-left: 1px solid #ddd;
+}
+
+.new-cabinet-info {
+    margin-top: 20px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.new-cabinet-info label {
+    width: 140px;
+}
+
+.detail-info {
+    text-align: left;
+}
+
+.detail-info a {
+    text-decoration: underline;
+}
+
+.boldline {
+    border: 2px solid #777;
+}
+
+.platform-buttons {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.platform-buttons ul {
+    padding-left: 0px;
+}
+
+.platform-buttons li {
+    display: inline-table;
+    padding-bottom: 5px;
+}
+
+.mt4-button a,
+.web-trader-button a,
+.android-button a,
+.ios-button a {
+    display: block;
+    min-width: 200px;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid #777;
+    color: #222;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    transition: all ease 0.3s;
+}
+
+.mt4-button a:hover,
+.web-trader-button a:hover,
+.android-button a:hover,
+.ios-button a:hover {
+    background: #2988ca;
+    color: #fff;
+}
+
+.cabinet-wrapper {
+    width: 100%;
+}
+
+.new-cabinet-container {
+    display: table;
+    width: 100%;
+}
+
+.trade-cabinet-container,
+.video-cabinet-container {
+    width: 49%;
+    display: table;
+    margin: 20px auto;
+}
+
+.trade-cabinet-container {
+    float: left;
+}
+
+.video-cabinet-container {
+    float: right;
+}
+
+.trade-cabinet-container h3,
+.video-cabinet-container h3,
+.deposit-cabinet-container h3 {
+    font-family: Open Sans;
+    font-size: 20px;
+    color: #222;
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.trade-cabinet-content-holder {
+    display: table;
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+}
+
+.trade-container {
+    width: 65%;
+    height: 135px;
+    margin-top: 10px;
+    background: url(../images/chart-02.png) center center no-repeat;
+    background-size: 100%;
+    float: left;
+    padding: 5px 5px;
+    border: 1px solid #eee;
+}
+
+.trade-buttons-content {
+    width: 32%;
+    float: right;
+    margin-top: 10px;
+    height: 150px;
+    position: relative;
+}
+
+.trade-buttons a:first-child {
+    margin-top: 0;
+}
+
+.trade-buttons a {
+    display: block;
+    padding: 7px 5px;
+    text-align: center;
+    color: #fff;
+    margin: 5px 0;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+
+.trade-buy-button {
+    background: #22b14c;
+}
+
+.trade-sell-button {
+    background: #ed1c24;
+}
+
+.trade-buy-button:hover {
+    background: #50df6e;
+}
+
+.trade-sell-button:hover {
+    background: #b6050c;
+}
+
+.trade-description {
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+.trade-description span {
+    color: #2988ca;
+    font-weight: bold;
+}
+
+.video-content-holder,
+.video-container {
+    display: table;
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+}
+
+.video-container {
+    margin: 10px auto;
+}
+
+.video-container video {
+    background: url(../images/video.jpg) center center;
+    background-size: cover;
+    float: left;
+    width: 49%;
+    padding: 5px;
+    height: 80px;
+}
+
+.video-container span {
+    width: 46%;
+    margin: 5px;
+    float: right;
+}
+
+.deposit-cabinet-container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 5px 5px;
+    border: 1px solid #ddd;
+}
+
+.deposit-cabinet-container img {
+    margin: 10px auto;
+    padding: 10px;
+    display: table;
+}
+
+.more-scenario-button a,
+.more-video-button a,
+.make-deposit-button a {
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid #777;
+    background: #efc108;
+    color: #222;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 15%;
+    transition: all ease 0.3s;
+}
+
+.more-scenario-button a:hover,
+.more-video-button a:hover,
+.make-deposit-button a:hover {
+    background: #efcc41;
+}
+
+@media screen and (max-width: 1111px) {
+    .platform-holder {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    .left-line {
+        border-left: none!important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .trade-cabinet-container,
+    .video-cabinet-container,
+    .deposit-cabinet-container {
+        width: 100%;
+    }
+
+    .platform-holder {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 398px) {
+
+    .more-scenario-button a,
+    .more-video-button a,
+    .make-deposit-button a {
+        font-size: 11px;
+    }
+
+    .platform-holder {
+        width: 100%;
+    }
+}

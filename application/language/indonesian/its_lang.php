@@ -1,0 +1,91 @@
+<?php
+
+//its
+
+$lang['its_01'] ="Hasilkan Kode Keamanan";
+$lang['its_02'] ="Hasilkan Kode";
+$lang['its_03'] ="Kode Keamanan";
+$lang['its_04'] ="<b>Kode Keamanan</b> digunakan untuk memungkinkan Partner dengan ITS menggunakan Permintaan dari halaman Klien dengan memberikan kode ini kepada mereka.";
+$lang['its_05'] ="<b>Kode Keamanan</b> unik dan hanya dapat digunakan sekali oleh (1) Partner.";
+$lang['its_06'] ="Anda hanya dapat menghasilkan <b>Kode Keamanan</b> yang baru jika kode sebelumnya digunakan untuk Permintaan dana dari Klien.";
+$lang['its_07'] ="Permintaan untuk Internal Transfer Service(ITS)";
+$lang['its_08'] ="Tutup";
+$lang['its_09'] ="Gagal Menghasilkan Kode Keamanan";
+
+$lang['its_10'] ="Permintaan Internal Transfer Service berhasil dikirimkan.";
+$lang['its_11'] ="Permintaan Internal Transfer Service berhasil dikirimkan tapi gagal mengirimkan email";
+$lang['its_12'] ="Anda telah memiliki permintaan ITS.";
+
+$lang['its_13'] ="Permintaan Internal Transfer Service telah dikirimkan.";
+$lang['its_14'] ="Akun Umbrella anda dinonaktifkan.";
+$lang['its_15'] ="Anda sekarang diberikan status Umbrella.";
+
+$lang['its_16'] ="Kode Keamanan";
+$lang['its_17'] =" belum digunakan untuk Transit Transfer. Partner anda harus menggunakan kode ini sebelum anda bisa mendapatkan kode yang baru.";
+$lang['its_18'] ="Kirim ke Klien";
+$lang['its_19'] ="Sekarang anda terdaftar ke akun Umbrella dan dapat transfer ke Klien afiliasi/non-afiliasi";
+$lang['its_20'] ="Kirim ke Partner lain";
+$lang['its_21'] ="Anda sekarang dapat transfer dana ke Partner lain";
+$lang['its_22'] ="Permintaan dari Klien";
+$lang['its_23'] ="Anda sekarang dapat meminta kredit dari klien dengan mentransfer kredit menggunakan Transit Transfer";
+$lang['its_24'] ="Lanjutkan";
+$lang['its_25'] ="Transit Transfer";
+$lang['its_26'] ="Lengkapi informasi Akun ForexMart penerima di bawah:";
+$lang['its_27'] ="Nomor Akun Penerima ";
+$lang['its_28'] ="Pilih Nomor Akun";
+$lang['its_29'] ="Lainnya";
+$lang['its_30'] ="Masukkan Nomor Akun";
+$lang['its_31'] ="Jumlah";
+$lang['its_32'] ="Saldo Baru ";
+$lang['its_33'] ="Bonus";
+$lang['its_34'] ="Nihil";
+$lang['its_35'] ="Kembali";
+$lang['its_36'] ="Kirimkan";
+$lang['its_37'] ="Anda akan mentransfer dana ke klien dengan menggunakan Transit Transfer. Pastikan informasi di bawah benar.";
+$lang['its_38'] ="Nomor Akun Anda";
+$lang['its_39'] ="Jenis Bonus";
+$lang['its_40'] ="Transfer";
+$lang['its_41'] ="Transit Transfer anda berhasil. Di bawah ini adalah rincian transaksi:";
+$lang['its_42'] ="Jumlah yang ditransfer:";
+$lang['its_43'] ="Penerima";
+$lang['its_44'] ="Nomor Akun Afiliasi";
+$lang['its_45'] ="Anda akan meminta dana dari Afiliasi anda. Pastikan informasi di bawah benar.";
+$lang['its_46'] ="Nomor Akun Klien";
+$lang['its_47'] ="Permintaan anda untuk dana melalui Transit Transfer berhasil. Di bawah ini adalah rincian transaksi:";
+$lang['its_48'] ="Afiliasi";
+$lang['its_49'] ="Jumlah yang diminta:";
+$lang['its_50'] ="Jumlah yang dikonversi:";
+$lang['its_51'] ="Kode Keamanan:";
+$lang['its_52'] ="Nomor Referensi:";
+$lang['its_53'] ="Transit Transfer Partner";
+$lang['its_54'] ="Lengkapi informasi Akun ForexMart partner di bawah:";
+$lang['its_55'] ="Anda akan mentransfer dana ke partner lain menggunakan Transit Transfer. Pastikan informasi di bawah benar.";
+$lang['its_56'] ="Transit Transfer Partner anda berhasil. Di bawah ini adalah rincian transaksi:";
+$lang['its_57'] ="Jumlah yang ditransfer:";
+$lang['its_58'] ="Permintaan untuk ITS ditolak. Silakan periksa email anda atau hubungi";
+$lang['its_59'] ="untuk informasi lebih lengkap.";
+$lang['its_60'] ="Permintaan untuk ITS";
+$lang['its_61'] ="Permintaan Internal Transfer Service telah dikirimkan.";
+$lang['its_62'] ="Permintaan untuk Internal Transfer Service (ITS)";
+$lang['its_63'] ="tutup";
+$lang['its_64'] ="Kolom ini wajib diisi.";
+$lang['its_65'] ="Jumlah harus lebih besar atau sama dengan 2.";
+$lang['its_66'] ="Silakan masukkan format Kode Keamanan yang benar (6 digit).";
+$lang['its_67'] ="Anda akan meminta dana dari Akun Non Afiliasi. Pastikan informasi di bawah benar.";
+$lang['its_68'] ="Kode Keamanan salah atau telah digunakan";
+$lang['its_69'] ="Kode Keamanan telah digunakan dalam Transit Transfer";
+$lang['its_70'] ="Dana kurang.";
+$lang['its_71'] ="Nomor Akun bukanlah akun Klien atau tidak ada";
+$lang['its_72'] ="Nomor Akun bukanlah akun Partner atau tidak ada";
+$lang['its_73'] ="Anda tidak dapat transfer ke akun anda sendiri";
+$lang['its_74'] ="Bonus tidak dapat digabungkan dalam satu akun.";
+$lang['its_75'] ="Klien penerima tidak berhak mengklaim bonus 50%. Hanya berlaku untuk ForexMart Standard Account.";
+$lang['its_76'] ="NIHIL";
+$lang['its_77'] ="BONUS 30 PERSEN";
+$lang['its_78'] ="BONUS 50 PERSEN";
+$lang['its_79'] ="Transit transfer gagal. Silakan coba lagi atau hubungi kami untuk informasi lebih lanjut.";
+$lang['its_80'] ="Transit Transfer gagal. Nomor Akun Klien ";
+$lang['its_81'] =" tidak memiliki saldo yang cukup:";
+$lang['its_82'] ="Transit Transfer gagal. Menemui masalah dengan layanan web. Silakan coba lagi nanti.";
+$lang['its_83'] ="Transit Transfer partner gagal. Silakan coba lagi atau hubungi kami untuk informasi lebih lanjut.";
+

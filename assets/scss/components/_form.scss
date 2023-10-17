@@ -1,0 +1,65 @@
+%form{
+    height: 45px!important;
+    background-color: $base-color;
+    border: 1px solid #5c7080;
+    font-size: 14px;
+}
+.form{
+    &-input{
+        @extend %form;     
+    }
+    &-label{
+        margin-bottom: 8px;
+        font-weight: 600;
+        color:$default-color;
+        display: block;
+        text-align: left;
+        i{
+            opacity:0.50;
+            margin-top:2px;
+        }
+    }
+    &-textarea{
+        @extend %form; 
+        resize: none;
+        overflow: auto;
+    }
+    &-select{
+        @extend %form;
+        border-radius: 4px;
+        padding: 8px;
+        option{
+            height: 30px;
+        }
+    }
+}
+.upload{
+    &-holder{
+        padding: 15px;
+        border: 4px;
+        background: #fff;
+    }
+    &-title{
+        @include txtStyle(14px,600);
+        color: #5c7080;
+        margin-bottom: 15px;
+    }
+    &-file{
+        padding: 15px;
+        background: #f1f4f5;
+        border-radius: 4px;
+        border: 1px solid #5c708017;
+        input{
+            margin-bottom: 15px;
+            @media screen and (max-width:$laptop-width) {
+                display: block; 
+            }
+        }
+    }
+    &-info{
+        padding:15px;
+    }
+    &-holder{
+        margin-bottom: 15px;
+    }
+}

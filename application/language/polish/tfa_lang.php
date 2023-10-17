@@ -1,0 +1,26 @@
+<?php
+$lang['tfa_0'] = 'Twoje konto jest chronione przez weryfikację dwuetapową';
+$lang['tfa_off'] = 'Wyłącz weryfikację dwuetapową';
+$lang['tfa_on'] = 'Włącz weryfikację dwuetapową';
+$lang['tfa_h4'] = 'Skonfiguruj Authenticator';
+$lang['tfa_1'] = 'Zainstaluj aplikację Google Authenticator na swój telefon komórkowy lub tablet.';
+$lang['tfa_1_1'] = '1. Wejdź na App Store (dla systemu operacyjnego iOS na telefonie/tablecie) lub Play Market (dla systemu Android).';
+$lang['tfa_1_2'] = '2. Znajdź aplikację Google Authenticator.';
+$lang['tfa_1_3'] = '3. Pobierz ją za darmo i zainstaluj na swoim telefonie/tablecie.';
+$lang['tfa_2'] = 'Otwórz i skonfiguruj Google Authenticator.';
+$lang['tfa_2_1'] = '1. W Google Authenticator dotknij "+", a następnie "Skanuj kod kreskowy".';
+$lang['tfa_2_2'] = "2. Zeskanuj kod kreskowy za pomocą aparatu w swoim urządzeniu.";
+$lang['tfa_2_3'] = "3. Po zeskanowaniu kodu kreskowego wprowadź 6-cyfrowy kod weryfikacyjny wygenerowany przez aplikację Authenticator.";
+$lang['tfa_2_manul_title'] = "NIE MOŻESZ ZESKANOWAĆ?";
+$lang['tfa_2_manul_title_2'] = "POKAŻ KOD QR";
+$lang['tfa_2_manual_1'] = "1. Skopiuj poniżej numer konta i tajny klucz";
+$lang['tfa_2_manual_2'] = "2. Skonfiguruj ręcznie w Google Authenticator na swoim urządzeniu mobilnym.";
+$lang['tfa_2_manual_3'] = "3. Upewnij się, że opcja <b>Time based</b> jest włączona."; 
+$lang['tfa_2_manual_4'] ="Numer konta";
+$lang['tfa_2_manual_5'] ="Tajny klucz";
+$lang['tfa_2_manual_p'] = 'Po zeskanowaniu kodu kreskowego wprowadź 6-cyfrowy kod weryfikacyjny wygenerowany przez aplikację Authenticator.';//' Kody resetują się podczas odliczania. Dotknij kodu, aby go skopiować i wprowadź 6-cyfrowy kod weryfikacyjny wygenerowany przez aplikację Authenticator.';
+$lang['tfa_p'] = 'Po zeskanowaniu kodu kreskowego wprowadź 6-cyfrowy kod weryfikacyjny wygenerowany przez aplikację Authenticator.';
+$lang['tfa_cancel'] = 'Anuluj';
+$lang['tfa_vns'] = 'Zweryfikuj i zapisz';
+$lang['tfa_code'] = 'Kod';
+$lang['tfa_error_code']='Nieważny Kod';
